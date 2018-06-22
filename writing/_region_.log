@@ -1,0 +1,5284 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  31 MAR 2018 12:02
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**\nonstopmode\nofiles\PassOptionsToPackage{active,tightpage,auctex}{preview}\AtBeginDocument{\ifx\ifPreview\undefined\RequirePackage[displaymath,floats,graphics,textmath,sections,footnotes]{preview}[2004/11/05]\fi} \input _region_.tex
+(./_region_.tex  !name(paper_kmean.tex) (/usr/local/texlive/2017/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/base/latexsym.sty
+Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
+\symlasy=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
+(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 52.
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/epsfig.sty
+Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
+ (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+) (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count87
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+\epsfxsize=\dimen105
+\epsfysize=\dimen106
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/epstopdf.sty
+Package: epstopdf 2016/05/15 v2.6 Conversion with epstopdf on the fly (HO)
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+)) (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+ (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+ (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+ (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+))) (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO)
+ (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 438.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))) (/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2016/11/05 v2.16a AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks15
+\ex@=\dimen107
+)) (/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen108
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count88
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count89
+\leftroot@=\count90
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count91
+\DOTSCASE@=\count92
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen109
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count93
+\c@MaxMatrixCols=\count94
+\dotsspace@=\muskip10
+\c@parentequation=\count95
+\dspbrk@lvl=\count96
+\tag@help=\toks16
+\row@=\count97
+\column@=\count98
+\maxfields@=\count99
+\andhelp@=\toks17
+\eqnshift@=\dimen110
+\alignsep@=\dimen111
+\tagshift@=\dimen112
+\tagwidth@=\dimen113
+\totwidth@=\dimen114
+\lineht@=\dimen115
+\@envbody=\toks18
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks19
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup5
+\symAMSb=\mathgroup6
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amscd.sty
+Package: amscd 2017/04/14 v2.1 AMS Commutative Diagrams
+\athelp@=\toks20
+\minaw@=\dimen116
+\bigaw@=\dimen117
+\minCDarrowwidth=\dimen118
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
+\multirow@colwidth=\skip46
+\multirow@cntb=\count100
+\multirow@dima=\skip47
+\bigstrutjot=\dimen119
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/psfrag/psfrag.sty
+Package: psfrag 1998/04/11 v3.04 PSfrag (MCG)
+\pfg@pcount=\count101
+\pfg@scount=\count102
+\pfg@temp=\write3
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/paralist/paralist.sty
+Package: paralist 2017/01/22 v2.7 Extended list environments
+\pltopsep=\skip48
+\plpartopsep=\skip49
+\plitemsep=\skip50
+\plparsep=\skip51
+\pl@lab=\toks21
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/doublestroke/dsfont.sty
+Package: dsfont 1995/08/01 v0.1 Double stroke roman fonts
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count103
+\float@exts=\toks22
+\float@box=\box28
+\@float@everytoks=\toks23
+\@floatcapt=\box29
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/siunitx/siunitx.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2017/05/13 L3 programming layer (loader) 
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/l3kernel/expl3-code.tex
+Package: expl3 2017/05/13 L3 programming layer (code)
+\c_max_int=\count104
+\l_tmpa_int=\count105
+\l_tmpb_int=\count106
+\g_tmpa_int=\count107
+\g_tmpb_int=\count108
+\g__prg_map_int=\count109
+\c_log_iow=\count110
+\l_iow_line_count_int=\count111
+\l__iow_line_target_int=\count112
+\l__iow_one_indent_int=\count113
+\l__iow_indent_int=\count114
+\c_zero_dim=\dimen120
+\c_max_dim=\dimen121
+\l_tmpa_dim=\dimen122
+\l_tmpb_dim=\dimen123
+\g_tmpa_dim=\dimen124
+\g_tmpb_dim=\dimen125
+\c_zero_skip=\skip52
+\c_max_skip=\skip53
+\l_tmpa_skip=\skip54
+\l_tmpb_skip=\skip55
+\g_tmpa_skip=\skip56
+\g_tmpb_skip=\skip57
+\c_zero_muskip=\muskip11
+\c_max_muskip=\muskip12
+\l_tmpa_muskip=\muskip13
+\l_tmpb_muskip=\muskip14
+\g_tmpa_muskip=\muskip15
+\g_tmpb_muskip=\muskip16
+\l_keys_choice_int=\count115
+\c__fp_leading_shift_int=\count116
+\c__fp_middle_shift_int=\count117
+\c__fp_trailing_shift_int=\count118
+\c__fp_big_leading_shift_int=\count119
+\c__fp_big_middle_shift_int=\count120
+\c__fp_big_trailing_shift_int=\count121
+\c__fp_Bigg_leading_shift_int=\count122
+\c__fp_Bigg_middle_shift_int=\count123
+\c__fp_Bigg_trailing_shift_int=\count124
+\c__fp_rand_size_int=\count125
+\c__fp_rand_four_int=\count126
+\c__fp_rand_eight_int=\count127
+\l__sort_length_int=\count128
+\l__sort_min_int=\count129
+\l__sort_top_int=\count130
+\l__sort_max_int=\count131
+\l__sort_true_max_int=\count132
+\l__sort_block_int=\count133
+\l__sort_begin_int=\count134
+\l__sort_end_int=\count135
+\l__sort_A_int=\count136
+\l__sort_B_int=\count137
+\l__sort_C_int=\count138
+\c_empty_box=\box30
+\l_tmpa_box=\box31
+\l_tmpb_box=\box32
+\g_tmpa_box=\box33
+\g_tmpb_box=\box34
+\l__box_top_dim=\dimen126
+\l__box_bottom_dim=\dimen127
+\l__box_left_dim=\dimen128
+\l__box_right_dim=\dimen129
+\l__box_top_new_dim=\dimen130
+\l__box_bottom_new_dim=\dimen131
+\l__box_left_new_dim=\dimen132
+\l__box_right_new_dim=\dimen133
+\l__box_internal_box=\box35
+\l__coffin_internal_box=\box36
+\l__coffin_internal_dim=\dimen134
+\l__coffin_offset_x_dim=\dimen135
+\l__coffin_offset_y_dim=\dimen136
+\l__coffin_x_dim=\dimen137
+\l__coffin_y_dim=\dimen138
+\l__coffin_x_prime_dim=\dimen139
+\l__coffin_y_prime_dim=\dimen140
+\c_empty_coffin=\box37
+\l__coffin_aligned_coffin=\box38
+\l__coffin_aligned_internal_coffin=\box39
+\l_tmpa_coffin=\box40
+\l_tmpb_coffin=\box41
+\l__coffin_display_coffin=\box42
+\l__coffin_display_coord_coffin=\box43
+\l__coffin_display_pole_coffin=\box44
+\l__coffin_display_offset_dim=\dimen141
+\l__coffin_display_x_dim=\dimen142
+\l__coffin_display_y_dim=\dimen143
+\l__coffin_bounding_shift_dim=\dimen144
+\l__coffin_left_corner_dim=\dimen145
+\l__coffin_right_corner_dim=\dimen146
+\l__coffin_bottom_corner_dim=\dimen147
+\l__coffin_top_corner_dim=\dimen148
+\l__coffin_scaled_total_height_dim=\dimen149
+\l__coffin_scaled_width_dim=\dimen150
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
+File: l3pdfmode.def 2017/03/18 v L3 Experimental driver: PDF mode
+\l__driver_color_stack_int=\count139
+\l__driver_tmp_box=\box45
+)) (/usr/local/texlive/2017/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2017/05/13 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count140
+\g__xparse_grabber_int=\count141
+\l__xparse_m_args_int=\count142
+\l__xparse_mandatory_args_int=\count143
+\l__xparse_v_nesting_int=\count144
+)
+Package: siunitx 2017/05/19 v2.7g A comprehensive (SI) units package
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/tools/array.sty
+Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
+\col@sep=\dimen151
+\extrarowheight=\dimen152
+\NC@list=\toks24
+\extratabsurround=\skip58
+\backup@length=\skip59
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2017/05/13 LaTeX2e option processing using LaTeX3 keys
+)
+\l__siunitx_tmp_box=\box46
+\l__siunitx_tmp_dim=\dimen153
+\l__siunitx_tmp_int=\count145
+\l__siunitx_number_mantissa_length_int=\count146
+\l__siunitx_number_uncert_length_int=\count147
+\l__siunitx_round_int=\count148
+\l__siunitx_process_decimal_int=\count149
+\l__siunitx_process_uncertainty_int=\count150
+\l__siunitx_process_fixed_int=\count151
+\l__siunitx_process_integer_min_int=\count152
+\l__siunitx_process_precision_int=\count153
+\l__siunitx_group_min_int=\count154
+\l__siunitx_angle_marker_box=\box47
+\l__siunitx_angle_unit_box=\box48
+\l__siunitx_angle_marker_dim=\dimen154
+\l__siunitx_angle_unit_dim=\dimen155
+\l__siunitx_unit_int=\count155
+\l__siunitx_unit_denominator_int=\count156
+\l__siunitx_unit_numerator_int=\count157
+\l__siunitx_unit_prefix_int=\count158
+\l__siunitx_unit_prefix_base_int=\count159
+\l__siunitx_unit_prefix_gram_int=\count160
+\l__siunitx_number_product_int=\count161
+\c__siunitx_one_fill_skip=\skip60
+\l__siunitx_table_unit_align_skip=\skip61
+\l__siunitx_table_exponent_dim=\dimen156
+\l__siunitx_table_integer_dim=\dimen157
+\l__siunitx_table_mantissa_dim=\dimen158
+\l__siunitx_table_marker_dim=\dimen159
+\l__siunitx_table_result_dim=\dimen160
+\l__siunitx_table_uncert_dim=\dimen161
+\l__siunitx_table_fill_pre_dim=\dimen162
+\l__siunitx_table_fill_post_dim=\dimen163
+\l__siunitx_table_fill_mid_dim=\dimen164
+\l__siunitx_table_pre_box=\box49
+\l__siunitx_table_post_box=\box50
+\l__siunitx_table_mantissa_box=\box51
+\l__siunitx_table_result_box=\box52
+\l__siunitx_table_number_align_skip=\skip62
+\l__siunitx_table_text_align_skip=\skip63
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareBinaryPrefix with sig. 'mmm' on line 7251.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareSIPostPower with sig. 'mm' on line 7254.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareSIPrefix with sig. 'mmm' on line 7257.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareSIPrePower with sig. 'mm' on line 7260.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareSIQualifier with sig. 'mm' on line 7263.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareSIUnit with sig. 'O{}mm' on line 7266.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareSIUnitWithOptions with sig. 'mmm' on line 7269.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \ang with sig. 'o>{\SplitArgument {2}{;}}m' on line 7284.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \num with sig. 'om' on line 7293.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \numlist with sig. 'o>{\SplitList {;}}m' on line 7302.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \numrange with sig. 'omm' on line 7311.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \SIlist with sig. 'o>{\SplitList {;}}mm' on line 7323.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \SIrange with sig. 'ommm' on line 7335.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \SI with sig. 'omom' on line 7347.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \sisetup with sig. 'm' on line 7350.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \tablenum with sig. 'om' on line 7365.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \si with sig. 'om' on line 7377.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \numInBookmark with sig. 'om' on line 7424.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \numrangeInBookmark with sig. 'omm' on line 7426.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \SIInBookmark with sig. 'omom' on line 7428.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \SIlistInBookmark with sig. 'omm' on line 7430.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \SIrangeInBookmark with sig. 'ommm' on line 7432.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \siInBookmark with sig. 'om' on line 7433.
+.................................................
+\g__file_internal_ior=\read1
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/translator/translator.sty
+Package: translator 2010/06/12 ver 1.10
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/translator/translator-language-mappings.tex))) (./natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip64
+\bibsep=\skip65
+LaTeX Info: Redefining \cite on input line 694.
+
+
+./natbib.sty:795: LaTeX Error: \makeindex undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.795 \renewcommand\makeindex
+                             {\NAT@makeindex
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+\c@NAT@ctr=\count162
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/was/upgreek.sty
+Package: upgreek 2003/02/12 v2.0 (WaS)
+Package upgreek Info: Using Euler Roman for upright Greek on input line 31.
+\symugrf@m=\mathgroup7
+LaTeX Font Info:    Overwriting symbol font `ugrf@m' in version `bold'
+(Font)                  U/eur/m/n --> U/eur/b/n on input line 38.
+)
+No file _region_.aux.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+(/Users/kehuiyao/.emacs.d/elpa/auctex-12.1.0/latex/preview.sty
+Package: preview 2017/04/24 12.1 (AUCTeX/preview-latex)
+ (/usr/local/texlive/2017/texmf-dist/tex/generic/luatex85/luatex85.sty
+Package: luatex85 2016/06/15 v1.4 pdftex aliases for luatex
+) (/Users/kehuiyao/.emacs.d/elpa/auctex-12.1.0/latex/prtightpage.def
+\PreviewBorder=\dimen165
+) (/Users/kehuiyao/.emacs.d/elpa/auctex-12.1.0/latex/prauctex.def
+No auxiliary output files.
+
+
+\hbadness=\count163
+\hfuzz=\dimen166
+(/Users/kehuiyao/.emacs.d/elpa/auctex-12.1.0/latex/prauctex.cfg)) (/Users/kehuiyao/.emacs.d/elpa/auctex-12.1.0/latex/prfootnotes.def)
+\pr@snippet=\count164
+\pr@box=\box53
+\pr@output=\toks25
+
+Preview: Fontsize 12pt
+Preview: PDFoutput 1
+) (/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count165
+\scratchdimen=\dimen167
+\scratchbox=\box54
+\nofMPsegments=\count166
+\nofMParguments=\count167
+\everyMPshowfont=\toks26
+\MPscratchCnt=\count168
+\MPscratchDim=\dimen168
+\MPnumerator=\count169
+\makeMPintoPDFobject=\count170
+\everyMPtoPDFconversion=\toks27
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/translator/dicts/translator-basic-dictionary/translator-basic-dictionary-English.dict
+Dictionary: translator-basic-dictionary, Language: English 
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/siunitx/siunitx-abbreviations.cfg
+File: siunitx-abbreviations.cfg 2017/05/19 v2.7g siunitx: Abbreviated units
+)
+\c__siunitx_mathsf_int=\count171
+LaTeX Font Info:    Try loading font information for U+lasy on input line 12.
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/base/ulasy.fd
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+)
+LaTeX Font Info:    Try loading font information for U+msa on input line 12.
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 12.
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+\c__siunitx_mathtt_int=\count172
+  !name(paper_kmean.tex) !offset(-3) 
+./_region_.tex:49: Preview: Snippet 1 started.
+<-><->
+      
+l.49 \section
+             {Introduction}
+Not a real error.
+
+Preview: Tightpage -32891 -32891 32891 32891
+./_region_.tex:49: Preview: Snippet 1 ended.(786431+0x25559040).
+<-><->
+      
+l.49 \section{Introduction}
+                           
+Not a real error.
+
+[1
+Non-PDF special ignored!{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+]
+
+Package natbib Warning: Citation `Ross2006' on page 5 undefined on input line 55.
+
+
+Package natbib Warning: Citation `Cruz2016' on page 5 undefined on input line 55.
+
+
+Package natbib Warning: Citation `Frobish2016' on page 5 undefined on input line 55.
+
+
+Package natbib Warning: Citation `Raftery1986' on page 6 undefined on input line 57.
+
+
+Package natbib Warning: Citation `West1997' on page 6 undefined on input line 57.
+
+
+Package natbib Warning: Citation `Aschar2007' on page 6 undefined on input line 57.
+
+
+Package natbib Warning: Citation `Gupta2015' on page 6 undefined on input line 57.
+
+
+Package natbib Warning: Citation `Montoya2017' on page 6 undefined on input line 57.
+
+
+Package natbib Warning: Citation `Frobish2009' on page 6 undefined on input line 57.
+
+
+Package natbib Warning: Citation `Li2017b' on page 6 undefined on input line 57.
+
+
+Package natbib Warning: Citation `Li2017a' on page 6 undefined on input line 59.
+
+./_region_.tex:63: Preview: Snippet 2 started.
+<-><->
+      
+l.63 ...luster. For example, when given a set of $
+                                                  m$ data points $D=\left\lb...
+Not a real error.
+
+./_region_.tex:63: Preview: Snippet 2 ended.(338603+0x673557).
+<-><->
+      
+l.63 ...ster. For example, when given a set of $m$
+                                                   data points $D=\left\lbra...
+Not a real error.
+
+[2]
+./_region_.tex:63: Preview: Snippet 3 started.
+<-><->
+      
+l.63 ...ple, when given a set of $m$ data points $
+                                                  D=\left\lbrace x_1,...,x_m...
+Not a real error.
+
+./_region_.tex:63: Preview: Snippet 3 ended.(589824+196608x5526617).
+<-><->
+      
+l.63 ...$D=\left\lbrace x_1,...,x_m\right\rbrace $
+                                                   in $R^{d}$ and an integer...
+Not a real error.
+
+[3]
+./_region_.tex:63: Preview: Snippet 4 started.
+<-><->
+      
+l.63 ...eft\lbrace x_1,...,x_m\right\rbrace $ in $
+                                                  R^{d}$ and an integer $K$,...
+Not a real error.
+
+./_region_.tex:63: Preview: Snippet 4 ended.(649479+0x911996).
+<-><->
+      
+l.63 ...race x_1,...,x_m\right\rbrace $ in $R^{d}$
+                                                   and an integer $K$, a heu...
+Not a real error.
+
+[4]
+./_region_.tex:63: Preview: Snippet 5 started.
+<-><->
+      
+l.63 ...right\rbrace $ in $R^{d}$ and an integer $
+                                                  K$, a heurastic clustering...
+Not a real error.
+
+./_region_.tex:63: Preview: Snippet 5 ended.(537395+0x711606).
+<-><->
+      
+l.63 ...ght\rbrace $ in $R^{d}$ and an integer $K$
+                                                  , a heurastic clustering a...
+Not a real error.
+
+[5]
+./_region_.tex:63: Preview: Snippet 6 started.
+<-><->
+      
+l.63 ...ans, will determine a set of K centroids $
+                                                  C=\left\lbrace c_1,...,c_k...
+Not a real error.
+
+./_region_.tex:63: Preview: Snippet 6 ended.(589824+196608x5072197).
+<-><->
+      
+l.63 ...$C=\left\lbrace c_1,...,c_k\right\rbrace $
+                                                   in $R^{d}$ so as to minim...
+Not a real error.
+
+[6]
+./_region_.tex:63: Preview: Snippet 7 started.
+<-><->
+      
+l.63 ...eft\lbrace c_1,...,c_k\right\rbrace $ in $
+                                                  R^{d}$ so as to minimize t...
+Not a real error.
+
+./_region_.tex:63: Preview: Snippet 7 ended.(649479+0x911996).
+<-><->
+      
+l.63 ...race c_1,...,c_k\right\rbrace $ in $R^{d}$
+                                                   so as to minimize the fol...
+Not a real error.
+
+[7]
+./_region_.tex:63: Preview: Snippet 8 started.
+<-><->
+      
+l.63 ...o minimize the following error function: $
+                                                  E(C)=\Sigma_{x_{\upepsilon...
+Not a real error.
+
+./_region_.tex:63: Preview: Snippet 8 ended.(623265+219909x11857570).
+<-><->
+      
+l.63 ...n_{k=1,...K}\parallel x-c_k \parallel^{2}$
+                                                  . Even though there exists...
+Not a real error.
+
+[8]
+
+Package natbib Warning: Citation `ketchen1996application' on page 7 undefined on input line 65.
+
+
+LaTeX Warning: Reference `sec:models.kmean' on page 8 undefined on input line 77.
+
+
+LaTeX Warning: Reference `sec:simulation' on page 8 undefined on input line 77.
+
+
+LaTeX Warning: Reference `sec:results' on page 8 undefined on input line 77.
+
+
+LaTeX Warning: Reference `sec:discussion' on page 8 undefined on input line 77.
+
+./_region_.tex:79: Preview: Snippet 9 started.
+<-><->
+      
+l.79 \section
+             {A Machine Learning Method for Change-Point Detection and Clust...
+Not a real error.
+
+./_region_.tex:79: Preview: Snippet 9 ended.(6553599+0x25559040).
+<-><->
+      
+l.79 ...Clustering in the Recurrent-Event Context}
+                                                  \label{sec:models.kmean}
+Not a real error.
+
+[9
+
+]
+
+Package natbib Warning: Citation `Frobish2009' on page 8 undefined on input line 81.
+
+./_region_.tex:81: Preview: Snippet 10 started.
+<-><->
+      
+l.81 ...itet{Frobish2009}. Assume that there are $
+                                                  m$ individuals from $K$ gr...
+Not a real error.
+
+./_region_.tex:81: Preview: Snippet 10 ended.(338603+0x673557).
+<-><->
+      
+l.81 ...et{Frobish2009}. Assume that there are $m$
+                                                   individuals from $K$ grou...
+Not a real error.
+
+[10]
+./_region_.tex:81: Preview: Snippet 11 started.
+<-><->
+      
+l.81 ...sume that there are $m$ individuals from $
+                                                  K$ groups with recurrent e...
+Not a real error.
+
+./_region_.tex:81: Preview: Snippet 11 ended.(537395+0x711606).
+<-><->
+      
+l.81 ...me that there are $m$ individuals from $K$
+                                                   groups with recurrent eve...
+Not a real error.
+
+[11]
+./_region_.tex:81: Preview: Snippet 12 started.
+<-><->
+      
+l.81 ...ster the data given the number of groups $
+                                                  K$. Thirdly we show how to...
+Not a real error.
+
+./_region_.tex:81: Preview: Snippet 12 ended.(537395+0x711606).
+<-><->
+      
+l.81 ...er the data given the number of groups $K$
+                                                  . Thirdly we show how to a...
+Not a real error.
+
+[12]
+./_region_.tex:84: Preview: Snippet 13 started.
+<-><->
+      
+l.84 Denote $
+             n_j$ to be the total number of events and $c_j$ be the total fo...
+Not a real error.
+
+./_region_.tex:84: Preview: Snippet 13 ended.(338603+219909x747923).
+<-><->
+      
+l.84 Denote $n_j$
+                  to be the total number of events and $c_j$ be the total fo...
+Not a real error.
+
+[13]
+./_region_.tex:84: Preview: Snippet 14 started.
+<-><->
+      
+l.84 ..._j$ to be the total number of events and $
+                                                  c_j$ be the total follow u...
+Not a real error.
+
+./_region_.tex:84: Preview: Snippet 14 ended.(338603+219909x619673).
+<-><->
+      
+l.84 ...to be the total number of events and $c_j$
+                                                   be the total follow up ti...
+Not a real error.
+
+[14]
+./_region_.tex:84: Preview: Snippet 15 started.
+<-><->
+      
+l.84 ...c_j$ be the total follow up time for the $
+                                                  j^{th}$ individual, $j=1,2...
+Not a real error.
+
+./_region_.tex:84: Preview: Snippet 15 ended.(649479+152916x917758).
+<-><->
+      
+l.84 ... the total follow up time for the $j^{th}$
+                                                   individual, $j=1,2,\cdots...
+Not a real error.
+
+[15]
+./_region_.tex:84: Preview: Snippet 16 started.
+<-><->
+      
+l.84 ...low up time for the $j^{th}$ individual, $
+                                                  j=1,2,\cdots,m$. $c_j$ wil...
+Not a real error.
+
+./_region_.tex:84: Preview: Snippet 16 ended.(515577+152916x5056788).
+<-><->
+      
+l.84 ... the $j^{th}$ individual, $j=1,2,\cdots,m$
+                                                  . $c_j$ will be used as th...
+Not a real error.
+
+[16]
+./_region_.tex:84: Preview: Snippet 17 started.
+<-><->
+      
+l.84 ...e $j^{th}$ individual, $j=1,2,\cdots,m$. $
+                                                  c_j$ will be used as the c...
+Not a real error.
+
+./_region_.tex:84: Preview: Snippet 17 ended.(338603+219909x619673).
+<-><->
+      
+l.84 ...^{th}$ individual, $j=1,2,\cdots,m$. $c_j$
+                                                   will be used as the censo...
+Not a real error.
+
+[17]
+./_region_.tex:84: Preview: Snippet 18 started.
+<-><->
+      
+l.84 ...is. The events occurred at ordered times $
+                                                  t_{j1},...,t_{jn_j}$.  We ...
+Not a real error.
+
+./_region_.tex:84: Preview: Snippet 18 ended.(483719+274353x3337575).
+<-><->
+      
+l.84 ...red at ordered times $t_{j1},...,t_{jn_j}$
+                                                  .  We assume the $m$ indiv...
+Not a real error.
+
+[18]
+./_region_.tex:84: Preview: Snippet 19 started.
+<-><->
+      
+l.84 ...es $t_{j1},...,t_{jn_j}$.  We assume the $
+                                                  m$ individuals fall in $K$...
+Not a real error.
+
+./_region_.tex:84: Preview: Snippet 19 ended.(338603+0x673557).
+<-><->
+      
+l.84 ... $t_{j1},...,t_{jn_j}$.  We assume the $m$
+                                                   individuals fall in $K$ g...
+Not a real error.
+
+[19]
+./_region_.tex:84: Preview: Snippet 20 started.
+<-><->
+      
+l.84 ....  We assume the $m$ individuals fall in $
+                                                  K$ groups, and the group i...
+Not a real error.
+
+./_region_.tex:84: Preview: Snippet 20 ended.(537395+0x711606).
+<-><->
+      
+l.84 ... We assume the $m$ individuals fall in $K$
+                                                   groups, and the group ind...
+Not a real error.
+
+[20]
+./_region_.tex:84: Preview: Snippet 21 started.
+<-><->
+      
+l.84 ...ll in $K$ groups, and the group index is $
+                                                  k$, $k=1,...K$. If an indi...
+Not a real error.
+
+./_region_.tex:84: Preview: Snippet 21 ended.(546132+0x426891).
+<-><->
+      
+l.84 ... in $K$ groups, and the group index is $k$
+                                                  , $k=1,...K$. If an indivi...
+Not a real error.
+
+[21]
+./_region_.tex:84: Preview: Snippet 22 started.
+<-><->
+      
+l.84 ... $K$ groups, and the group index is $k$, $
+                                                  k=1,...K$. If an individua...
+Not a real error.
+
+./_region_.tex:84: Preview: Snippet 22 ended.(546132+152916x3546007).
+<-><->
+      
+l.84 ...ps, and the group index is $k$, $k=1,...K$
+                                                  . If an individual $j$ is ...
+Not a real error.
+
+[22]
+./_region_.tex:84: Preview: Snippet 23 started.
+<-><->
+      
+l.84 ...dex is $k$, $k=1,...K$. If an individual $
+                                                  j$ is from group $k$, we d...
+Not a real error.
+
+./_region_.tex:84: Preview: Snippet 23 ended.(515577+152916x362819).
+<-><->
+      
+l.84 ...x is $k$, $k=1,...K$. If an individual $j$
+                                                   is from group $k$, we den...
+Not a real error.
+
+[23]
+./_region_.tex:84: Preview: Snippet 24 started.
+<-><->
+      
+l.84 .....K$. If an individual $j$ is from group $
+                                                  k$, we denote it as $j \in...
+Not a real error.
+
+./_region_.tex:84: Preview: Snippet 24 ended.(546132+0x426891).
+<-><->
+      
+l.84 ...K$. If an individual $j$ is from group $k$
+                                                  , we denote it as $j \in G...
+Not a real error.
+
+[24]
+./_region_.tex:84: Preview: Snippet 25 started.
+<-><->
+      
+l.84 ...l $j$ is from group $k$, we denote it as $
+                                                  j \in G_k$. The event coun...
+Not a real error.
+
+./_region_.tex:84: Preview: Snippet 25 ended.(537395+152916x2268198).
+<-><->
+      
+l.84 ...rom group $k$, we denote it as $j \in G_k$
+                                                  . The event counts in grou...
+Not a real error.
+
+[25]
+./_region_.tex:84: Preview: Snippet 26 started.
+<-><->
+      
+l.84 ...s $j \in G_k$. The event counts in group $
+                                                  k$ follow a NHPP with piec...
+Not a real error.
+
+./_region_.tex:84: Preview: Snippet 26 ended.(546132+0x426891).
+<-><->
+      
+l.84 ...$j \in G_k$. The event counts in group $k$
+                                                   follow a NHPP with piecew...
+Not a real error.
+
+[26]
+./_region_.tex:84: Preview: Snippet 27 started.
+<-><->
+      
+l.84 ...th piecewise-constant intensity function $
+                                                  \lambda_k(t)=\lambda_{kb}I...
+Not a real error.
+
+./_region_.tex:84: Preview: Snippet 27 ended.(589824+196608x13170625).
+<-><->
+      
+l.84 ... t < \tau_k)+\lambda_{ka}I( t\geq \tau_k)$
+                                                  , where $\tau_k$ is the un...
+Not a real error.
+
+[27]
+./_region_.tex:84: Preview: Snippet 28 started.
+<-><->
+      
+l.84 ..._k)+\lambda_{ka}I( t\geq \tau_k)$, where $
+                                                  \tau_k$ is the unknown cha...
+Not a real error.
+
+./_region_.tex:84: Preview: Snippet 28 ended.(338603+117964x671198).
+<-><->
+      
+l.84 ...mbda_{ka}I( t\geq \tau_k)$, where $\tau_k$
+                                                   is the unknown change-poi...
+Not a real error.
+
+[28]
+./_region_.tex:84: Preview: Snippet 29 started.
+<-><->
+      
+l.84 ...u_k$ is the unknown change-point for the $
+                                                  k^{th}$ group and $\tau_k ...
+Not a real error.
+
+./_region_.tex:84: Preview: Snippet 29 ended.(649479+0x981830).
+<-><->
+      
+l.84 ... the unknown change-point for the $k^{th}$
+                                                   group and $\tau_k \leq mi...
+Not a real error.
+
+[29]
+./_region_.tex:84: Preview: Snippet 30 started.
+<-><->
+      
+l.84 ... change-point for the $k^{th}$ group and $
+                                                  \tau_k \leq minimum(c_j)$ ...
+Not a real error.
+
+./_region_.tex:84: Preview: Snippet 30 ended.(589824+219909x6382347).
+<-><->
+      
+l.84 ...{th}$ group and $\tau_k \leq minimum(c_j)$
+                                                   for $j\in G_k$. $\lambda_...
+Not a real error.
+
+[30]
+./_region_.tex:84: Preview: Snippet 31 started.
+<-><->
+      
+l.84 ...group and $\tau_k \leq minimum(c_j)$ for $
+                                                  j\in G_k$. $\lambda_{kb}$ ...
+Not a real error.
+
+./_region_.tex:84: Preview: Snippet 31 ended.(537395+152916x2268198).
+<-><->
+      
+l.84 ... $\tau_k \leq minimum(c_j)$ for $j\in G_k$
+                                                  . $\lambda_{kb}$ is the in...
+Not a real error.
+
+[31]
+./_region_.tex:84: Preview: Snippet 32 started.
+<-><->
+      
+l.84 ...tau_k \leq minimum(c_j)$ for $j\in G_k$. $
+                                                  \lambda_{kb}$ is the inten...
+Not a real error.
+
+./_region_.tex:84: Preview: Snippet 32 ended.(546132+117964x1024276).
+<-><->
+      
+l.84 ...nimum(c_j)$ for $j\in G_k$. $\lambda_{kb}$
+                                                   is the intensity rate bef...
+Not a real error.
+
+[32]
+./_region_.tex:84: Preview: Snippet 33 started.
+<-><->
+      
+l.84 ...ambda_{kb}$ is the intensity rate before $
+                                                  \tau_k$, and $\lambda_{ka}...
+Not a real error.
+
+./_region_.tex:84: Preview: Snippet 33 ended.(338603+117964x671198).
+<-><->
+      
+l.84 ...kb}$ is the intensity rate before $\tau_k$
+                                                  , and $\lambda_{ka} $ is t...
+Not a real error.
+
+[33]
+./_region_.tex:84: Preview: Snippet 34 started.
+<-><->
+      
+l.84 ... the intensity rate before $\tau_k$, and $
+                                                  \lambda_{ka} $ is the inte...
+Not a real error.
+
+./_region_.tex:84: Preview: Snippet 34 ended.(546132+117964x1081863).
+<-><->
+      
+l.84 ... rate before $\tau_k$, and $\lambda_{ka} $
+                                                   is the intensity rate aft...
+Not a real error.
+
+[34]
+./_region_.tex:84: Preview: Snippet 35 started.
+<-><->
+      
+l.84 ...ambda_{ka} $ is the intensity rate after $
+                                                  \tau_k$. Integrating it yi...
+Not a real error.
+
+./_region_.tex:84: Preview: Snippet 35 ended.(338603+117964x671198).
+<-><->
+      
+l.84 ...ka} $ is the intensity rate after $\tau_k$
+                                                  . Integrating it yields th...
+Not a real error.
+
+[35]
+./_region_.tex:84: Preview: Snippet 36 started.
+<-><->
+      
+l.84 ...yields the cumulative intensity function $
+                                                  \Lambda_k(t)=\lambda_{kb}t...
+Not a real error.
+
+./_region_.tex:84: Preview: Snippet 36 ended.(589824+196608x19246145).
+<-><->
+      
+l.84 ...bda_{ka}(t-\tau_k)\right] I(t\geq \tau_k)$
+                                                  , where $I(t)$ is the indi...
+Not a real error.
+
+[36]
+./_region_.tex:84: Preview: Snippet 37 started.
+<-><->
+      
+l.84 ...t-\tau_k)\right] I(t\geq \tau_k)$, where $
+                                                  I(t)$ is the indicator fun...
+Not a real error.
+
+./_region_.tex:84: Preview: Snippet 37 ended.(589824+196608x1278441).
+<-><->
+      
+l.84 ...u_k)\right] I(t\geq \tau_k)$, where $I(t)$
+                                                   is the indicator function...
+Not a real error.
+
+[37]
+./_region_.tex:84: Preview: Snippet 38 started.
+<-><->
+      
+l.84 ...re $I(t)$ is the indicator function. Let $
+                                                  n_j^{(b)} $ be the number ...
+Not a real error.
+
+./_region_.tex:84: Preview: Snippet 38 ended.(795169+303488x1163997).
+<-><->
+      
+l.84 ...s the indicator function. Let $n_j^{(b)} $
+                                                   be the number of events f...
+Not a real error.
+
+[38]
+./_region_.tex:84: Preview: Snippet 39 started.
+<-><->
+      
+l.84 ...^{(b)} $ be the number of events for the $
+                                                  j^{th}$ individual before ...
+Not a real error.
+
+./_region_.tex:84: Preview: Snippet 39 ended.(649479+152916x917758).
+<-><->
+      
+l.84 ...$ be the number of events for the $j^{th}$
+                                                   individual before the cha...
+Not a real error.
+
+[39]
+./_region_.tex:84: Preview: Snippet 40 started.
+<-><->
+      
+l.84 ... individual before the change-point, and $
+                                                  n_j^{(a)} $ be the number ...
+Not a real error.
+
+./_region_.tex:84: Preview: Snippet 40 ended.(795169+303488x1221584).
+<-><->
+      
+l.84 ... before the change-point, and $n_j^{(a)} $
+                                                   be the number of events a...
+Not a real error.
+
+[40]
+./_region_.tex:84: Preview: Snippet 41 started.
+<-><->
+      
+l.84 ...r of events after the change-point. Then $
+                                                  n_j^{(b)}+n_j^{(a)}=n_j$. ...
+Not a real error.
+
+./_region_.tex:84: Preview: Snippet 41 ended.(795169+303488x5117764).
+<-><->
+      
+l.84 ...ange-point. Then $n_j^{(b)}+n_j^{(a)}=n_j$
+                                                  . Table \ref{tab:setadd1} ...
+Not a real error.
+
+[41]
+
+LaTeX Warning: Reference `tab:setadd1' on page 9 undefined on input line 84.
+
+./_region_.tex:86: Preview: Snippet 42 started.
+<-><->
+      
+l.86 \begin{table}
+                   [htp]
+Not a real error.
+
+./_region_.tex:111: Preview: Snippet 42 ended.(9089670+7593267x29538987).
+<-><->
+      
+l.111   \end{table}
+                   %
+Not a real error.
+
+[42
+
+
+]
+./_region_.tex:112: Preview: Snippet 43 started.
+<-><->
+      
+l.112 \subsection
+                  {Change-point detection by maximizing the likelihood}\labe...
+Not a real error.
+
+./_region_.tex:112: Preview: Snippet 43 ended.(3014655+0x25559040).
+<-><->
+      
+l.112 ...t detection by maximizing the likelihood}
+                                                  \label{sec:MLE}
+Not a real error.
+
+[43
+
+]
+./_region_.tex:113: Preview: Snippet 44 started.
+<-><->
+      
+l.113 ...e-point. Here we summarize the MLEs for $
+                                                  \tau_k,\lambda_{kb}$ and $...
+Not a real error.
+
+./_region_.tex:113: Preview: Snippet 44 ended.(546132+152916x2040444).
+<-><->
+      
+l.113 ...marize the MLEs for $\tau_k,\lambda_{kb}$
+                                                   and $\lambda_{ka}$ propos...
+Not a real error.
+
+[44]
+./_region_.tex:113: Preview: Snippet 45 started.
+<-><->
+      
+l.113 ... the MLEs for $\tau_k,\lambda_{kb}$ and $
+                                                  \lambda_{ka}$ proposed by ...
+Not a real error.
+
+./_region_.tex:113: Preview: Snippet 45 ended.(546132+117964x1081863).
+<-><->
+      
+l.113 ... $\tau_k,\lambda_{kb}$ and $\lambda_{ka}$
+                                                   proposed by \citet{Frobis...
+Not a real error.
+
+[45]
+
+Package natbib Warning: Citation `Frobish2009' on page 10 undefined on input line 113.
+
+./_region_.tex:115: Preview: Snippet 46 started.
+<-><->
+      
+l.115  The likelihood for one individual $
+                                          j$ given that $j \in G_k$ is \cite...
+Not a real error.
+
+./_region_.tex:115: Preview: Snippet 46 ended.(515577+152916x362819).
+<-><->
+      
+l.115  The likelihood for one individual $j$
+                                             given that $j \in G_k$ is \cite...
+Not a real error.
+
+[46]
+./_region_.tex:115: Preview: Snippet 47 started.
+<-><->
+      
+l.115 ...ihood for one individual $j$ given that $
+                                                  j \in G_k$ is \citep{Thomp...
+Not a real error.
+
+./_region_.tex:115: Preview: Snippet 47 ended.(537395+152916x2268198).
+<-><->
+      
+l.115 ...one individual $j$ given that $j \in G_k$
+                                                   is \citep{Thompson2012}:
+Not a real error.
+
+[47]
+
+Package natbib Warning: Citation `Thompson2012' on page 10 undefined on input line 115.
+
+./_region_.tex:116: Preview: Snippet 48 started.
+<-><->
+      
+l.116 $
+       $L_{j}(\tau_k,\lambda_{kb},\lambda_{ka}|\pmb X_j)=exp[-\Lambda(c_j)]\...
+Not a real error.
+
+./_region_.tex:116: Preview: Snippet 48 ended.(4462266+0x25559040).
+<-><->
+      
+l.116 ...b}^{n_j^{(b)}}\lambda_{ka}^{n_j^{(a)}},$$
+                                                   where $\pmb X_j = (t_{j1}...
+Not a real error.
+
+[48]
+./_region_.tex:116: Preview: Snippet 49 started.
+<-><->
+      
+l.116 ...{(b)}}\lambda_{ka}^{n_j^{(a)}},$$ where $
+                                                  \pmb X_j = (t_{j1}, \cdots...
+Not a real error.
+
+./_region_.tex:116: Preview: Snippet 49 ended.(643653+274353x7898530).
+<-><->
+      
+l.116 ... X_j = (t_{j1}, \cdots, t_{jn_j}, c_j)^T$
+                                                  .
+Not a real error.
+
+[49]
+./_region_.tex:117: Preview: Snippet 50 started.
+<-><->
+      
+l.117 Denoting $
+                \pmb X_{(k)}$ to be the event times and censoring times in g...
+Not a real error.
+
+./_region_.tex:117: Preview: Snippet 50 ended.(559240+253407x1470967).
+<-><->
+      
+l.117 Denoting $\pmb X_{(k)}$
+                              to be the event times and censoring times in g...
+Not a real error.
+
+[50]
+./_region_.tex:117: Preview: Snippet 51 started.
+<-><->
+      
+l.117 ...vent times and censoring times in group $
+                                                  k$, the log likelihood of ...
+Not a real error.
+
+./_region_.tex:117: Preview: Snippet 51 ended.(546132+0x426891).
+<-><->
+      
+l.117 ...nt times and censoring times in group $k$
+                                                  , the log likelihood of $N...
+Not a real error.
+
+[51]
+./_region_.tex:117: Preview: Snippet 52 started.
+<-><->
+      
+l.117 ...mes in group $k$, the log likelihood of $
+                                                  N_k$ individuals in this g...
+Not a real error.
+
+./_region_.tex:117: Preview: Snippet 52 ended.(537395+117964x953412).
+<-><->
+      
+l.117 ...in group $k$, the log likelihood of $N_k$
+                                                   individuals in this group...
+Not a real error.
+
+[52]
+./_region_.tex:118: Preview: Snippet 53 started.
+<-><->
+      
+l.118 \begin{equation}
+                      
+Not a real error.
+
+./_region_.tex:121: Preview: Snippet 53 ended.(3473419+0x25559040).
+<-><->
+      
+l.121 \end{equation}
+                    
+Not a real error.
+
+[53]
+./_region_.tex:123: Preview: Snippet 54 started.
+<-><->
+      
+l.123 Taking the derivative of $
+                                logL_{(k)}$ and setting it to zero,  we can ...
+Not a real error.
+
+./_region_.tex:123: Preview: Snippet 54 ended.(546132+253407x2307772).
+<-><->
+      
+l.123 Taking the derivative of $logL_{(k)}$
+                                            and setting it to zero,  we can ...
+Not a real error.
+
+[54]
+./_region_.tex:124: Preview: Snippet 55 started.
+<-><->
+      
+l.124 \begin{equation}
+                      \label{eqn:lam_MLE}
+Not a real error.
+
+./_region_.tex:126: Preview: Snippet 55 ended.(2303979+0x25559040).
+<-><->
+      
+l.126 \end{equation}
+                    
+Not a real error.
+
+[55
+
+]
+
+Package natbib Warning: Citation `Frobish2009' on page 10 undefined on input line 129.
+
+./_region_.tex:129: Preview: Snippet 56 started.
+<-><->
+      
+l.129 ...ng to \citet{Frobish2009}, the value of $
+                                                  \tau_k$ that maximize $log...
+Not a real error.
+
+./_region_.tex:129: Preview: Snippet 56 ended.(338603+117964x671198).
+<-><->
+      
+l.129 ...citet{Frobish2009}, the value of $\tau_k$
+                                                   that maximize $logL_(k)(\...
+Not a real error.
+
+[56]
+./_region_.tex:129: Preview: Snippet 57 started.
+<-><->
+      
+l.129 ...9}, the value of $\tau_k$ that maximize $
+                                                  logL_(k)(\tau_k,\hat\lambd...
+Not a real error.
+
+./_region_.tex:129: Preview: Snippet 57 ended.(753661+253407x8269087).
+<-><->
+      
+l.129 ...mbda_{kb},\hat\lambda_{ka}|\pmb X_{(k)})$
+                                                   locate at one of the even...
+Not a real error.
+
+[57]
+./_region_.tex:129: Preview: Snippet 58 started.
+<-><->
+      
+l.129 ... one of the event times, and the MLE of $
+                                                  \tau_k$ is consistent. The...
+Not a real error.
+
+./_region_.tex:129: Preview: Snippet 58 ended.(338603+117964x671198).
+<-><->
+      
+l.129 ... the event times, and the MLE of $\tau_k$
+                                                   is consistent. Therefore,...
+Not a real error.
+
+[58]
+./_region_.tex:129: Preview: Snippet 59 started.
+<-><->
+      
+l.129 ...k$ is consistent. Therefore, the MLE of $
+                                                  \tau_k$ is the event-time ...
+Not a real error.
+
+./_region_.tex:129: Preview: Snippet 59 ended.(338603+117964x671198).
+<-><->
+      
+l.129 ...onsistent. Therefore, the MLE of $\tau_k$
+                                                   is the event-time that ma...
+Not a real error.
+
+[59]
+./_region_.tex:130: Preview: Snippet 60 started.
+<-><->
+      
+l.130 \begin{equation}
+                      \label{eqn:tau_MLE}
+Not a real error.
+
+./_region_.tex:132: Preview: Snippet 60 ended.(1032385+0x25559040).
+<-><->
+      
+l.132 \end{equation}
+                    
+Not a real error.
+
+[60
+
+]
+./_region_.tex:133: Preview: Snippet 61 started.
+<-><->
+      
+l.133 Plugqging $
+                 \hat\tau_k$ in Eq. \ref{eqn:lam_MLE}, we get the MLEs for t...
+Not a real error.
+
+./_region_.tex:133: Preview: Snippet 61 ended.(546132+117964x671198).
+<-><->
+      
+l.133 Plugqging $\hat\tau_k$
+                             in Eq. \ref{eqn:lam_MLE}, we get the MLEs for t...
+Not a real error.
+
+[61]
+
+LaTeX Warning: Reference `eqn:lam_MLE' on page 10 undefined on input line 133.
+
+./_region_.tex:133: Preview: Snippet 62 started.
+<-><->
+      
+l.133 ...we get the MLEs for the intensity rates $
+                                                  \lambda_{kb},\lambda_{ka}$.
+Not a real error.
+
+./_region_.tex:133: Preview: Snippet 62 ended.(546132+152916x2451109).
+<-><->
+      
+l.133 ...tensity rates $\lambda_{kb},\lambda_{ka}$
+                                                  .
+Not a real error.
+
+[62]
+./_region_.tex:134: Preview: Snippet 63 started.
+<-><->
+      
+l.134 \begin{equation}
+                      \label{eqn:lam}
+Not a real error.
+
+./_region_.tex:136: Preview: Snippet 63 ended.(2303979+0x25559040).
+<-><->
+      
+l.136 \end{equation}
+                    
+Not a real error.
+
+[63
+
+]
+./_region_.tex:137: Preview: Snippet 64 started.
+<-><->
+      
+l.137 \subsection
+                 {RKmeans clustering}\label{sec:kmean}
+Not a real error.
+
+./_region_.tex:137: Preview: Snippet 64 ended.(655359+183500x25559040).
+<-><->
+      
+l.137 \subsection{RKmeans clustering}
+                                     \label{sec:kmean}
+Not a real error.
+
+[64
+
+]
+./_region_.tex:138: Preview: Snippet 65 started.
+<-><->
+      
+l.138 We propose a method to cluster the $
+                                          m$ individuals into $K$ groups giv...
+Not a real error.
+
+./_region_.tex:138: Preview: Snippet 65 ended.(338603+0x673557).
+<-><->
+      
+l.138 We propose a method to cluster the $m$
+                                             individuals into $K$ groups giv...
+Not a real error.
+
+[65]
+./_region_.tex:138: Preview: Snippet 66 started.
+<-><->
+      
+l.138 ...hod to cluster the $m$ individuals into $
+                                                  K$ groups given the number...
+Not a real error.
+
+./_region_.tex:138: Preview: Snippet 66 ended.(537395+0x711606).
+<-><->
+      
+l.138 ...d to cluster the $m$ individuals into $K$
+                                                   groups given the number o...
+Not a real error.
+
+[66]
+./_region_.tex:140: Preview: Snippet 67 started.
+<-><->
+      
+l.140 The challenge is that our observation unit $
+                                                  j,~j=1,...,m$ is a sequenc...
+Not a real error.
+
+./_region_.tex:140: Preview: Snippet 67 ended.(515577+152916x4710545).
+<-><->
+      
+l.140 ... that our observation unit $j,~j=1,...,m$
+                                                   is a sequence of event ti...
+Not a real error.
+
+[67]
+./_region_.tex:140: Preview: Snippet 68 started.
+<-><->
+      
+l.140 ...hether there is heterogeneity among the $
+                                                  m$ individuals is to plot ...
+Not a real error.
+
+./_region_.tex:140: Preview: Snippet 68 ended.(338603+0x673557).
+<-><->
+      
+l.140 ...ther there is heterogeneity among the $m$
+                                                   individuals is to plot th...
+Not a real error.
+
+[68]
+./_region_.tex:140: Preview: Snippet 69 started.
+<-><->
+      
+l.140 ...te this, suppose we have an observation $
+                                                  \pmb X_j = (t_{j1}, \cdots...
+Not a real error.
+
+./_region_.tex:140: Preview: Snippet 69 ended.(589824+274353x7464075).
+<-><->
+      
+l.140 ...mb X_j = (t_{j1}, \cdots, t_{jn_j}, c_j)$
+                                                   , which is time-to-event ...
+Not a real error.
+
+[69]
+./_region_.tex:140: Preview: Snippet 70 started.
+<-><->
+      
+l.140 ...)$ , which is time-to-event data, where $
+                                                  t_{ji}$ means the $i^{th}$...
+Not a real error.
+
+./_region_.tex:140: Preview: Snippet 70 ended.(483719+219909x755994).
+<-><->
+      
+l.140 ...ich is time-to-event data, where $t_{ji}$
+                                                   means the $i^{th}$ event ...
+Not a real error.
+
+[70]
+./_region_.tex:140: Preview: Snippet 71 started.
+<-><->
+      
+l.140 ...to-event data, where $t_{ji}$ means the $
+                                                  i^{th}$ event time for the...
+Not a real error.
+
+./_region_.tex:140: Preview: Snippet 71 ended.(649479+0x817634).
+<-><->
+      
+l.140 ...t data, where $t_{ji}$ means the $i^{th}$
+                                                   event time for the $j^{th...
+Not a real error.
+
+[71]
+./_region_.tex:140: Preview: Snippet 72 started.
+<-><->
+      
+l.140 ...$ means the $i^{th}$ event time for the $
+                                                  j^{th}$ individual. Denote...
+Not a real error.
+
+./_region_.tex:140: Preview: Snippet 72 ended.(649479+152916x917758).
+<-><->
+      
+l.140 ... the $i^{th}$ event time for the $j^{th}$
+                                                   individual. Denote $n_j^{...
+Not a real error.
+
+[72]
+./_region_.tex:140: Preview: Snippet 73 started.
+<-><->
+      
+l.140 ...ime for the $j^{th}$ individual. Denote $
+                                                  n_j^{(i)}$ be total number...
+Not a real error.
+
+./_region_.tex:140: Preview: Snippet 73 ended.(795169+303488x1115355).
+<-><->
+      
+l.140 ...e $j^{th}$ individual. Denote $n_j^{(i)}$
+                                                   be total number of events...
+Not a real error.
+
+[73]
+./_region_.tex:140: Preview: Snippet 74 started.
+<-><->
+      
+l.140 ...{(i)}$ be total number of events before $
+                                                  t_{ji}$, plot $(t_{ji},n_j...
+Not a real error.
+
+./_region_.tex:140: Preview: Snippet 74 ended.(483719+219909x755994).
+<-><->
+      
+l.140 ...be total number of events before $t_{ji}$
+                                                  , plot $(t_{ji},n_j^{(i)})...
+Not a real error.
+
+[74]
+./_region_.tex:140: Preview: Snippet 75 started.
+<-><->
+      
+l.140 ... number of events before $t_{ji}$, plot $
+                                                  (t_{ji},n_j^{(i)}),i=1,......
+Not a real error.
+
+./_region_.tex:140: Preview: Snippet 75 ended.(795169+303488x6923307).
+<-><->
+      
+l.140 ...}$, plot $(t_{ji},n_j^{(i)}),i=1,...,n_j$
+                                                  , which is the function of...
+Not a real error.
+
+[75]
+./_region_.tex:140: Preview: Snippet 76 started.
+<-><->
+      
+l.140 ...ent occurences during the time interval $
+                                                  (0,c_j)$.. Suppose 40 indi...
+Not a real error.
+
+./_region_.tex:140: Preview: Snippet 76 ended.(589824+219909x1948583).
+<-><->
+      
+l.140 ...rences during the time interval $(0,c_j)$
+                                                  .. Suppose 40 individuals ...
+Not a real error.
+
+[76]
+./_region_.tex:140: Preview: Snippet 77 started.
+<-><->
+      
+l.140 ...generated from two groups, if we define $
+                                                  (\lambda_{kb},\lambda_{ka}...
+Not a real error.
+
+./_region_.tex:140: Preview: Snippet 77 ended.(589824+196608x4066197).
+<-><->
+      
+l.140 ...fine $(\lambda_{kb},\lambda_{ka},\tau_k)$
+                                                   as the centroids of group...
+Not a real error.
+
+[77]
+./_region_.tex:140: Preview: Snippet 78 started.
+<-><->
+      
+l.140 ...{ka},\tau_k)$ as the centroids of group $
+                                                  k$, then the 40 individual...
+Not a real error.
+
+./_region_.tex:140: Preview: Snippet 78 ended.(546132+0x426891).
+<-><->
+      
+l.140 ...a},\tau_k)$ as the centroids of group $k$
+                                                  , then the 40 individuals ...
+Not a real error.
+
+[78]
+./_region_.tex:140: Preview: Snippet 79 started.
+<-><->
+      
+l.140 ...enerated from two groups with centroids $
+                                                  (250,100,300)$ and $(250,1...
+Not a real error.
+
+./_region_.tex:140: Preview: Snippet 79 ended.(589824+196608x4754040).
+<-><->
+      
+l.140 ...two groups with centroids $(250,100,300)$
+                                                   and $(250,100,150)$ respe...
+Not a real error.
+
+[79]
+./_region_.tex:140: Preview: Snippet 80 started.
+<-><->
+      
+l.140 ...oups with centroids $(250,100,300)$ and $
+                                                  (250,100,150)$ respectivel...
+Not a real error.
+
+./_region_.tex:140: Preview: Snippet 80 ended.(589824+196608x4754040).
+<-><->
+      
+l.140 ...roids $(250,100,300)$ and $(250,100,150)$
+                                                   respectively. Forty lines...
+Not a real error.
+
+[80]
+
+LaTeX Warning: Reference `fig:forty_lines' on page 10 undefined on input line 140.
+
+./_region_.tex:146: Preview: Snippet 81 started.
+<-><->
+      
+l.146 \begin{figure}
+                     [htp]
+Not a real error.
+
+Package epstopdf Info: Source file: <./figure/forty_lines.eps>
+(epstopdf)                    date: 2018-03-18 20:09:20
+(epstopdf)                    size: 687548 bytes
+(epstopdf)             Output file: <./figure/forty_lines-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-03-18 20:09:25
+(epstopdf)                    size: 184629 bytes
+(epstopdf)             Command: <repstopdf --outfile=./figure/forty_lines-eps-converted-to.pdf ./figure/forty_lines.eps>
+(epstopdf)             \includegraphics on input line 147.
+Package epstopdf Info: Output file is already uptodate.
+<./figure/forty_lines-eps-converted-to.pdf, id=268, 1267.73625pt x 450.68375pt>
+File: ./figure/forty_lines-eps-converted-to.pdf Graphic file (type pdf)
+ <use ./figure/forty_lines-eps-converted-to.pdf>
+Package pdftex.def Info: ./figure/forty_lines-eps-converted-to.pdf used on input line 147.
+(pdftex.def)             Requested size: 389.99585pt x 329.12018pt.
+
+./_region_.tex:151: Preview: Snippet 81 ended.(22311960+0x25559040).
+<-><->
+      
+l.151 \end{figure}
+                   % truncate the kernal fitting
+Not a real error.
+
+[81
+
+
+ <./figure/forty_lines-eps-converted-to.pdf>]
+
+Package natbib Warning: Citation `dass2015clustering' on page 11 undefined on input line 157.
+
+
+Package natbib Warning: Citation `perets2011clustering' on page 11 undefined on input line 157.
+
+
+LaTeX Warning: Reference `fig:forty_lines' on page 11 undefined on input line 157.
+
+./_region_.tex:159: Preview: Snippet 82 started.
+<-><->
+      
+l.159 ... illustrate the idea, suppose there are $
+                                                  K$ underlying groups, each...
+Not a real error.
+
+./_region_.tex:159: Preview: Snippet 82 ended.(537395+0x711606).
+<-><->
+      
+l.159 ...llustrate the idea, suppose there are $K$
+                                                   underlying groups, each g...
+Not a real error.
+
+[82]
+./_region_.tex:159: Preview: Snippet 83 started.
+<-><->
+      
+l.159 ...idual belongs to which centroid. Denote $
+                                                  P_{jk}=P(\pmb X_j|\tau_k,\...
+Not a real error.
+
+./_region_.tex:159: Preview: Snippet 83 ended.(589824+219909x8966205).
+<-><->
+      
+l.159 ..._j|\tau_k,\lambda_{kb},\lambda_{ka},c_j)$
+                                                  , which is the sampling de...
+Not a real error.
+
+[83]
+./_region_.tex:159: Preview: Snippet 84 started.
+<-><->
+      
+l.159 ...ing density value given that individual $
+                                                  j$ falls in group $k$.
+Not a real error.
+
+./_region_.tex:159: Preview: Snippet 84 ended.(515577+152916x362819).
+<-><->
+      
+l.159 ...g density value given that individual $j$
+                                                   falls in group $k$.
+Not a real error.
+
+[84]
+./_region_.tex:159: Preview: Snippet 85 started.
+<-><->
+      
+l.159 ...iven that individual $j$ falls in group $
+                                                  k$.
+Not a real error.
+
+./_region_.tex:159: Preview: Snippet 85 ended.(546132+0x426891).
+<-><->
+      
+l.159 ...en that individual $j$ falls in group $k$
+                                                  .
+Not a real error.
+
+[85]
+./_region_.tex:160: Preview: Snippet 86 started.
+<-><->
+      
+l.160 \begin{equation}
+                      \label{eqn:Pjk}
+Not a real error.
+
+./_region_.tex:162: Preview: Snippet 86 ended.(2362764+0x25559040).
+<-><->
+      
+l.162 \end{equation}
+                    
+Not a real error.
+
+[86
+
+]
+
+Package natbib Warning: Citation `hartigan1979algorithm' on page 12 undefined on input line 163.
+
+./_region_.tex:163: Preview: Snippet 87 started.
+<-><->
+      
+l.163 ...riefly, the first step is to initialize $
+                                                  K$ centroids. Next, for ea...
+Not a real error.
+
+./_region_.tex:163: Preview: Snippet 87 ended.(537395+0x711606).
+<-><->
+      
+l.163 ...efly, the first step is to initialize $K$
+                                                   centroids. Next, for each...
+Not a real error.
+
+[87]
+./_region_.tex:163: Preview: Snippet 88 started.
+<-><->
+      
+l.163 ...K$ centroids. Next, for each individual $
+                                                  j$, assign it to the centr...
+Not a real error.
+
+./_region_.tex:163: Preview: Snippet 88 ended.(515577+152916x362819).
+<-><->
+      
+l.163 ... centroids. Next, for each individual $j$
+                                                  , assign it to the centroi...
+Not a real error.
+
+[88]
+./_region_.tex:163: Preview: Snippet 89 started.
+<-><->
+      
+l.163 ...dividual $j$, assign it to the centroid $
+                                                  k^*$, where $k^*=argmax_{k...
+Not a real error.
+
+./_region_.tex:163: Preview: Snippet 89 ended.(546132+0x738191).
+<-><->
+      
+l.163 ...dual $j$, assign it to the centroid $k^*$
+                                                  , where $k^*=argmax_{k=1,2...
+Not a real error.
+
+[89]
+./_region_.tex:163: Preview: Snippet 90 started.
+<-><->
+      
+l.163 ... assign it to the centroid $k^*$, where $
+                                                  k^*=argmax_{k=1,2,...K} P_...
+Not a real error.
+
+./_region_.tex:163: Preview: Snippet 90 ended.(546132+219909x8155222).
+<-><->
+      
+l.163 ...$, where $k^*=argmax_{k=1,2,...K} P_{jk}$
+                                                  ,then update the centroids...
+Not a real error.
+
+[90]
+./_region_.tex:163: Preview: Snippet 91 started.
+<-><->
+      
+l.163 ...K} P_{jk}$,then update the centroids of $
+                                                  K$ clusters using Eq.$(2)$...
+Not a real error.
+
+./_region_.tex:163: Preview: Snippet 91 ended.(537395+0x711606).
+<-><->
+      
+l.163 ... P_{jk}$,then update the centroids of $K$
+                                                   clusters using Eq.$(2)$ a...
+Not a real error.
+
+[91]
+./_region_.tex:163: Preview: Snippet 92 started.
+<-><->
+      
+l.163 ... the centroids of $K$ clusters using Eq.$
+                                                  (2)$ and Eq.$(3)$ until al...
+Not a real error.
+
+./_region_.tex:163: Preview: Snippet 92 ended.(589824+196608x983940).
+<-><->
+      
+l.163 ... centroids of $K$ clusters using Eq.$(2)$
+                                                   and Eq.$(3)$ until all th...
+Not a real error.
+
+[92]
+./_region_.tex:163: Preview: Snippet 93 started.
+<-><->
+      
+l.163 ...s of $K$ clusters using Eq.$(2)$ and Eq.$
+                                                  (3)$ until all the $K$ cen...
+Not a real error.
+
+./_region_.tex:163: Preview: Snippet 93 ended.(589824+196608x983940).
+<-><->
+      
+l.163 ... $K$ clusters using Eq.$(2)$ and Eq.$(3)$
+                                                   until all the $K$ centroi...
+Not a real error.
+
+[93]
+./_region_.tex:163: Preview: Snippet 94 started.
+<-><->
+      
+l.163 ...ing Eq.$(2)$ and Eq.$(3)$ until all the $
+                                                  K$ centroids finally do no...
+Not a real error.
+
+./_region_.tex:163: Preview: Snippet 94 ended.(537395+0x711606).
+<-><->
+      
+l.163 ...g Eq.$(2)$ and Eq.$(3)$ until all the $K$
+                                                   centroids finally do not ...
+Not a real error.
+
+[94]
+./_region_.tex:168: Preview: Snippet 95 started.
+<-><->
+      
+l.168 ...al value for the K centroids, denote as $
+                                                  (\lambda_{kb}^{(0)},\lambd...
+Not a real error.
+
+./_region_.tex:168: Preview: Snippet 95 ended.(795169+219032x8734182).
+<-><->
+      
+l.168 ...lambda_{ka}^{(0)},\tau_k^{(0)},k=1,...K)$
+                                                  . Like the original k-mean...
+Not a real error.
+
+[95]
+
+LaTeX Warning: Reference `arthur2007k' on page 12 undefined on input line 168.
+
+./_region_.tex:172: Preview: Snippet 96 started.
+<-><->
+      
+l.172 \item Select an individual $
+                                  j$ with equal propability among all $m$ in...
+Not a real error.
+
+./_region_.tex:172: Preview: Snippet 96 ended.(515577+152916x362819).
+<-><->
+      
+l.172 \item Select an individual $j$
+                                     with equal propability among all $m$ in...
+Not a real error.
+
+[96]
+./_region_.tex:172: Preview: Snippet 97 started.
+<-><->
+      
+l.172 ...al $j$ with equal propability among all $
+                                                  m$ individuals. Then, as a...
+Not a real error.
+
+./_region_.tex:172: Preview: Snippet 97 ended.(338603+0x673557).
+<-><->
+      
+l.172 ... $j$ with equal propability among all $m$
+                                                   individuals. Then, as a s...
+Not a real error.
+
+[97]
+./_region_.tex:172: Preview: Snippet 98 started.
+<-><->
+      
+l.172 ...irst cluster based on using the formula $
+                                                  2$,$3$ in \ref{sec:MLE}.
+Not a real error.
+
+./_region_.tex:172: Preview: Snippet 98 ended.(506811+0x385020).
+<-><->
+      
+l.172 ...st cluster based on using the formula $2$
+                                                  ,$3$ in \ref{sec:MLE}.
+Not a real error.
+
+[98]
+./_region_.tex:172: Preview: Snippet 99 started.
+<-><->
+      
+l.172 ... cluster based on using the formula $2$,$
+                                                  3$ in \ref{sec:MLE}.
+Not a real error.
+
+./_region_.tex:172: Preview: Snippet 99 ended.(506811+0x385020).
+<-><->
+      
+l.172 ...luster based on using the formula $2$,$3$
+                                                   in \ref{sec:MLE}.
+Not a real error.
+
+[99]
+
+LaTeX Warning: Reference `sec:MLE' on page 13 undefined on input line 172.
+
+./_region_.tex:173: Preview: Snippet 100 started.
+<-><->
+      
+l.173 \item Denote $
+                    d_{jk}=|log(P_{jk})|$ as the distance from $j$ to cluste...
+Not a real error.
+
+./_region_.tex:173: Preview: Snippet 100 ended.(589824+219909x5166482).
+<-><->
+      
+l.173 \item Denote $d_{jk}=|log(P_{jk})|$
+                                          as the distance from $j$ to cluste...
+Not a real error.
+
+[100]
+./_region_.tex:173: Preview: Snippet 101 started.
+<-><->
+      
+l.173 ...jk}=|log(P_{jk})|$ as the distance from $
+                                                  j$ to cluster $k$.for each...
+Not a real error.
+
+./_region_.tex:173: Preview: Snippet 101 ended.(515577+152916x362819).
+<-><->
+      
+l.173 ...}=|log(P_{jk})|$ as the distance from $j$
+                                                   to cluster $k$.for each i...
+Not a real error.
+
+[101]
+./_region_.tex:173: Preview: Snippet 102 started.
+<-><->
+      
+l.173 ...)|$ as the distance from $j$ to cluster $
+                                                  k$.for each individual $j$...
+Not a real error.
+
+./_region_.tex:173: Preview: Snippet 102 ended.(546132+0x426891).
+<-><->
+      
+l.173 ...$ as the distance from $j$ to cluster $k$
+                                                  .for each individual $j$, ...
+Not a real error.
+
+[102]
+./_region_.tex:173: Preview: Snippet 103 started.
+<-><->
+      
+l.173 ... $j$ to cluster $k$.for each individual $
+                                                  j$, compute $d_{jk}$, the ...
+Not a real error.
+
+./_region_.tex:173: Preview: Snippet 103 ended.(515577+152916x362819).
+<-><->
+      
+l.173 ...j$ to cluster $k$.for each individual $j$
+                                                  , compute $d_{jk}$, the di...
+Not a real error.
+
+[103]
+./_region_.tex:173: Preview: Snippet 104 started.
+<-><->
+      
+l.173 ...er $k$.for each individual $j$, compute $
+                                                  d_{jk}$, the distance betw...
+Not a real error.
+
+./_region_.tex:173: Preview: Snippet 104 ended.(546132+219909x992414).
+<-><->
+      
+l.173 ...for each individual $j$, compute $d_{jk}$
+                                                  , the distance between $j$...
+Not a real error.
+
+[104]
+./_region_.tex:173: Preview: Snippet 105 started.
+<-><->
+      
+l.173 ... compute $d_{jk}$, the distance between $
+                                                  j$ and the nearest centroi...
+Not a real error.
+
+./_region_.tex:173: Preview: Snippet 105 ended.(515577+152916x362819).
+<-><->
+      
+l.173 ...ompute $d_{jk}$, the distance between $j$
+                                                   and the nearest centroids...
+Not a real error.
+
+[105]
+./_region_.tex:175: Preview: Snippet 106 started.
+<-><->
+      
+l.175 \item choose one individual $
+                                   j$ at random , using the weighted probabi...
+Not a real error.
+
+./_region_.tex:175: Preview: Snippet 106 ended.(515577+152916x362819).
+<-><->
+      
+l.175 \item choose one individual $j$
+                                      at random , using the weighted probabi...
+Not a real error.
+
+[106]
+./_region_.tex:175: Preview: Snippet 107 started.
+<-><->
+      
+l.175 ...weighted probability distribution where $
+                                                  j$ is chosen with probabil...
+Not a real error.
+
+./_region_.tex:175: Preview: Snippet 107 ended.(515577+152916x362819).
+<-><->
+      
+l.175 ...ighted probability distribution where $j$
+                                                   is chosen with probabilit...
+Not a real error.
+
+[107]
+./_region_.tex:175: Preview: Snippet 108 started.
+<-><->
+      
+l.175 ...chosen with probability proportional to $
+                                                  d_{jk}^2$, then calculate ...
+Not a real error.
+
+./_region_.tex:175: Preview: Snippet 108 ended.(623265+306468x992414).
+<-><->
+      
+l.175 ...th probability proportional to $d_{jk}^2$
+                                                  , then calculate the centr...
+Not a real error.
+
+[108]
+./_region_.tex:175: Preview: Snippet 109 started.
+<-><->
+      
+l.175 ...he second cluster based on using the Eq.$
+                                                  (2)$ and Eq.$(3)$ in \ref{...
+Not a real error.
+
+./_region_.tex:175: Preview: Snippet 109 ended.(589824+196608x983940).
+<-><->
+      
+l.175 ...econd cluster based on using the Eq.$(2)$
+                                                   and Eq.$(3)$ in \ref{sec:...
+Not a real error.
+
+[109]
+./_region_.tex:175: Preview: Snippet 110 started.
+<-><->
+      
+l.175 ...ster based on using the Eq.$(2)$ and Eq.$
+                                                  (3)$ in \ref{sec:MLE}.
+Not a real error.
+
+./_region_.tex:175: Preview: Snippet 110 ended.(589824+196608x983940).
+<-><->
+      
+l.175 ... based on using the Eq.$(2)$ and Eq.$(3)$
+                                                   in \ref{sec:MLE}.
+Not a real error.
+
+[110]
+
+LaTeX Warning: Reference `sec:MLE' on page 13 undefined on input line 175.
+
+./_region_.tex:177: Preview: Snippet 111 started.
+<-><->
+      
+l.177 \item Repeat Steps 2 and 3 until the $
+                                            K$ centroids are chosen , so $\t...
+Not a real error.
+
+./_region_.tex:177: Preview: Snippet 111 ended.(537395+0x711606).
+<-><->
+      
+l.177 \item Repeat Steps 2 and 3 until the $K$
+                                               centroids are chosen , so $\t...
+Not a real error.
+
+[111]
+./_region_.tex:177: Preview: Snippet 112 started.
+<-><->
+      
+l.177 ...until the $K$ centroids are chosen , so $
+                                                  \tau_{k}^{(1)},\lambda_{kb...
+Not a real error.
+
+./_region_.tex:177: Preview: Snippet 112 ended.(795169+219032x8135262).
+<-><->
+      
+l.177 ...a_{kb}^{(1)},\lambda_{ka}^{(1)},k=1,...K$
+                                                   are the initial centroids.
+Not a real error.
+
+[112]
+./_region_.tex:182: Preview: Snippet 113 started.
+<-><->
+      
+l.182 \item set $
+                 t=1$.
+Not a real error.
+
+./_region_.tex:182: Preview: Snippet 113 ended.(506811+0x1698910).
+<-><->
+      
+l.182 \item set $t=1$
+                     .
+Not a real error.
+
+[113]
+./_region_.tex:183: Preview: Snippet 114 started.
+<-><->
+      
+l.183 \item Under the condition that $
+                                      K$ centroids $(\tau_{k}^{(t)},\lambda_...
+Not a real error.
+
+./_region_.tex:183: Preview: Snippet 114 ended.(537395+0x711606).
+<-><->
+      
+l.183 \item Under the condition that $K$
+                                         centroids $(\tau_{k}^{(t)},\lambda_...
+Not a real error.
+
+[114]
+./_region_.tex:183: Preview: Snippet 115 started.
+<-><->
+      
+l.183 ... Under the condition that $K$ centroids $
+                                                  (\tau_{k}^{(t)},\lambda_{k...
+Not a real error.
+
+./_region_.tex:183: Preview: Snippet 115 ended.(795169+219032x8502072).
+<-><->
+      
+l.183 ..._{kb}^{(t)},\lambda_{ka}^{(t)}),k=1,...K$
+                                                   are given, for each indiv...
+Not a real error.
+
+[115]
+./_region_.tex:183: Preview: Snippet 116 started.
+<-><->
+      
+l.183 ...=1,...K$ are given, for each individual $
+                                                  j$,  assign $j$ to cluster...
+Not a real error.
+
+./_region_.tex:183: Preview: Snippet 116 ended.(515577+152916x362819).
+<-><->
+      
+l.183 ...,...K$ are given, for each individual $j$
+                                                  ,  assign $j$ to cluster $...
+Not a real error.
+
+[116]
+./_region_.tex:183: Preview: Snippet 117 started.
+<-><->
+      
+l.183 ...given, for each individual $j$,  assign $
+                                                  j$ to cluster $k$ which yi...
+Not a real error.
+
+./_region_.tex:183: Preview: Snippet 117 ended.(515577+152916x362819).
+<-><->
+      
+l.183 ...ven, for each individual $j$,  assign $j$
+                                                   to cluster $k$ which yiel...
+Not a real error.
+
+[117]
+./_region_.tex:183: Preview: Snippet 118 started.
+<-><->
+      
+l.183 ... individual $j$,  assign $j$ to cluster $
+                                                  k$ which yields the larges...
+Not a real error.
+
+./_region_.tex:183: Preview: Snippet 118 ended.(546132+0x426891).
+<-><->
+      
+l.183 ...ndividual $j$,  assign $j$ to cluster $k$
+                                                   which yields the largest ...
+Not a real error.
+
+[118]
+./_region_.tex:183: Preview: Snippet 119 started.
+<-><->
+      
+l.183 ... the largest sample density probability $
+                                                  P_{jk}$. After m calculati...
+Not a real error.
+
+./_region_.tex:183: Preview: Snippet 119 ended.(537395+219909x1088625).
+<-><->
+      
+l.183 ...rgest sample density probability $P_{jk}$
+                                                  . After m calculations, al...
+Not a real error.
+
+[119]
+./_region_.tex:183: Preview: Snippet 120 started.
+<-><->
+      
+l.183 ...ns, all the individuals are assigned to $
+                                                  K$ clusters. For each clus...
+Not a real error.
+
+./_region_.tex:183: Preview: Snippet 120 ended.(537395+0x711606).
+<-><->
+      
+l.183 ..., all the individuals are assigned to $K$
+                                                   clusters. For each cluste...
+Not a real error.
+
+[120]
+./_region_.tex:183: Preview: Snippet 121 started.
+<-><->
+      
+l.183 ...igned to $K$ clusters. For each cluster $
+                                                  k$, $G_k^{(t)}=\{j:P_{jk}>...
+Not a real error.
+
+./_region_.tex:183: Preview: Snippet 121 ended.(546132+0x426891).
+<-><->
+      
+l.183 ...ned to $K$ clusters. For each cluster $k$
+                                                  , $G_k^{(t)}=\{j:P_{jk}>=P...
+Not a real error.
+
+[121]
+./_region_.tex:183: Preview: Snippet 122 started.
+<-><->
+      
+l.183 ... to $K$ clusters. For each cluster $k$, $
+                                                  G_k^{(t)}=\{j:P_{jk}>=P_{j...
+Not a real error.
+
+./_region_.tex:183: Preview: Snippet 122 ended.(795169+311661x18182799).
+<-><->
+      
+l.183 ...^{'},1 \leq k^{'}\leq K,j\in\{1,...m\}\}$
+                                                  .
+Not a real error.
+
+[122]
+./_region_.tex:185: Preview: Snippet 123 started.
+<-><->
+      
+l.185 \item Update the centroids of cluster $
+                                             k$ using Eq.$(2)$ and Eq. $(3)$
+Not a real error.
+
+./_region_.tex:185: Preview: Snippet 123 ended.(546132+0x426891).
+<-><->
+      
+l.185 \item Update the centroids of cluster $k$
+                                                using Eq.$(2)$ and Eq. $(3)$
+Not a real error.
+
+[123]
+./_region_.tex:185: Preview: Snippet 124 started.
+<-><->
+      
+l.185 ...e the centroids of cluster $k$ using Eq.$
+                                                  (2)$ and Eq. $(3)$
+Not a real error.
+
+./_region_.tex:185: Preview: Snippet 124 ended.(589824+196608x983940).
+<-><->
+      
+l.185 ...e centroids of cluster $k$ using Eq.$(2)$
+                                                   and Eq. $(3)$
+Not a real error.
+
+[124]
+./_region_.tex:185: Preview: Snippet 125 started.
+<-><->
+      
+l.185 ...s of cluster $k$ using Eq.$(2)$ and Eq. $
+                                                  (3)$
+Not a real error.
+
+./_region_.tex:185: Preview: Snippet 125 ended.(589824+196608x983940).
+<-><->
+      
+l.185 ... cluster $k$ using Eq.$(2)$ and Eq. $(3)$
+                                                  
+Not a real error.
+
+[125]
+./_region_.tex:187: Preview: Snippet 126 started.
+<-><->
+      
+l.187 \begin{equation}
+                      \label{eqn:tau_MLE}
+Not a real error.
+
+./_region_.tex:189: Preview: Snippet 126 ended.(1243435+0x25559040).
+<-><->
+      
+l.189 \end{equation}
+                    
+Not a real error.
+
+[126
+
+]
+./_region_.tex:191: Preview: Snippet 127 started.
+<-><->
+      
+l.191 \begin{equation}
+                      \label{eqn:lam_MLE}
+Not a real error.
+
+./_region_.tex:193: Preview: Snippet 127 ended.(2726726+0x25559040).
+<-><->
+      
+l.193 \end{equation}
+                    
+Not a real error.
+
+[127
+
+]
+./_region_.tex:195: Preview: Snippet 128 started.
+<-><->
+      
+l.195 ...e assignment step and update step until $
+                                                  (\tau_{k}^{(t)},\lambda_{k...
+Not a real error.
+
+./_region_.tex:195: Preview: Snippet 128 ended.(795169+219032x16284399).
+<-><->
+      
+l.195 ...}^{(t+1)},\lambda_{ka}^{(t+1)}),k=1,...K$
+                                                  .
+Not a real error.
+
+[128]
+./_region_.tex:196: Preview: Snippet 129 started.
+<-><->
+      
+l.196 \item We use the $
+                        K$ centroids output by the last iteration as the est...
+Not a real error.
+
+./_region_.tex:196: Preview: Snippet 129 ended.(537395+0x711606).
+<-><->
+      
+l.196 \item We use the $K$
+                           centroids output by the last iteration as the est...
+Not a real error.
+
+[129]
+./_region_.tex:201: Preview: Snippet 130 started.
+<-><->
+      
+l.201 \subsection
+                 {Determine the number of clusters using a heuristic searchi...
+Not a real error.
+
+./_region_.tex:201: Preview: Snippet 130 ended.(3014655+183500x25559040).
+<-><->
+      
+l.201 ...sters using a heuristic searching method}
+                                                  
+Not a real error.
+
+[130
+
+]
+
+LaTeX Warning: Reference `sec:kmean' on page 14 undefined on input line 202.
+
+./_region_.tex:202: Preview: Snippet 131 started.
+<-><->
+      
+l.202 In \ref{sec:kmean} , we suppose $
+                                       m$ observations from $K$ centroids, w...
+Not a real error.
+
+./_region_.tex:202: Preview: Snippet 131 ended.(338603+0x673557).
+<-><->
+      
+l.202 In \ref{sec:kmean} , we suppose $m$
+                                          observations from $K$ centroids, w...
+Not a real error.
+
+[131]
+./_region_.tex:202: Preview: Snippet 132 started.
+<-><->
+      
+l.202 ...ean} , we suppose $m$ observations from $
+                                                  K$ centroids, where $K$ is...
+Not a real error.
+
+./_region_.tex:202: Preview: Snippet 132 ended.(537395+0x711606).
+<-><->
+      
+l.202 ...n} , we suppose $m$ observations from $K$
+                                                   centroids, where $K$ is g...
+Not a real error.
+
+[132]
+./_region_.tex:202: Preview: Snippet 133 started.
+<-><->
+      
+l.202 ... observations from $K$ centroids, where $
+                                                  K$ is given. However, in r...
+Not a real error.
+
+./_region_.tex:202: Preview: Snippet 133 ended.(537395+0x711606).
+<-><->
+      
+l.202 ...bservations from $K$ centroids, where $K$
+                                                   is given. However, in rea...
+Not a real error.
+
+[133]
+./_region_.tex:202: Preview: Snippet 134 started.
+<-><->
+      
+l.202 ...K$ is given. However, in real datasets, $
+                                                  K$ is usually unknown. Tho...
+Not a real error.
+
+./_region_.tex:202: Preview: Snippet 134 ended.(537395+0x711606).
+<-><->
+      
+l.202 ... is given. However, in real datasets, $K$
+                                                   is usually unknown. Thoug...
+Not a real error.
+
+[134]
+
+Package natbib Warning: Citation `fraley1998many' on page 14 undefined on input line 202.
+
+./_region_.tex:202: Preview: Snippet 135 started.
+<-><->
+      
+l.202 ... find the appropriate number of cluster $
+                                                  K$. One way is to use Baye...
+Not a real error.
+
+./_region_.tex:202: Preview: Snippet 135 ended.(537395+0x711606).
+<-><->
+      
+l.202 ...ind the appropriate number of cluster $K$
+                                                  . One way is to use Bayesi...
+Not a real error.
+
+[135]
+./_region_.tex:202: Preview: Snippet 136 started.
+<-><->
+      
+l.202 ...are different models. Because different $
+                                                  K$  different models, so d...
+Not a real error.
+
+./_region_.tex:202: Preview: Snippet 136 ended.(537395+0x711606).
+<-><->
+      
+l.202 ...e different models. Because different $K$
+                                                    different models, so det...
+Not a real error.
+
+[136]
+./_region_.tex:202: Preview: Snippet 137 started.
+<-><->
+      
+l.202 ...problem. Suppose the possible value for $
+                                                  K$ is only 1 or 2, and the...
+Not a real error.
+
+./_region_.tex:202: Preview: Snippet 137 ended.(537395+0x711606).
+<-><->
+      
+l.202 ...oblem. Suppose the possible value for $K$
+                                                   is only 1 or 2, and the o...
+Not a real error.
+
+[137]
+./_region_.tex:202: Preview: Snippet 138 started.
+<-><->
+      
+l.202 ...s only 1 or 2, and the observed data is $
+                                                  D$, the Bayes factor is as...
+Not a real error.
+
+./_region_.tex:202: Preview: Snippet 138 ended.(537395+0x660743).
+<-><->
+      
+l.202 ...only 1 or 2, and the observed data is $D$
+                                                  , the Bayes factor is asse...
+Not a real error.
+
+[138]
+./_region_.tex:202: Preview: Snippet 139 started.
+<-><->
+      
+l.202 ...is $D$, the Bayes factor is assessed by $
+                                                  \frac{Pr(D|K=1)}{Pr(D|K=2}...
+Not a real error.
+
+./_region_.tex:202: Preview: Snippet 139 ended.(768080+402266x9809978).
+<-><->
+      
+l.202 ...=1|D)}{Pr(K=1|D)}\frac{Pr(K=2)}{Pr(K=1)}$
+                                                  . The advantage of this Ba...
+Not a real error.
+
+[139]
+./_region_.tex:202: Preview: Snippet 140 started.
+<-><->
+      
+l.202 ...at it naturally includes a penalty term $
+                                                  \frac{Pr(K=2)}{Pr(K=1)}$. ...
+Not a real error.
+
+./_region_.tex:202: Preview: Snippet 140 ended.(768080+402266x2506570).
+<-><->
+      
+l.202 ... a penalty term $\frac{Pr(K=2)}{Pr(K=1)}$
+                                                  . But it is really hard to...
+Not a real error.
+
+[140]
+./_region_.tex:202: Preview: Snippet 141 started.
+<-><->
+      
+l.202 ...d to figure out how to set the prior of $
+                                                  Pr(K)$ to avoid choosing a...
+Not a real error.
+
+./_region_.tex:202: Preview: Snippet 141 ended.(589824+196608x2282226).
+<-><->
+      
+l.202 ...igure out how to set the prior of $Pr(K)$
+                                                   to avoid choosing a large...
+Not a real error.
+
+[141]
+./_region_.tex:202: Preview: Snippet 142 started.
+<-><->
+      
+l.202 ...or of $Pr(K)$ to avoid choosing a large $
+                                                  K$, since $Pr(D|K)$ is alw...
+Not a real error.
+
+./_region_.tex:202: Preview: Snippet 142 ended.(537395+0x711606).
+<-><->
+      
+l.202 ... of $Pr(K)$ to avoid choosing a large $K$
+                                                  , since $Pr(D|K)$ is alway...
+Not a real error.
+
+[142]
+./_region_.tex:202: Preview: Snippet 143 started.
+<-><->
+      
+l.202 ...)$ to avoid choosing a large $K$, since $
+                                                  Pr(D|K)$ is always an incr...
+Not a real error.
+
+./_region_.tex:202: Preview: Snippet 143 ended.(589824+196608x3161423).
+<-><->
+      
+l.202 ...oid choosing a large $K$, since $Pr(D|K)$
+                                                   is always an incresing fu...
+Not a real error.
+
+[143]
+
+Package natbib Warning: Citation `akaike1998information' on page 14 undefined on input line 202.
+
+./_region_.tex:202: Preview: Snippet 144 started.
+<-><->
+      
+l.202 ... to qualify the model. Here, we can use $
+                                                  AIC=2p-2ln(\hat{L})$, wher...
+Not a real error.
+
+./_region_.tex:202: Preview: Snippet 144 ended.(744924+196608x6568804).
+<-><->
+      
+l.202 ...l. Here, we can use $AIC=2p-2ln(\hat{L})$
+                                                  , where $p$ is the number ...
+Not a real error.
+
+[144]
+./_region_.tex:202: Preview: Snippet 145 started.
+<-><->
+      
+l.202 ...we can use $AIC=2p-2ln(\hat{L})$, where $
+                                                  p$ is the number of estima...
+Not a real error.
+
+./_region_.tex:202: Preview: Snippet 145 ended.(338603+152916x386477).
+<-><->
+      
+l.202 ... can use $AIC=2p-2ln(\hat{L})$, where $p$
+                                                   is the number of estimate...
+Not a real error.
+
+[145]
+./_region_.tex:202: Preview: Snippet 146 started.
+<-><->
+      
+l.202 ...r of estimated parameters in the model. $
+                                                  \hat{L}$ is the maximum va...
+Not a real error.
+
+./_region_.tex:202: Preview: Snippet 146 ended.(744924+0x523919).
+<-><->
+      
+l.202 ...imated parameters in the model. $\hat{L}$
+                                                   is the maximum value of t...
+Not a real error.
+
+[146]
+./_region_.tex:202: Preview: Snippet 147 started.
+<-><->
+      
+l.202 ...model. Pick the model with the smallest $
+                                                  AIC$ value. However, when ...
+Not a real error.
+
+./_region_.tex:202: Preview: Snippet 147 ended.(537395+0x1586111).
+<-><->
+      
+l.202 ...l. Pick the model with the smallest $AIC$
+                                                   value. However, when usin...
+Not a real error.
+
+[147]
+./_region_.tex:202: Preview: Snippet 148 started.
+<-><->
+      
+l.202 ...riteria in calculation, the second term $
+                                                  ln(\hat(L))$ is often much...
+Not a real error.
+
+./_region_.tex:202: Preview: Snippet 148 ended.(797353+196608x2428085).
+<-><->
+      
+l.202 ...alculation, the second term $ln(\hat(L))$
+                                                   is often much larger than...
+Not a real error.
+
+[148]
+./_region_.tex:202: Preview: Snippet 149 started.
+<-><->
+      
+l.202 ...much larger than the first penalty term $
+                                                  2p$, meaning that the $AIC...
+Not a real error.
+
+./_region_.tex:202: Preview: Snippet 149 ended.(506811+152916x771497).
+<-><->
+      
+l.202 ...h larger than the first penalty term $2p$
+                                                  , meaning that the $AIC$ v...
+Not a real error.
+
+[149]
+./_region_.tex:202: Preview: Snippet 150 started.
+<-><->
+      
+l.202 ...rst penalty term $2p$, meaning that the $
+                                                  AIC$ value is dominated by...
+Not a real error.
+
+./_region_.tex:202: Preview: Snippet 150 ended.(537395+0x1586111).
+<-><->
+      
+l.202 ...penalty term $2p$, meaning that the $AIC$
+                                                   value is dominated by $ln...
+Not a real error.
+
+[150]
+./_region_.tex:202: Preview: Snippet 151 started.
+<-><->
+      
+l.202 ...ng that the $AIC$ value is dominated by $
+                                                  ln(\hat{L})$, thus using $...
+Not a real error.
+
+./_region_.tex:202: Preview: Snippet 151 ended.(744924+196608x1829165).
+<-><->
+      
+l.202 ...$AIC$ value is dominated by $ln(\hat{L})$
+                                                  , thus using $AIC$ criteri...
+Not a real error.
+
+[151]
+./_region_.tex:202: Preview: Snippet 152 started.
+<-><->
+      
+l.202 ... dominated by $ln(\hat{L})$, thus using $
+                                                  AIC$ criteria to choose th...
+Not a real error.
+
+./_region_.tex:202: Preview: Snippet 152 ended.(537395+0x1586111).
+<-><->
+      
+l.202 ...inated by $ln(\hat{L})$, thus using $AIC$
+                                                   criteria to choose the ap...
+Not a real error.
+
+[152]
+./_region_.tex:202: Preview: Snippet 153 started.
+<-><->
+      
+l.202 ...AIC$ criteria to choose the appropriate $
+                                                  K$ is not a good option.
+Not a real error.
+
+./_region_.tex:202: Preview: Snippet 153 ended.(537395+0x711606).
+<-><->
+      
+l.202 ...C$ criteria to choose the appropriate $K$
+                                                   is not a good option.
+Not a real error.
+
+[153]
+./_region_.tex:205: Preview: Snippet 154 started.
+<-><->
+      
+l.205 ...ill go through the testing part. Denote $
+                                                  \pmb q_{(K)}=(\pmb q_1,\cd...
+Not a real error.
+
+./_region_.tex:205: Preview: Snippet 154 ended.(643653+253407x6871429).
+<-><->
+      
+l.205 ...pmb q_{(K)}=(\pmb q_1,\cdots,\pmb q_K)^T$
+                                                  , where $\pmb q_k=(\tau_k,...
+Not a real error.
+
+[154]
+./_region_.tex:205: Preview: Snippet 155 started.
+<-><->
+      
+l.205 ...)}=(\pmb q_1,\cdots,\pmb q_K)^T$, where $
+                                                  \pmb q_k=(\tau_k,\lambda_{...
+Not a real error.
+
+./_region_.tex:205: Preview: Snippet 155 ended.(643653+196608x6242894).
+<-><->
+      
+l.205 ...q_k=(\tau_k,\lambda_{kb},\lambda_{ka})^T$
+                                                   as the centroid of $k^{th...
+Not a real error.
+
+[155]
+./_region_.tex:205: Preview: Snippet 156 started.
+<-><->
+      
+l.205 ...kb},\lambda_{ka})^T$ as the centroid of $
+                                                  k^{th}$ group. Then define...
+Not a real error.
+
+./_region_.tex:205: Preview: Snippet 156 ended.(649479+0x981830).
+<-><->
+      
+l.205 ...mbda_{ka})^T$ as the centroid of $k^{th}$
+                                                   group. Then define $\pmb ...
+Not a real error.
+
+[156]
+./_region_.tex:205: Preview: Snippet 157 started.
+<-><->
+      
+l.205 ...centroid of $k^{th}$ group. Then define $
+                                                  \pmb X_{\pmb q_{(K)}}=(\pm...
+Not a real error.
+
+./_region_.tex:205: Preview: Snippet 157 ended.(589824+330592x6703180).
+<-><->
+      
+l.205 ... X_{\pmb q_{(K)}}=(\pmb X_1,...\pmb X_m)$
+                                                   as the random dataset gen...
+Not a real error.
+
+[157]
+./_region_.tex:205: Preview: Snippet 158 started.
+<-><->
+      
+l.205 ...)$ as the random dataset generated from $
+                                                  \pmb q_{(K)}$.  Suppose we...
+Not a real error.
+
+./_region_.tex:205: Preview: Snippet 158 ended.(360448+253407x1342494).
+<-><->
+      
+l.205 ...dom dataset generated from $\pmb q_{(K)}$
+                                                  .  Suppose we use RKmeans ...
+Not a real error.
+
+[158]
+
+LaTeX Warning: Reference `sec:kmean' on page 15 undefined on input line 205.
+
+./_region_.tex:205: Preview: Snippet 159 started.
+<-><->
+      
+l.205 ...e RKmeans in \ref{sec:kmean} to cluster $
+                                                  \pmb X_{\pmb q_{(K)}}$ int...
+Not a real error.
+
+./_region_.tex:205: Preview: Snippet 159 ended.(559240+330592x1843144).
+<-><->
+      
+l.205 ...kmean} to cluster $\pmb X_{\pmb q_{(K)}}$
+                                                   into $n$ groups, then:
+Not a real error.
+
+[159]
+./_region_.tex:205: Preview: Snippet 160 started.
+<-><->
+      
+l.205 ...to cluster $\pmb X_{\pmb q_{(K)}}$ into $
+                                                  n$ groups, then:
+Not a real error.
+
+./_region_.tex:205: Preview: Snippet 160 ended.(338603+0x459657).
+<-><->
+      
+l.205 ... cluster $\pmb X_{\pmb q_{(K)}}$ into $n$
+                                                   groups, then:
+Not a real error.
+
+[160]
+./_region_.tex:207: Preview: Snippet 161 started.
+<-><->
+      
+l.207 \item Denote $
+                    \hat{\pmb q_{(n)}}(\pmb X)$ as the estimate of $n$ centr...
+Not a real error.
+
+./_region_.tex:207: Preview: Snippet 161 ended.(589824+253407x2473505).
+<-><->
+      
+l.207 \item Denote $\hat{\pmb q_{(n)}}(\pmb X)$
+                                                as the estimate of $n$ centr...
+Not a real error.
+
+[161]
+./_region_.tex:207: Preview: Snippet 162 started.
+<-><->
+      
+l.207 ...mb q_{(n)}}(\pmb X)$ as the estimate of $
+                                                  n$ centroids using RKmeans...
+Not a real error.
+
+./_region_.tex:207: Preview: Snippet 162 ended.(338603+0x459657).
+<-><->
+      
+l.207 ... q_{(n)}}(\pmb X)$ as the estimate of $n$
+                                                   centroids using RKmeans b...
+Not a real error.
+
+[162]
+./_region_.tex:207: Preview: Snippet 163 started.
+<-><->
+      
+l.207 ...$ centroids using RKmeans based on data $
+                                                  \pmb X$. Hence write  $\ha...
+Not a real error.
+
+./_region_.tex:207: Preview: Snippet 163 ended.(559240+0x700909).
+<-><->
+      
+l.207 ...oids using RKmeans based on data $\pmb X$
+                                                  . Hence write  $\hat{\pmb ...
+Not a real error.
+
+[163]
+./_region_.tex:207: Preview: Snippet 164 started.
+<-><->
+      
+l.207 ...ns based on data $\pmb X$. Hence write  $
+                                                  \hat{\pmb q_{(n)}}(\pmb X_...
+Not a real error.
+
+./_region_.tex:207: Preview: Snippet 164 ended.(589824+330592x8413516).
+<-><->
+      
+l.207 ...(\hat{\pmb q_1},\cdots,\hat{\pmb q_{n}})$
+                                                   as the estimate of $n$ ce...
+Not a real error.
+
+[164]
+./_region_.tex:207: Preview: Snippet 165 started.
+<-><->
+      
+l.207 ...s,\hat{\pmb q_{n}})$ as the estimate of $
+                                                  n$ centroids based on data...
+Not a real error.
+
+./_region_.tex:207: Preview: Snippet 165 ended.(338603+0x459657).
+<-><->
+      
+l.207 ...\hat{\pmb q_{n}})$ as the estimate of $n$
+                                                   centroids based on data $...
+Not a real error.
+
+[165]
+./_region_.tex:207: Preview: Snippet 166 started.
+<-><->
+      
+l.207 ...estimate of $n$ centroids based on data $
+                                                  \pmb X_{\pmb q_{(K)}}$.
+Not a real error.
+
+./_region_.tex:207: Preview: Snippet 166 ended.(559240+330592x1843144).
+<-><->
+      
+l.207 ...ids based on data $\pmb X_{\pmb q_{(K)}}$
+                                                  .
+Not a real error.
+
+[166]
+./_region_.tex:209: Preview: Snippet 167 started.
+<-><->
+      
+l.209 \item Denote $
+                    p_{\pmb q_{(n)}}(\pmb X)=\prod_{i=1}^{n}\prod_{j\in G_i}...
+Not a real error.
+
+./_region_.tex:209: Preview: Snippet 167 ended.(608033+331326x8694296).
+<-><->
+      
+l.209 ...)=\prod_{i=1}^{n}\prod_{j\in G_i}P_{ji} $
+                                                   as the sample probability...
+Not a real error.
+
+[167]
+./_region_.tex:209: Preview: Snippet 168 started.
+<-><->
+      
+l.209 ...ility density value while assuming data $
+                                                  X$ are generated from $\pm...
+Not a real error.
+
+./_region_.tex:209: Preview: Snippet 168 ended.(537395+0x700911).
+<-><->
+      
+l.209 ...ity density value while assuming data $X$
+                                                   are generated from $\pmb ...
+Not a real error.
+
+[168]
+./_region_.tex:209: Preview: Snippet 169 started.
+<-><->
+      
+l.209 ...le assuming data $X$ are generated from $
+                                                  \pmb q_{(n)}$. Here, $G_i,...
+Not a real error.
+
+./_region_.tex:209: Preview: Snippet 169 ended.(360448+253407x1173676).
+<-><->
+      
+l.209 ...ata $X$ are generated from $\pmb q_{(n)}$
+                                                  . Here, $G_i,i=1,\cdots,n$...
+Not a real error.
+
+[169]
+./_region_.tex:209: Preview: Snippet 170 started.
+<-><->
+      
+l.209 ...re generated from $\pmb q_{(n)}$. Here, $
+                                                  G_i,i=1,\cdots,n$ can be c...
+Not a real error.
+
+./_region_.tex:209: Preview: Snippet 170 ended.(537395+152916x5187574).
+<-><->
+      
+l.209 ... $\pmb q_{(n)}$. Here, $G_i,i=1,\cdots,n$
+                                                   can be calculated using R...
+Not a real error.
+
+[170]
+./_region_.tex:209: Preview: Snippet 171 started.
+<-><->
+      
+l.209 ...culated using RKmeans based on the data $
+                                                  \pmb X$ and the estimated ...
+Not a real error.
+
+./_region_.tex:209: Preview: Snippet 171 ended.(559240+0x700909).
+<-><->
+      
+l.209 ... using RKmeans based on the data $\pmb X$
+                                                   and the estimated centroi...
+Not a real error.
+
+[171]
+./_region_.tex:209: Preview: Snippet 172 started.
+<-><->
+      
+l.209 ...ta $\pmb X$ and the estimated centroids $
+                                                  \hat{\pmb q_{(n)}}(\pmb X)...
+Not a real error.
+
+./_region_.tex:209: Preview: Snippet 172 ended.(589824+253407x2473505).
+<-><->
+      
+l.209 ...ed centroids $\hat{\pmb q_{(n)}}(\pmb X)$
+                                                  . Thus $p_{\hat{\pmb q_{(n...
+Not a real error.
+
+[172]
+./_region_.tex:209: Preview: Snippet 173 started.
+<-><->
+      
+l.209 ...oids $\hat{\pmb q_{(n)}}(\pmb X)$. Thus $
+                                                  p_{\hat{\pmb q_{(n)}}}(\pm...
+Not a real error.
+
+./_region_.tex:209: Preview: Snippet 173 ended.(608033+331326x9836531).
+<-><->
+      
+l.209 ...)=\prod_{i=1}^{n}\prod_{j\in G_i}P_{ji} $
+                                                  , which is the sample prob...
+Not a real error.
+
+[173]
+./_region_.tex:209: Preview: Snippet 174 started.
+<-><->
+      
+l.209 ...sample probability density value while  $
+                                                  \pmb X_{\pmb q_{(K)}}$ are...
+Not a real error.
+
+./_region_.tex:209: Preview: Snippet 174 ended.(559240+330592x1843144).
+<-><->
+      
+l.209 ...sity value while  $\pmb X_{\pmb q_{(K)}}$
+                                                   are generated from its es...
+Not a real error.
+
+[174]
+./_region_.tex:209: Preview: Snippet 175 started.
+<-><->
+      
+l.209 ... generated from its estimated centroids $
+                                                  \hat{\pmb q_{(n)}}(\pmb X_...
+Not a real error.
+
+./_region_.tex:209: Preview: Snippet 175 ended.(589824+253407x3713881).
+<-><->
+      
+l.209 ...\hat{\pmb q_{(n)}}(\pmb X_{\pmb q{(K)}})$
+                                                  .
+Not a real error.
+
+[175]
+./_region_.tex:211: Preview: Snippet 176 started.
+<-><->
+      
+l.211 \item Denote $
+                    Y_{(n)}(\pmb X)=log \frac{p_{\hat{\pmb q_{(n+1)}}}(\pmb ...
+Not a real error.
+
+./_region_.tex:211: Preview: Snippet 176 ended.(1001219+635405x7563688).
+<-><->
+      
+l.211 ...\pmb X)}{p_{\hat{\pmb q_{(n)}}}(\pmb X)}$
+                                                    as the log ratio of prob...
+Not a real error.
+
+[176]
+./_region_.tex:211: Preview: Snippet 177 started.
+<-><->
+      
+l.211 ...  as the log ratio of probabililty that $
+                                                  X$ are generated from $\ha...
+Not a real error.
+
+./_region_.tex:211: Preview: Snippet 177 ended.(537395+0x700911).
+<-><->
+      
+l.211 ...as the log ratio of probabililty that $X$
+                                                   are generated from $\hat{...
+Not a real error.
+
+[177]
+./_region_.tex:211: Preview: Snippet 178 started.
+<-><->
+      
+l.211 ...robabililty that $X$ are generated from $
+                                                  \hat{\pmb q_{(n+1)}}(\pmb ...
+Not a real error.
+
+./_region_.tex:211: Preview: Snippet 178 ended.(589824+253407x3185309).
+<-><->
+      
+l.211 ...rated from $\hat{\pmb q_{(n+1)}}(\pmb X)$
+                                                   divided by the probabilit...
+Not a real error.
+
+[178]
+./_region_.tex:211: Preview: Snippet 179 started.
+<-><->
+      
+l.211 ...pmb X)$ divided by the probability that $
+                                                  X$ are generated from $\ha...
+Not a real error.
+
+./_region_.tex:211: Preview: Snippet 179 ended.(537395+0x700911).
+<-><->
+      
+l.211 ...b X)$ divided by the probability that $X$
+                                                   are generated from $\hat{...
+Not a real error.
+
+[179]
+./_region_.tex:211: Preview: Snippet 180 started.
+<-><->
+      
+l.211 ...probability that $X$ are generated from $
+                                                  \hat{\pmb q_{(n)}}(\pmb X)...
+Not a real error.
+
+./_region_.tex:211: Preview: Snippet 180 ended.(589824+253407x2473505).
+<-><->
+      
+l.211 ...nerated from $\hat{\pmb q_{(n)}}(\pmb X)$
+                                                  . Thus, $Y_{(n)}(\pmb X_{\...
+Not a real error.
+
+[180]
+./_region_.tex:211: Preview: Snippet 181 started.
+<-><->
+      
+l.211 ...rom $\hat{\pmb q_{(n)}}(\pmb X)$. Thus, $
+                                                  Y_{(n)}(\pmb X_{\pmb q_{(K...
+Not a real error.
+
+./_region_.tex:211: Preview: Snippet 181 ended.(1001219+635405x9211141).
+<-><->
+      
+l.211 ...t{\pmb q_{(n)}}}(\pmb X_{\pmb q_{(K)}})}$
+                                                   is the log ratio of  $p_{...
+Not a real error.
+
+[181]
+./_region_.tex:211: Preview: Snippet 182 started.
+<-><->
+      
+l.211 ..._{\pmb q_{(K)}})}$ is the log ratio of  $
+                                                  p_{\hat{q_{(n+1)}}}(\pmb X...
+Not a real error.
+
+./_region_.tex:211: Preview: Snippet 182 ended.(589824+330592x4432100).
+<-><->
+      
+l.211 ...{\hat{q_{(n+1)}}}(\pmb X_{\pmb q_{(K)}})$
+                                                   divided by  $p_{\hat{q_{(...
+Not a real error.
+
+[182]
+./_region_.tex:211: Preview: Snippet 183 started.
+<-><->
+      
+l.211 ...}}}(\pmb X_{\pmb q_{(K)}})$ divided by  $
+                                                  p_{\hat{q_{(n)}}}(\pmb X_{...
+Not a real error.
+
+./_region_.tex:211: Preview: Snippet 183 ended.(589824+330592x3824079).
+<-><->
+      
+l.211 ...p_{\hat{q_{(n)}}}(\pmb X_{\pmb q_{(K)}})$
+                                                  .
+Not a real error.
+
+[183]
+./_region_.tex:215: Preview: Snippet 184 started.
+<-><->
+      
+l.215 ...straight-forward. Suppose the real data $
+                                                  \pmb X^*$ has $K^*$ underl...
+Not a real error.
+
+./_region_.tex:215: Preview: Snippet 184 ended.(559240+0x1012209).
+<-><->
+      
+l.215 ...forward. Suppose the real data $\pmb X^*$
+                                                   has $K^*$ underlying grou...
+Not a real error.
+
+[184]
+./_region_.tex:215: Preview: Snippet 185 started.
+<-><->
+      
+l.215 ...d. Suppose the real data $\pmb X^*$ has $
+                                                  K^*$ underlying groups, de...
+Not a real error.
+
+./_region_.tex:215: Preview: Snippet 185 ended.(537395+0x1022906).
+<-><->
+      
+l.215 ...uppose the real data $\pmb X^*$ has $K^*$
+                                                   underlying groups, denote...
+Not a real error.
+
+[185]
+./_region_.tex:215: Preview: Snippet 186 started.
+<-><->
+      
+l.215 ...has $K^*$ underlying groups, denoted as $
+                                                  \pmb q_{(K^*)}^*$. When we...
+Not a real error.
+
+./_region_.tex:215: Preview: Snippet 186 ended.(529330+364722x1626482).
+<-><->
+      
+l.215 ...ing groups, denoted as $\pmb q_{(K^*)}^*$
+                                                  . When we do not know the ...
+Not a real error.
+
+[186]
+./_region_.tex:215: Preview: Snippet 187 started.
+<-><->
+      
+l.215 .... When we do not know the true value of $
+                                                  K_1$, we usually suggest t...
+Not a real error.
+
+./_region_.tex:215: Preview: Snippet 187 ended.(537395+117964x966428).
+<-><->
+      
+l.215 ...en we do not know the true value of $K_1$
+                                                  , we usually suggest the d...
+Not a real error.
+
+[187]
+./_region_.tex:215: Preview: Snippet 188 started.
+<-><->
+      
+l.215 ...we usually suggest the data coming from $
+                                                  K$ groups, then test wheth...
+Not a real error.
+
+./_region_.tex:215: Preview: Snippet 188 ended.(537395+0x711606).
+<-><->
+      
+l.215 ... usually suggest the data coming from $K$
+                                                   groups, then test whether...
+Not a real error.
+
+[188]
+./_region_.tex:215: Preview: Snippet 189 started.
+<-><->
+      
+l.215 ...ming from $K$ groups, then test whether $
+                                                  K$ is appropriate. To cons...
+Not a real error.
+
+./_region_.tex:215: Preview: Snippet 189 ended.(537395+0x711606).
+<-><->
+      
+l.215 ...ng from $K$ groups, then test whether $K$
+                                                   is appropriate. To constr...
+Not a real error.
+
+[189]
+./_region_.tex:215: Preview: Snippet 190 started.
+<-><->
+      
+l.215 ... test, first, estimate the centroids of $
+                                                  K$ groups based on $\pmb X...
+Not a real error.
+
+./_region_.tex:215: Preview: Snippet 190 ended.(537395+0x711606).
+<-><->
+      
+l.215 ...est, first, estimate the centroids of $K$
+                                                   groups based on $\pmb X^*...
+Not a real error.
+
+[190]
+./_region_.tex:215: Preview: Snippet 191 started.
+<-><->
+      
+l.215 ...te the centroids of $K$ groups based on $
+                                                  \pmb X^*$, which is $\hat{...
+Not a real error.
+
+./_region_.tex:215: Preview: Snippet 191 ended.(559240+0x1012209).
+<-><->
+      
+l.215 ...ntroids of $K$ groups based on $\pmb X^*$
+                                                  , which is $\hat{\pmb q_{(...
+Not a real error.
+
+[191]
+./_region_.tex:215: Preview: Snippet 192 started.
+<-><->
+      
+l.215 ...K$ groups based on $\pmb X^*$, which is $
+                                                  \hat{\pmb q_{(K)}}(X^*)$. ...
+Not a real error.
+
+./_region_.tex:215: Preview: Snippet 192 ended.(589824+253407x2953625).
+<-><->
+      
+l.215 ... X^*$, which is $\hat{\pmb q_{(K)}}(X^*)$
+                                                  .  We can assume the real ...
+Not a real error.
+
+[192]
+./_region_.tex:215: Preview: Snippet 193 started.
+<-><->
+      
+l.215 ...ume the real data is a random sample of $
+                                                  \pmb X_{\hat{\pmb q_{(K)}}...
+Not a real error.
+
+./_region_.tex:215: Preview: Snippet 193 ended.(559240+330592x1843144).
+<-><->
+      
+l.215 ...m sample of $\pmb X_{\hat{\pmb q_{(K)}}}$
+                                                  . If $K=K^*$, the real dat...
+Not a real error.
+
+[193]
+./_region_.tex:215: Preview: Snippet 194 started.
+<-><->
+      
+l.215 ...le of $\pmb X_{\hat{\pmb q_{(K)}}}$. If $
+                                                  K=K^*$, the real data is a...
+Not a real error.
+
+./_region_.tex:215: Preview: Snippet 194 ended.(537395+0x2770332).
+<-><->
+      
+l.215 ...$\pmb X_{\hat{\pmb q_{(K)}}}$. If $K=K^*$
+                                                  , the real data is also a ...
+Not a real error.
+
+[194]
+./_region_.tex:215: Preview: Snippet 195 started.
+<-><->
+      
+l.215 ...he real data is also a random sample of $
+                                                  \pmb X_{q_{(K^*)}}$. Under...
+Not a real error.
+
+./_region_.tex:215: Preview: Snippet 195 ended.(559240+331502x2108321).
+<-><->
+      
+l.215 ...o a random sample of $\pmb X_{q_{(K^*)}}$
+                                                  . Under $K=K^*$, let $\pmb...
+Not a real error.
+
+[195]
+./_region_.tex:215: Preview: Snippet 196 started.
+<-><->
+      
+l.215 ...m sample of $\pmb X_{q_{(K^*)}}$. Under $
+                                                  K=K^*$, let $\pmb q_{(K^*)...
+Not a real error.
+
+./_region_.tex:215: Preview: Snippet 196 ended.(537395+0x2770332).
+<-><->
+      
+l.215 ...le of $\pmb X_{q_{(K^*)}}$. Under $K=K^*$
+                                                  , let $\pmb q_{(K^*)}^*= \...
+Not a real error.
+
+[196]
+./_region_.tex:215: Preview: Snippet 197 started.
+<-><->
+      
+l.215 ...\pmb X_{q_{(K^*)}}$. Under $K=K^*$, let $
+                                                  \pmb q_{(K^*)}^*= \hat{\pm...
+Not a real error.
+
+./_region_.tex:215: Preview: Snippet 197 ended.(589824+364722x5615927).
+<-><->
+      
+l.215 ...pmb q_{(K^*)}^*= \hat{\pmb q_{(K)}}(X^*)$
+                                                  , and generate $B$ dataset...
+Not a real error.
+
+[197]
+./_region_.tex:215: Preview: Snippet 198 started.
+<-><->
+      
+l.215 ... \hat{\pmb q_{(K)}}(X^*)$, and generate $
+                                                  B$ datasets based on $\pmb...
+Not a real error.
+
+./_region_.tex:215: Preview: Snippet 198 ended.(537395+0x624680).
+<-><->
+      
+l.215 ...hat{\pmb q_{(K)}}(X^*)$, and generate $B$
+                                                   datasets based on $\pmb q...
+Not a real error.
+
+[198]
+./_region_.tex:215: Preview: Snippet 199 started.
+<-><->
+      
+l.215 ...*)$, and generate $B$ datasets based on $
+                                                  \pmb q_{(K^*)}^*$, denoted...
+Not a real error.
+
+./_region_.tex:215: Preview: Snippet 199 ended.(529330+364722x1626482).
+<-><->
+      
+l.215 ... $B$ datasets based on $\pmb q_{(K^*)}^*$
+                                                  , denoted as $\pmb X_{\pmb...
+Not a real error.
+
+[199]
+./_region_.tex:215: Preview: Snippet 200 started.
+<-><->
+      
+l.215 ...based on $\pmb q_{(K^*)}^*$, denoted as $
+                                                  \pmb X_{\pmb q_{(K^*)}^*}^...
+Not a real error.
+
+./_region_.tex:215: Preview: Snippet 200 ended.(795169+526396x6123846).
+<-><->
+      
+l.215 ...},\cdots,\pmb X_{\pmb q_{(K^*)}^*}^{(B)}$
+                                                  . Calculate $Y_{(K)}(\pmb ...
+Not a real error.
+
+[200]
+./_region_.tex:215: Preview: Snippet 201 started.
+<-><->
+      
+l.215 ... X_{\pmb q_{(K^*)}^*}^{(B)}$. Calculate $
+                                                  Y_{(K)}(\pmb X_{\pmb q_{(K...
+Not a real error.
+
+./_region_.tex:215: Preview: Snippet 201 ended.(795169+526396x8668455).
+<-><->
+      
+l.215 ...X_{\pmb q_{(K^*)}^*}^{(i)}),i=1,\cdots,B$
+                                                   on each smaple data, we g...
+Not a real error.
+
+[201]
+./_region_.tex:215: Preview: Snippet 202 started.
+<-><->
+      
+l.215 ...1,\cdots,B$ on each smaple data, we get $
+                                                  B$ samples from random var...
+Not a real error.
+
+./_region_.tex:215: Preview: Snippet 202 ended.(537395+0x624680).
+<-><->
+      
+l.215 ...\cdots,B$ on each smaple data, we get $B$
+                                                   samples from random varia...
+Not a real error.
+
+[202]
+./_region_.tex:215: Preview: Snippet 203 started.
+<-><->
+      
+l.215 ...we get $B$ samples from random variable $
+                                                  Y_{(K)}(\pmb X_{\pmb q_{(K...
+Not a real error.
+
+./_region_.tex:215: Preview: Snippet 203 ended.(589824+425874x4145688).
+<-><->
+      
+l.215 ...able $Y_{(K)}(\pmb X_{\pmb q_{(K^*)}^*})$
+                                                  . Also calculate $Y_{(K)}(...
+Not a real error.
+
+[203]
+./_region_.tex:215: Preview: Snippet 204 started.
+<-><->
+      
+l.215 ... X_{\pmb q_{(K^*)}^*})$. Also calculate $
+                                                  Y_{(K)}(\pmb X^*)$ based o...
+Not a real error.
+
+./_region_.tex:215: Preview: Snippet 204 ended.(589824+253407x3030765).
+<-><->
+      
+l.215 ...^*})$. Also calculate $Y_{(K)}(\pmb X^*)$
+                                                   based on the real data $\...
+Not a real error.
+
+[204]
+./_region_.tex:215: Preview: Snippet 205 started.
+<-><->
+      
+l.215 ...{(K)}(\pmb X^*)$ based on the real data $
+                                                  \pmb X^*$. Because $\pmb X...
+Not a real error.
+
+./_region_.tex:215: Preview: Snippet 205 ended.(559240+0x1012209).
+<-><->
+      
+l.215 ...b X^*)$ based on the real data $\pmb X^*$
+                                                  . Because $\pmb X^*$ can a...
+Not a real error.
+
+[205]
+./_region_.tex:215: Preview: Snippet 206 started.
+<-><->
+      
+l.215 ...ed on the real data $\pmb X^*$. Because $
+                                                  \pmb X^*$ can also be cons...
+Not a real error.
+
+./_region_.tex:215: Preview: Snippet 206 ended.(559240+0x1012209).
+<-><->
+      
+l.215 ... real data $\pmb X^*$. Because $\pmb X^*$
+                                                   can also be considered as...
+Not a real error.
+
+[206]
+./_region_.tex:215: Preview: Snippet 207 started.
+<-><->
+      
+l.215 ...$ can also be considered as a sample of $
+                                                  \pmb X_{\pmb q^*_{(K^*)}}$...
+Not a real error.
+
+./_region_.tex:215: Preview: Snippet 207 ended.(559240+425874x2127132).
+<-><->
+      
+l.215 ...s a sample of $\pmb X_{\pmb q^*_{(K^*)}}$
+                                                  , intuitively, $Y_{(K)}(\p...
+Not a real error.
+
+[207]
+./_region_.tex:215: Preview: Snippet 208 started.
+<-><->
+      
+l.215 ...pmb X_{\pmb q^*_{(K^*)}}$, intuitively, $
+                                                  Y_{(K)}(\pmb X^*)$ should ...
+Not a real error.
+
+./_region_.tex:215: Preview: Snippet 208 ended.(589824+253407x3030765).
+<-><->
+      
+l.215 ...K^*)}}$, intuitively, $Y_{(K)}(\pmb X^*)$
+                                                   should be as similar as $...
+Not a real error.
+
+[208]
+./_region_.tex:215: Preview: Snippet 209 started.
+<-><->
+      
+l.215 ...(K)}(\pmb X^*)$ should be as similar as $
+                                                  Y_{(K)}(\pmb X_{\pmb q_{(K...
+Not a real error.
+
+./_region_.tex:215: Preview: Snippet 209 ended.(795169+526396x8668455).
+<-><->
+      
+l.215 ...X_{\pmb q_{(K^*)}^*}^{(i)}),i=1,\cdots,B$
+                                                  , which means  $Y_{(K)}(\p...
+Not a real error.
+
+[209]
+./_region_.tex:215: Preview: Snippet 210 started.
+<-><->
+      
+l.215 ...}^*}^{(i)}),i=1,\cdots,B$, which means  $
+                                                  Y_{(K)}(\pmb X^*)$ should ...
+Not a real error.
+
+./_region_.tex:215: Preview: Snippet 210 ended.(589824+253407x3030765).
+<-><->
+      
+l.215 ...dots,B$, which means  $Y_{(K)}(\pmb X^*)$
+                                                   should not be larger or s...
+Not a real error.
+
+[210]
+./_region_.tex:215: Preview: Snippet 211 started.
+<-><->
+      
+l.215 ... be larger or smaller than most of the  $
+                                                  Y_{(K)}(\pmb X_{\pmb q_{(K...
+Not a real error.
+
+./_region_.tex:215: Preview: Snippet 211 ended.(795169+526396x4145688).
+<-><->
+      
+l.215 ...Y_{(K)}(\pmb X_{\pmb q_{(K^*)}^*}^{(i)})$
+                                                  . For example, if $Y_{(K)}...
+Not a real error.
+
+[211]
+./_region_.tex:215: Preview: Snippet 212 started.
+<-><->
+      
+l.215 ...b q_{(K^*)}^*}^{(i)})$. For example, if $
+                                                  Y_{(K)}(\pmb X^*) \geq Y_{...
+Not a real error.
+
+./_region_.tex:215: Preview: Snippet 212 ended.(795169+526396x13184699).
+<-><->
+      
+l.215 ...q_{(K^*)}^*}^{(i)}),\forall i=1,\cdots,B$
+                                                  , we cannot think $Y_{(K)}...
+Not a real error.
+
+[212]
+./_region_.tex:215: Preview: Snippet 213 started.
+<-><->
+      
+l.215 ...,\forall i=1,\cdots,B$, we cannot think $
+                                                  Y_{(K)}(\pmb X^*)$ is a sa...
+Not a real error.
+
+./_region_.tex:215: Preview: Snippet 213 ended.(589824+253407x3030765).
+<-><->
+      
+l.215 ...s,B$, we cannot think $Y_{(K)}(\pmb X^*)$
+                                                   is a sample of $Y_{(K)}(\...
+Not a real error.
+
+[213]
+./_region_.tex:215: Preview: Snippet 214 started.
+<-><->
+      
+l.215 ...hink $Y_{(K)}(\pmb X^*)$ is a sample of $
+                                                  Y_{(K)}(\pmb X_{\pmb q_{(K...
+Not a real error.
+
+./_region_.tex:215: Preview: Snippet 214 ended.(589824+425874x4145688).
+<-><->
+      
+l.215 ...e of $Y_{(K)}(\pmb X_{\pmb q_{(K^*)}^*})$
+                                                  . So if the strong evidenc...
+Not a real error.
+
+[214]
+./_region_.tex:215: Preview: Snippet 215 started.
+<-><->
+      
+l.215 ...$. So if the strong evidence shows that $
+                                                  Y_{(K)}(\pmb X^*)$ has a l...
+Not a real error.
+
+./_region_.tex:215: Preview: Snippet 215 ended.(589824+253407x3030765).
+<-><->
+      
+l.215 ...g evidence shows that $Y_{(K)}(\pmb X^*)$
+                                                   has a low chance being a ...
+Not a real error.
+
+[215]
+./_region_.tex:215: Preview: Snippet 216 started.
+<-><->
+      
+l.215 ...^*)$ has a low chance being a sample of $
+                                                  Y_{(K)}(\pmb X_{\pmb q_{(K...
+Not a real error.
+
+./_region_.tex:215: Preview: Snippet 216 ended.(589824+425874x4145688).
+<-><->
+      
+l.215 ...e of $Y_{(K)}(\pmb X_{\pmb q_{(K^*)}^*})$
+                                                  , we reject the hypothesis...
+Not a real error.
+
+[216]
+./_region_.tex:215: Preview: Snippet 217 started.
+<-><->
+      
+l.215 ...*)}^*})$, we reject the hypothesis that $
+                                                  K^*=K$. Now we introduce t...
+Not a real error.
+
+./_region_.tex:215: Preview: Snippet 217 ended.(537395+0x2770332).
+<-><->
+      
+l.215 ...)$, we reject the hypothesis that $K^*=K$
+                                                  . Now we introduce two met...
+Not a real error.
+
+[217]
+./_region_.tex:215: Preview: Snippet 218 started.
+<-><->
+      
+l.215 ...e introduce two methods to test whether $
+                                                  Y_{(K)}(\pmb X^*)$ can be ...
+Not a real error.
+
+./_region_.tex:215: Preview: Snippet 218 ended.(589824+253407x3030765).
+<-><->
+      
+l.215 ...thods to test whether $Y_{(K)}(\pmb X^*)$
+                                                   can be considered as a sa...
+Not a real error.
+
+[218]
+./_region_.tex:215: Preview: Snippet 219 started.
+<-><->
+      
+l.215 ...^*)$ can be considered as a sample from $
+                                                  Y_{(K)}(\pmb X_{\pmb q_{(K...
+Not a real error.
+
+./_region_.tex:215: Preview: Snippet 219 ended.(589824+425874x4145688).
+<-><->
+      
+l.215 ...from $Y_{(K)}(\pmb X_{\pmb q_{(K^*)}^*})$
+                                                   or not. First way is very...
+Not a real error.
+
+[219]
+./_region_.tex:220: Preview: Snippet 220 started.
+<-><->
+      
+l.220 \item Denote $
+                    T_1=\Sigma_{i=1}^B \pmb 1(Y_{(K)}(\pmb X^*) \geq Y_{(K)}...
+Not a real error.
+
+./_region_.tex:220: Preview: Snippet 220 ended.(795169+526396x12497781).
+<-><->
+      
+l.220 ..._{(K)}(\pmb X_{\pmb q_{(K^*)}^*}^{(i)}))$
+                                                  ,$T_1=\Sigma_{i=1}^B \pmb ...
+Not a real error.
+
+[220]
+./_region_.tex:220: Preview: Snippet 221 started.
+<-><->
+      
+l.220 ...(K)}(\pmb X_{\pmb q_{(K^*)}^*}^{(i)}))$,$
+                                                  T_1=\Sigma_{i=1}^B \pmb 1(...
+Not a real error.
+
+./_region_.tex:220: Preview: Snippet 221 ended.(795169+526396x12497781).
+<-><->
+      
+l.220 ..._{(K)}(\pmb X_{\pmb q_{(K^*)}^*}^{(i)}))$
+                                                   where $\pmb 1(.)$ is the ...
+Not a real error.
+
+[221]
+./_region_.tex:220: Preview: Snippet 222 started.
+<-><->
+      
+l.220 ...pmb X_{\pmb q_{(K^*)}^*}^{(i)}))$ where $
+                                                  \pmb 1(.)$ is the indicato...
+Not a real error.
+
+./_region_.tex:220: Preview: Snippet 222 ended.(589824+196608x1197838).
+<-><->
+      
+l.220 ...b q_{(K^*)}^*}^{(i)}))$ where $\pmb 1(.)$
+                                                   is the indicator function...
+Not a real error.
+
+[222]
+./_region_.tex:220: Preview: Snippet 223 started.
+<-><->
+      
+l.220 ...mb 1(.)$ is the indicator function. Let $
+                                                  T=\frac{max\{T_1,T_2\}}{B}...
+Not a real error.
+
+./_region_.tex:220: Preview: Snippet 223 ended.(768080+271194x4760151).
+<-><->
+      
+l.220 ...unction. Let $T=\frac{max\{T_1,T_2\}}{B}$
+                                                  , when $T$ is close to $1$...
+Not a real error.
+
+[223]
+./_region_.tex:220: Preview: Snippet 224 started.
+<-><->
+      
+l.220 ... Let $T=\frac{max\{T_1,T_2\}}{B}$, when $
+                                                  T$ is close to $1$, it mea...
+Not a real error.
+
+./_region_.tex:220: Preview: Snippet 224 ended.(537395+0x558279).
+<-><->
+      
+l.220 ...et $T=\frac{max\{T_1,T_2\}}{B}$, when $T$
+                                                   is close to $1$, it means...
+Not a real error.
+
+[224]
+./_region_.tex:220: Preview: Snippet 225 started.
+<-><->
+      
+l.220 ...x\{T_1,T_2\}}{B}$, when $T$ is close to $
+                                                  1$, it means either  $\pmb...
+Not a real error.
+
+./_region_.tex:220: Preview: Snippet 225 ended.(506811+0x385020).
+<-><->
+      
+l.220 ...{T_1,T_2\}}{B}$, when $T$ is close to $1$
+                                                  , it means either  $\pmb Y...
+Not a real error.
+
+[225]
+./_region_.tex:220: Preview: Snippet 226 started.
+<-><->
+      
+l.220 ...n $T$ is close to $1$, it means either  $
+                                                  \pmb Y_{(K)}(\pmb X^*)$ is...
+Not a real error.
+
+./_region_.tex:220: Preview: Snippet 226 ended.(589824+253407x3201883).
+<-><->
+      
+l.220 ...it means either  $\pmb Y_{(K)}(\pmb X^*)$
+                                                   is greater or smaller tha...
+Not a real error.
+
+[226]
+./_region_.tex:220: Preview: Snippet 227 started.
+<-><->
+      
+l.220 ...*)$ is greater or smaller than most of  $
+                                                  Y_{(K)}(\pmb X_{\pmb q_{(K...
+Not a real error.
+
+./_region_.tex:220: Preview: Snippet 227 ended.(795169+526396x8668455).
+<-><->
+      
+l.220 ...X_{\pmb q_{(K^*)}^*}^{(i)}),i=1,\cdots,B$
+                                                  , which can be considered ...
+Not a real error.
+
+[227]
+./_region_.tex:220: Preview: Snippet 228 started.
+<-><->
+      
+l.220 ...Usually,for simplicity, when we observe $
+                                                  T \geq 0.95$, we reject  $...
+Not a real error.
+
+./_region_.tex:220: Preview: Snippet 228 ended.(537395+106932x2975810).
+<-><->
+      
+l.220 ...simplicity, when we observe $T \geq 0.95$
+                                                  , we reject  $K_1=K$.
+Not a real error.
+
+[228]
+./_region_.tex:220: Preview: Snippet 229 started.
+<-><->
+      
+l.220 ...en we observe $T \geq 0.95$, we reject  $
+                                                  K_1=K$.
+Not a real error.
+
+./_region_.tex:220: Preview: Snippet 229 ended.(537395+117964x2713854).
+<-><->
+      
+l.220 ...observe $T \geq 0.95$, we reject  $K_1=K$
+                                                  .
+Not a real error.
+
+[229]
+./_region_.tex:222: Preview: Snippet 230 started.
+<-><->
+      
+l.222 ... resampling method on the original data $
+                                                  \pmb X^*$ to get new datas...
+Not a real error.
+
+./_region_.tex:222: Preview: Snippet 230 ended.(559240+0x1012209).
+<-><->
+      
+l.222 ...ng method on the original data $\pmb X^*$
+                                                   to get new datasets simil...
+Not a real error.
+
+[230]
+./_region_.tex:222: Preview: Snippet 231 started.
+<-><->
+      
+l.222 ...pmb X^*$ to get new datasets similar as $
+                                                  \pmb X^*$, the basic idea ...
+Not a real error.
+
+./_region_.tex:222: Preview: Snippet 231 ended.(559240+0x1012209).
+<-><->
+      
+l.222 ...to get new datasets similar as $\pmb X^*$
+                                                  , the basic idea is motiva...
+Not a real error.
+
+[231]
+
+Package natbib Warning: Citation `efron1994introduction' on page 17 undefined on input line 222.
+
+./_region_.tex:222: Preview: Snippet 232 started.
+<-><->
+      
+l.222 ...mpled data. The procedure of resampling $
+                                                  \pmb X^*$ is just sampling...
+Not a real error.
+
+./_region_.tex:222: Preview: Snippet 232 ended.(559240+0x1012209).
+<-><->
+      
+l.222 ...a. The procedure of resampling $\pmb X^*$
+                                                   is just sampling from its...
+Not a real error.
+
+[232]
+./_region_.tex:222: Preview: Snippet 233 started.
+<-><->
+      
+l.222 ...X^*$ is just sampling from its elements $
+                                                  (\pmb X_1^*,\cdots,\pmb X_...
+Not a real error.
+
+./_region_.tex:222: Preview: Snippet 233 ended.(589824+196608x4707128).
+<-><->
+      
+l.222 ...elements $(\pmb X_1^*,\cdots,\pmb X_m^*)$
+                                                   with equal probability an...
+Not a real error.
+
+[233]
+./_region_.tex:222: Preview: Snippet 234 started.
+<-><->
+      
+l.222 ...ual probability and rearrange them from $
+                                                  1,\cdots,m$. Suppose we re...
+Not a real error.
+
+./_region_.tex:222: Preview: Snippet 234 ended.(506811+152916x2928159).
+<-><->
+      
+l.222 ...lity and rearrange them from $1,\cdots,m$
+                                                  . Suppose we resample $B$ ...
+Not a real error.
+
+[234]
+./_region_.tex:222: Preview: Snippet 235 started.
+<-><->
+      
+l.222 ... from $1,\cdots,m$. Suppose we resample $
+                                                  B$ times based on $\pmb X^...
+Not a real error.
+
+./_region_.tex:222: Preview: Snippet 235 ended.(537395+0x624680).
+<-><->
+      
+l.222 ...rom $1,\cdots,m$. Suppose we resample $B$
+                                                   times based on $\pmb X^*$...
+Not a real error.
+
+[235]
+./_region_.tex:222: Preview: Snippet 236 started.
+<-><->
+      
+l.222 ... Suppose we resample $B$ times based on $
+                                                  \pmb X^*$, the $i^{th}$ re...
+Not a real error.
+
+./_region_.tex:222: Preview: Snippet 236 ended.(559240+0x1012209).
+<-><->
+      
+l.222 ...we resample $B$ times based on $\pmb X^*$
+                                                  , the $i^{th}$ resampled d...
+Not a real error.
+
+[236]
+./_region_.tex:222: Preview: Snippet 237 started.
+<-><->
+      
+l.222 ...mple $B$ times based on $\pmb X^*$, the $
+                                                  i^{th}$ resampled data can...
+Not a real error.
+
+./_region_.tex:222: Preview: Snippet 237 ended.(649479+0x817634).
+<-><->
+      
+l.222 ...$ times based on $\pmb X^*$, the $i^{th}$
+                                                   resampled data can be wri...
+Not a real error.
+
+[237]
+./_region_.tex:222: Preview: Snippet 238 started.
+<-><->
+      
+l.222 ...{th}$ resampled data can be written as  $
+                                                  \pmb X^{*^{(i)}}=(\pmb X_1...
+Not a real error.
+
+./_region_.tex:222: Preview: Snippet 238 ended.(765332+196608x12823618).
+<-><->
+      
+l.222 ...,\cdots,\pmb X_m^{*^{(i)}}),i=1,\cdots,B$
+                                                  , where $\pmb X_j^{*^{(i)}...
+Not a real error.
+
+[238]
+./_region_.tex:222: Preview: Snippet 239 started.
+<-><->
+      
+l.222 ...pmb X_m^{*^{(i)}}),i=1,\cdots,B$, where $
+                                                  \pmb X_j^{*^{(i)}} \in \pm...
+Not a real error.
+
+./_region_.tex:222: Preview: Snippet 239 ended.(765332+296364x9392720).
+<-><->
+      
+l.222 ...in \pmb X^*,\forall j \in \{1,\cdots,m\}$
+                                                  . After we get the resampl...
+Not a real error.
+
+[239]
+./_region_.tex:222: Preview: Snippet 240 started.
+<-><->
+      
+l.222 ... get the resampled data, we can compute $
+                                                  Y_{(K)}(\pmb X^{*^{(i)}}),...
+Not a real error.
+
+./_region_.tex:222: Preview: Snippet 240 ended.(765332+253407x8140166).
+<-><->
+      
+l.222 ... $Y_{(K)}(\pmb X^{*^{(i)}}),i=1,\cdots,B$
+                                                   as the resampled data fro...
+Not a real error.
+
+[240]
+./_region_.tex:222: Preview: Snippet 241 started.
+<-><->
+      
+l.222 ...=1,\cdots,B$ as the resampled data from $
+                                                  Y_{(K)}(\pmb X^*)$. Now we...
+Not a real error.
+
+./_region_.tex:222: Preview: Snippet 241 ended.(589824+253407x3030765).
+<-><->
+      
+l.222 ...e resampled data from $Y_{(K)}(\pmb X^*)$
+                                                  . Now we have two sequence...
+Not a real error.
+
+[241]
+./_region_.tex:222: Preview: Snippet 242 started.
+<-><->
+      
+l.222 ...we have two sequence of samples, one is $
+                                                  Y_{(K)}(\pmb X_{\pmb q_{(K...
+Not a real error.
+
+./_region_.tex:222: Preview: Snippet 242 ended.(795169+526396x8668455).
+<-><->
+      
+l.222 ...X_{\pmb q_{(K^*)}^*}^{(i)}),i=1,\cdots,B$
+                                                  , which are $B$ random sam...
+Not a real error.
+
+[242]
+./_region_.tex:222: Preview: Snippet 243 started.
+<-><->
+      
+l.222 ...^*)}^*}^{(i)}),i=1,\cdots,B$, which are $
+                                                  B$ random samples of $Y_{(...
+Not a real error.
+
+./_region_.tex:222: Preview: Snippet 243 ended.(537395+0x624680).
+<-><->
+      
+l.222 ...)}^*}^{(i)}),i=1,\cdots,B$, which are $B$
+                                                   random samples of $Y_{(K)...
+Not a real error.
+
+[243]
+./_region_.tex:222: Preview: Snippet 244 started.
+<-><->
+      
+l.222 ...ots,B$, which are $B$ random samples of $
+                                                  Y_{(K)}(\pmb X_{\pmb q_{(K...
+Not a real error.
+
+./_region_.tex:222: Preview: Snippet 244 ended.(589824+425874x4145688).
+<-><->
+      
+l.222 ...s of $Y_{(K)}(\pmb X_{\pmb q_{(K^*)}^*})$
+                                                  , the other is  $Y_{(K)}(\...
+Not a real error.
+
+[244]
+./_region_.tex:222: Preview: Snippet 245 started.
+<-><->
+      
+l.222 ...b X_{\pmb q_{(K^*)}^*})$, the other is  $
+                                                  Y_{(K)}(\pmb X^{*^{(i)}}),...
+Not a real error.
+
+./_region_.tex:222: Preview: Snippet 245 ended.(765332+253407x8140166).
+<-><->
+      
+l.222 ... $Y_{(K)}(\pmb X^{*^{(i)}}),i=1,\cdots,B$
+                                                   , which are $B$ bootstrap...
+Not a real error.
+
+[245]
+./_region_.tex:222: Preview: Snippet 246 started.
+<-><->
+      
+l.222 ... X^{*^{(i)}}),i=1,\cdots,B$ , which are $
+                                                  B$ bootstrap samples of $Y...
+Not a real error.
+
+./_region_.tex:222: Preview: Snippet 246 ended.(537395+0x624680).
+<-><->
+      
+l.222 ...^{*^{(i)}}),i=1,\cdots,B$ , which are $B$
+                                                   bootstrap samples of $Y_{...
+Not a real error.
+
+[246]
+./_region_.tex:222: Preview: Snippet 247 started.
+<-><->
+      
+l.222 ...B$ , which are $B$ bootstrap samples of $
+                                                  Y_{(K)}(X^*)$. If $K^*=K$,...
+Not a real error.
+
+./_region_.tex:222: Preview: Snippet 247 ended.(589824+253407x3030767).
+<-><->
+      
+l.222 ...e $B$ bootstrap samples of $Y_{(K)}(X^*)$
+                                                  . If $K^*=K$, the two sequ...
+Not a real error.
+
+[247]
+./_region_.tex:222: Preview: Snippet 248 started.
+<-><->
+      
+l.222 ...bootstrap samples of $Y_{(K)}(X^*)$. If $
+                                                  K^*=K$, the two sequence o...
+Not a real error.
+
+./_region_.tex:222: Preview: Snippet 248 ended.(537395+0x2770332).
+<-><->
+      
+l.222 ...rap samples of $Y_{(K)}(X^*)$. If $K^*=K$
+                                                  , the two sequence of samp...
+Not a real error.
+
+[248]
+
+Package natbib Warning: Citation `wilcoxon1945individual' on page 17 undefined on input line 222.
+
+./_region_.tex:222: Preview: Snippet 249 started.
+<-><->
+      
+l.222 ... same distribution, the assumption that $
+                                                  K_1=K$ is also rejected.
+Not a real error.
+
+./_region_.tex:222: Preview: Snippet 249 ended.(537395+117964x2713854).
+<-><->
+      
+l.222 ...distribution, the assumption that $K_1=K$
+                                                   is also rejected.
+Not a real error.
+
+[249]
+./_region_.tex:228: Preview: Snippet 250 started.
+<-><->
+      
+l.228 \item Usually, we set $
+                             B=1000$ to guarantee the sample size is large e...
+Not a real error.
+
+./_region_.tex:228: Preview: Snippet 250 ended.(537395+0x3200580).
+<-><->
+      
+l.228 \item Usually, we set $B=1000$
+                                     to guarantee the sample size is large e...
+Not a real error.
+
+[250]
+./_region_.tex:228: Preview: Snippet 251 started.
+<-><->
+      
+l.228 ...g the properties of the random variable $
+                                                  Y_{(K)}(\pmb X)$.
+Not a real error.
+
+./_region_.tex:228: Preview: Snippet 251 ended.(589824+253407x2719465).
+<-><->
+      
+l.228 ... of the random variable $Y_{(K)}(\pmb X)$
+                                                  .
+Not a real error.
+
+[251]
+./_region_.tex:229: Preview: Snippet 252 started.
+<-><->
+      
+l.229 \item In simulation study, when $
+                                       K<K^*$, $Y_{(K)}(\pmb X^*)$ is usuall...
+Not a real error.
+
+./_region_.tex:229: Preview: Snippet 252 ended.(537395+20972x2770332).
+<-><->
+      
+l.229 \item In simulation study, when $K<K^*$
+                                             , $Y_{(K)}(\pmb X^*)$ is usuall...
+Not a real error.
+
+[252]
+./_region_.tex:229: Preview: Snippet 253 started.
+<-><->
+      
+l.229 \item In simulation study, when $K<K^*$, $
+                                                Y_{(K)}(\pmb X^*)$ is usuall...
+Not a real error.
+
+./_region_.tex:229: Preview: Snippet 253 ended.(589824+253407x3030765).
+<-><->
+      
+l.229 ... study, when $K<K^*$, $Y_{(K)}(\pmb X^*)$
+                                                   is usually much larger th...
+Not a real error.
+
+[253]
+./_region_.tex:229: Preview: Snippet 254 started.
+<-><->
+      
+l.229 ...usually much larger than the samples of $
+                                                  Y_{(K)}(\pmb X_{\pmb q_{(K...
+Not a real error.
+
+./_region_.tex:229: Preview: Snippet 254 ended.(678606+425874x9324153).
+<-><->
+      
+l.229 ...X_{\pmb q_{(K^*)}^*})^{(i)},i=1,\cdots,B$
+                                                   . For example, suppose ou...
+Not a real error.
+
+[254]
+./_region_.tex:229: Preview: Snippet 255 started.
+<-><->
+      
+l.229 ...enerated from two groups with centroids $
+                                                  (250,100,300)$ and $(250,1...
+Not a real error.
+
+./_region_.tex:229: Preview: Snippet 255 ended.(589824+196608x4754040).
+<-><->
+      
+l.229 ...two groups with centroids $(250,100,300)$
+                                                   and $(250,100,150)$ respe...
+Not a real error.
+
+[255]
+./_region_.tex:229: Preview: Snippet 256 started.
+<-><->
+      
+l.229 ...oups with centroids $(250,100,300)$ and $
+                                                  (250,100,150)$ respectivel...
+Not a real error.
+
+./_region_.tex:229: Preview: Snippet 256 ended.(589824+196608x4754040).
+<-><->
+      
+l.229 ...roids $(250,100,300)$ and $(250,100,150)$
+                                                   respectively, thus $K^*=2...
+Not a real error.
+
+[256]
+./_region_.tex:229: Preview: Snippet 257 started.
+<-><->
+      
+l.229 ... and $(250,100,150)$ respectively, thus $
+                                                  K^*=2$. When $K=1<K^*$, pe...
+Not a real error.
+
+./_region_.tex:229: Preview: Snippet 257 ended.(537395+0x2443746).
+<-><->
+      
+l.229 ...(250,100,150)$ respectively, thus $K^*=2$
+                                                  . When $K=1<K^*$, perform ...
+Not a real error.
+
+[257]
+./_region_.tex:229: Preview: Snippet 258 started.
+<-><->
+      
+l.229 ...,150)$ respectively, thus $K^*=2$. When $
+                                                  K=1<K^*$, perform the test...
+Not a real error.
+
+./_region_.tex:229: Preview: Snippet 258 ended.(537395+20972x4191172).
+<-><->
+      
+l.229 ...espectively, thus $K^*=2$. When $K=1<K^*$
+                                                  , perform the test procedu...
+Not a real error.
+
+[258]
+
+LaTeX Warning: Reference `fig:sample_distribution' on page 18 undefined on input line 229.
+
+./_region_.tex:229: Preview: Snippet 259 started.
+<-><->
+      
+l.229 ...ution} shows the sample distribution of $
+                                                  Y_{(K)}(\pmb X_{\hat{\pmb ...
+Not a real error.
+
+./_region_.tex:229: Preview: Snippet 259 ended.(589824+334963x4887803).
+<-><->
+      
+l.229 ...}(\pmb X_{\hat{\pmb q_{(1)}}(\pmb X^*)})$
+                                                   and the bootstrap samples...
+Not a real error.
+
+[259]
+./_region_.tex:229: Preview: Snippet 260 started.
+<-><->
+      
+l.229 ...mb X^*)})$ and the bootstrap samples of $
+                                                  Y_{(K)}(\pmb X^*)$. Based ...
+Not a real error.
+
+./_region_.tex:229: Preview: Snippet 260 ended.(589824+253407x3030765).
+<-><->
+      
+l.229 ... bootstrap samples of $Y_{(K)}(\pmb X^*)$
+                                                  . Based on Wilcoxon rank-s...
+Not a real error.
+
+[260]
+./_region_.tex:229: Preview: Snippet 261 started.
+<-><->
+      
+l.229 ...oxon rank-sum test, the assumption that $
+                                                  K^*=1$ is rejected.
+Not a real error.
+
+./_region_.tex:229: Preview: Snippet 261 ended.(537395+0x2443746).
+<-><->
+      
+l.229 ...ank-sum test, the assumption that $K^*=1$
+                                                   is rejected.
+Not a real error.
+
+[261]
+./_region_.tex:233: Preview: Snippet 262 started.
+<-><->
+      
+l.233 \begin{figure}
+                     [htp]
+Not a real error.
+
+Package epstopdf Info: Source file: <./figure/sample_distribution.eps>
+(epstopdf)                    date: 2018-03-18 20:17:44
+(epstopdf)                    size: 101788 bytes
+(epstopdf)             Output file: <./figure/sample_distribution-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-03-18 20:18:01
+(epstopdf)                    size: 11351 bytes
+(epstopdf)             Command: <repstopdf --outfile=./figure/sample_distribution-eps-converted-to.pdf ./figure/sample_distribution.eps>
+(epstopdf)             \includegraphics on input line 234.
+Package epstopdf Info: Output file is already uptodate.
+<./figure/sample_distribution-eps-converted-to.pdf, id=856, 1267.73625pt x 459.7175pt>
+File: ./figure/sample_distribution-eps-converted-to.pdf Graphic file (type pdf)
+ <use ./figure/sample_distribution-eps-converted-to.pdf>
+Package pdftex.def Info: ./figure/sample_distribution-eps-converted-to.pdf used on input line 234.
+(pdftex.def)             Requested size: 389.99585pt x 329.12341pt.
+
+./_region_.tex:238: Preview: Snippet 262 ended.(22312172+0x25559040).
+<-><->
+      
+l.238 \end{figure}
+                   % truncate the kernal fitting
+Not a real error.
+
+[262
+
+
+ <./figure/sample_distribution-eps-converted-to.pdf>]
+./_region_.tex:241: Preview: Snippet 263 started.
+<-><->
+      
+l.241 ..., we already know how to assess whether $
+                                                  K$ clusters is appropriate...
+Not a real error.
+
+./_region_.tex:241: Preview: Snippet 263 ended.(537395+0x711606).
+<-><->
+      
+l.241 ...we already know how to assess whether $K$
+                                                   clusters is appropriate f...
+Not a real error.
+
+[263]
+./_region_.tex:241: Preview: Snippet 264 started.
+<-><->
+      
+l.241 ...K$ clusters is appropriate for the data $
+                                                  X*$. Then we begin our sea...
+Not a real error.
+
+./_region_.tex:241: Preview: Snippet 264 ended.(537395+0x1094128).
+<-><->
+      
+l.241 ...clusters is appropriate for the data $X*$
+                                                  . Then we begin our search...
+Not a real error.
+
+[264]
+./_region_.tex:247: Preview: Snippet 265 started.
+<-><->
+      
+l.247 \item Testing $
+                     K^*=K$ using either of the method mentioned above, if t...
+Not a real error.
+
+./_region_.tex:247: Preview: Snippet 265 ended.(537395+0x2770332).
+<-><->
+      
+l.247 \item Testing $K^*=K$
+                            using either of the method mentioned above, if t...
+Not a real error.
+
+[265]
+./_region_.tex:247: Preview: Snippet 266 started.
+<-><->
+      
+l.247 ...od mentioned above, if the test rejects $
+                                                  K^*=K$, set $K=K+1$. Other...
+Not a real error.
+
+./_region_.tex:247: Preview: Snippet 266 ended.(537395+0x2770332).
+<-><->
+      
+l.247 ...tioned above, if the test rejects $K^*=K$
+                                                  , set $K=K+1$. Otherwise, ...
+Not a real error.
+
+[266]
+./_region_.tex:247: Preview: Snippet 267 started.
+<-><->
+      
+l.247 ...above, if the test rejects $K^*=K$, set $
+                                                  K=K+1$. Otherwise, accept ...
+Not a real error.
+
+./_region_.tex:247: Preview: Snippet 267 ended.(537395+60072x3792492).
+<-><->
+      
+l.247 ... if the test rejects $K^*=K$, set $K=K+1$
+                                                  . Otherwise, accept the as...
+Not a real error.
+
+[267]
+./_region_.tex:247: Preview: Snippet 268 started.
+<-><->
+      
+l.247 .... Otherwise, accept the assumption that $
+                                                  K^*=K$
+Not a real error.
+
+./_region_.tex:247: Preview: Snippet 268 ended.(537395+0x2770332).
+<-><->
+      
+l.247 ...rwise, accept the assumption that $K^*=K$
+                                                  
+Not a real error.
+
+[268]
+./_region_.tex:253: Preview: Snippet 269 started.
+<-><->
+      
+l.253 ...ive. For example, if the assuption that $
+                                                  K=2$ is not rejected, we w...
+Not a real error.
+
+./_region_.tex:253: Preview: Snippet 269 ended.(537395+0x2132446).
+<-><->
+      
+l.253 ... For example, if the assuption that $K=2$
+                                                   is not rejected, we will ...
+Not a real error.
+
+[269]
+./_region_.tex:253: Preview: Snippet 270 started.
+<-><->
+      
+l.253 ...ssible that the data are generated from $
+                                                  K \geq 2$ clusters.
+Not a real error.
+
+./_region_.tex:253: Preview: Snippet 270 ended.(537395+106932x2145197).
+<-><->
+      
+l.253 ...at the data are generated from $K \geq 2$
+                                                   clusters.
+Not a real error.
+
+[270]
+./_region_.tex:261: Preview: Snippet 271 started.
+<-><->
+      
+l.261 \section
+              {Simulation Studies}\label{sec:simulation}
+Not a real error.
+
+./_region_.tex:261: Preview: Snippet 271 ended.(786431+0x25559040).
+<-><->
+      
+l.261 \section{Simulation Studies}
+                                  \label{sec:simulation}
+Not a real error.
+
+[271
+
+]
+
+LaTeX Warning: Reference `sec:models.kmean' on page 19 undefined on input line 262.
+
+
+Package natbib Warning: Citation `Klein1984' on page 19 undefined on input line 262.
+
+./_region_.tex:262: Preview: Snippet 272 started.
+<-><->
+      
+l.262 ...llows. Given the ordered time to events $
+                                                  T_0=t_0=0, ~T_1=t_1, ~\cdo...
+Not a real error.
+
+./_region_.tex:262: Preview: Snippet 272 ended.(537395+152916x11522211).
+<-><->
+      
+l.262 ...0=t_0=0, ~T_1=t_1, ~\cdots, ~T_{i}=t_{i}$
+                                                  , the cumulative density f...
+Not a real error.
+
+[272]
+./_region_.tex:262: Preview: Snippet 273 started.
+<-><->
+      
+l.262 ...umulative density function (CDF) of the $
+                                                  (i+1)^{th}$ inter-event ti...
+Not a real error.
+
+./_region_.tex:262: Preview: Snippet 273 ended.(649479+196608x2750014).
+<-><->
+      
+l.262 ...ensity function (CDF) of the $(i+1)^{th}$
+                                                   inter-event time $X_{i+1}...
+Not a real error.
+
+[273]
+./_region_.tex:262: Preview: Snippet 274 started.
+<-><->
+      
+l.262 ...F) of the $(i+1)^{th}$ inter-event time $
+                                                  X_{i+1}=T_{i+1}-T_{i}$ for...
+Not a real error.
+
+./_region_.tex:262: Preview: Snippet 274 ended.(537395+172580x5629639).
+<-><->
+      
+l.262 ... inter-event time $X_{i+1}=T_{i+1}-T_{i}$
+                                                   for each individual is:
+Not a real error.
+
+[274]
+./_region_.tex:263: Preview: Snippet 275 started.
+<-><->
+      
+l.263 \begin{equation}
+                      \label{eqn:Ft}
+Not a real error.
+
+./_region_.tex:268: Preview: Snippet 275 ended.(3997696+0x25559040).
+<-><->
+      
+l.268 \end{equation}
+                    
+Not a real error.
+
+[275
+
+]
+./_region_.tex:269: Preview: Snippet 276 started.
+<-><->
+      
+l.269 where  $
+              \varLambda(\cdot)$ is the cumulative intensity function of the...
+Not a real error.
+
+./_region_.tex:269: Preview: Snippet 276 ended.(589824+196608x1351851).
+<-><->
+      
+l.269 where  $\varLambda(\cdot)$
+                                 is the cumulative intensity function of the...
+Not a real error.
+
+[276]
+./_region_.tex:269: Preview: Snippet 277 started.
+<-><->
+      
+l.269 ...ve intensity function of the NHPP. Then $
+                                                  t_{i+1}=x_{i+1}+t_i$.
+Not a real error.
+
+./_region_.tex:269: Preview: Snippet 277 ended.(483719+172580x5068872).
+<-><->
+      
+l.269 ...n of the NHPP. Then $t_{i+1}=x_{i+1}+t_i$
+                                                  .
+Not a real error.
+
+[277]
+./_region_.tex:271: Preview: Snippet 278 started.
+<-><->
+      
+l.271 Starting from $
+                     i=0$, the detailed algorithm is:
+Not a real error.
+
+./_region_.tex:271: Preview: Snippet 278 ended.(515577+0x1683535).
+<-><->
+      
+l.271 Starting from $i=0$
+                         , the detailed algorithm is:
+Not a real error.
+
+[278]
+./_region_.tex:273: Preview: Snippet 279 started.
+<-><->
+      
+l.273   \item Sample $
+                      x_{i+1}$ from a distribution with CDF $F_{i+1}$;
+Not a real error.
+
+./_region_.tex:273: Preview: Snippet 279 ended.(338603+172580x1371816).
+<-><->
+      
+l.273   \item Sample $x_{i+1}$
+                               from a distribution with CDF $F_{i+1}$;
+Not a real error.
+
+[279]
+./_region_.tex:273: Preview: Snippet 280 started.
+<-><->
+      
+l.273 ... $x_{i+1}$ from a distribution with CDF $
+                                                  F_{i+1}$;
+Not a real error.
+
+./_region_.tex:273: Preview: Snippet 280 ended.(537395+172580x1432710).
+<-><->
+      
+l.273 ...}$ from a distribution with CDF $F_{i+1}$
+                                                  ;
+Not a real error.
+
+[280]
+./_region_.tex:274: Preview: Snippet 281 started.
+<-><->
+      
+l.274   \item $
+               t_{i+1}=t_{i}+x_{i+1}$;
+Not a real error.
+
+./_region_.tex:274: Preview: Snippet 281 ended.(483719+172580x5068872).
+<-><->
+      
+l.274   \item $t_{i+1}=t_{i}+x_{i+1}$
+                                     ;
+Not a real error.
+
+[281]
+./_region_.tex:275: Preview: Snippet 282 started.
+<-><->
+      
+l.275   \item $
+               i=i+1$, return to Step (1).
+Not a real error.
+
+./_region_.tex:275: Preview: Snippet 282 ended.(515577+60072x2894670).
+<-><->
+      
+l.275   \item $i=i+1$
+                     , return to Step (1).
+Not a real error.
+
+[282]
+./_region_.tex:277: Preview: Snippet 283 started.
+<-><->
+      
+l.277 The above process is run until $
+                                      t_{i+1}$ is larger than the censoring ...
+Not a real error.
+
+./_region_.tex:277: Preview: Snippet 283 ended.(483719+172580x1212300).
+<-><->
+      
+l.277 The above process is run until $t_{i+1}$
+                                               is larger than the censoring ...
+Not a real error.
+
+[283]
+./_region_.tex:277: Preview: Snippet 284 started.
+<-><->
+      
+l.277 ...i+1}$ is larger than the censoring time $
+                                                  C_j$. $t_1, ~t_2,~ \cdots,...
+Not a real error.
+
+./_region_.tex:277: Preview: Snippet 284 ended.(537395+219909x839191).
+<-><->
+      
+l.277 ...$ is larger than the censoring time $C_j$
+                                                  . $t_1, ~t_2,~ \cdots, ~t_...
+Not a real error.
+
+[284]
+./_region_.tex:277: Preview: Snippet 285 started.
+<-><->
+      
+l.277 ...s larger than the censoring time $C_j$. $
+                                                  t_1, ~t_2,~ \cdots, ~t_i$ ...
+Not a real error.
+
+./_region_.tex:277: Preview: Snippet 285 ended.(483719+152916x4794898).
+<-><->
+      
+l.277 ...ng time $C_j$. $t_1, ~t_2,~ \cdots, ~t_i$
+                                                   are the ordered times to ...
+Not a real error.
+
+[285]
+./_region_.tex:277: Preview: Snippet 286 started.
+<-><->
+      
+l.277 ... are the ordered times to event for the $
+                                                  j^{th}$ subject.
+Not a real error.
+
+./_region_.tex:277: Preview: Snippet 286 ended.(649479+152916x917758).
+<-><->
+      
+l.277 ...e ordered times to event for the $j^{th}$
+                                                   subject.
+Not a real error.
+
+[286]
+./_region_.tex:279: Preview: Snippet 287 started.
+<-><->
+      
+l.279 \subsection
+                 {Simulation settings}
+Not a real error.
+
+./_region_.tex:279: Preview: Snippet 287 ended.(655359+183500x25559040).
+<-><->
+      
+l.279 \subsection{Simulation settings}
+                                      
+Not a real error.
+
+[287
+
+]
+
+LaTeX Warning: Reference `tab:setd' on page 20 undefined on input line 280.
+
+./_region_.tex:282: Preview: Snippet 288 started.
+<-><->
+      
+l.282 \begin{table}
+                   [htp]
+Not a real error.
+
+./_region_.tex:315: Preview: Snippet 288 ended.(15593190+14096786x31006401).
+<-><->
+      
+l.315 \end{table}
+                 %
+Not a real error.
+
+[288
+
+
+]
+./_region_.tex:316: Preview: Snippet 289 started.
+<-><->
+      
+l.316 \subsection
+                 {Simulation Results}
+Not a real error.
+
+./_region_.tex:316: Preview: Snippet 289 ended.(655359+0x25559040).
+<-><->
+      
+l.316 \subsection{Simulation Results}
+                                     
+Not a real error.
+
+[289
+
+]
+./_region_.tex:319: Preview: Snippet 290 started.
+<-><->
+      
+l.319    \begin{table}
+                      [htp]
+Not a real error.
+
+./_region_.tex:375: Preview: Snippet 290 ended.(17162767+15666363x25581532).
+<-><->
+      
+l.375  \end{table}
+                  %
+Not a real error.
+
+[290
+
+
+]
+./_region_.tex:378: Preview: Snippet 291 started.
+<-><->
+      
+l.378     \begin{table}
+                       [htp]
+Not a real error.
+
+./_region_.tex:441: Preview: Snippet 291 ended.(18448364+17104877x25581532).
+<-><->
+      
+l.441  \end{table}
+                  %
+Not a real error.
+
+[291
+
+
+]
+./_region_.tex:443: Preview: Snippet 292 started.
+<-><->
+      
+l.443     \begin{table}
+                       [htp]
+Not a real error.
+
+./_region_.tex:476: Preview: Snippet 292 ended.(7982277+6638789x25559040).
+<-><->
+      
+l.476  \end{table}
+                  %
+Not a real error.
+
+[292
+
+
+]
+./_region_.tex:479: Preview: Snippet 293 started.
+<-><->
+      
+l.479 \section
+              {Conclusion and Discussion}\label{sec:discussion}
+Not a real error.
+
+./_region_.tex:479: Preview: Snippet 293 ended.(786431+0x25559040).
+<-><->
+      
+l.479 \section{Conclusion and Discussion}
+                                         \label{sec:discussion}
+Not a real error.
+
+[293
+
+]
+
+Package natbib Warning: Citation `perets2011clustering' on page 20 undefined on input line 480.
+
+./_region_.tex:480: Preview: Snippet 294 started.
+<-><->
+      
+l.480 ...ppropriate to represent each individual $
+                                                  j$ by a three dimension pa...
+Not a real error.
+
+./_region_.tex:480: Preview: Snippet 294 ended.(515577+152916x362819).
+<-><->
+      
+l.480 ...ropriate to represent each individual $j$
+                                                   by a three dimension para...
+Not a real error.
+
+[294]
+./_region_.tex:480: Preview: Snippet 295 started.
+<-><->
+      
+l.480 ... $j$ by a three dimension parameter set $
+                                                  \tau_j,\lambda_{jb},\lambd...
+Not a real error.
+
+./_region_.tex:480: Preview: Snippet 295 ended.(546132+219909x3321717).
+<-><->
+      
+l.480 ...er set $\tau_j,\lambda_{jb},\lambda_{ja}$
+                                                  , which includes most of t...
+Not a real error.
+
+[295]
+./_region_.tex:480: Preview: Snippet 296 started.
+<-><->
+      
+l.480 ...ion data can be viewed as a position in $
+                                                  R^3$ space, so we get m po...
+Not a real error.
+
+./_region_.tex:480: Preview: Snippet 296 ended.(623265+0x903896).
+<-><->
+      
+l.480 ...data can be viewed as a position in $R^3$
+                                                   space, so we get m points...
+Not a real error.
+
+[296]
+./_region_.tex:480: Preview: Snippet 297 started.
+<-><->
+      
+l.480 ...n in $R^3$ space, so we get m points in $
+                                                  R^3$
+Not a real error.
+
+./_region_.tex:480: Preview: Snippet 297 ended.(623265+0x903896).
+<-><->
+      
+l.480 ... $R^3$ space, so we get m points in $R^3$
+                                                  
+Not a real error.
+
+[297]
+./_region_.tex:481: Preview: Snippet 298 started.
+<-><->
+      
+l.481 \section
+              {Appendix}
+Not a real error.
+
+./_region_.tex:481: Preview: Snippet 298 ended.(786431+220200x25559040).
+<-><->
+      
+l.481 \section{Appendix}
+                        
+Not a real error.
+
+[298
+
+]
+./_region_.tex:483: Preview: Snippet 299 started.
+<-><->
+      
+l.483 \subsection
+                 {Data Generation}\label{sec:datageneration}
+Not a real error.
+
+./_region_.tex:483: Preview: Snippet 299 ended.(655359+0x25559040).
+<-><->
+      
+l.483 \subsection{Data Generation}
+                                  \label{sec:datageneration}
+Not a real error.
+
+[299
+
+]
+No file _region_.bbl.
+
+Package natbib Warning: There were undefined citations.
+
+
+LaTeX Warning: There were undefined references.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 13081 strings out of 492995
+ 262550 string characters out of 6132704
+ 295437 words of memory out of 5000000
+ 16488 multiletter control sequences out of 15000+600000
+ 17566 words of font info for 72 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 42i,13n,36p,10606b,378s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/eule
+r/eurm7.pfb>
+Output written on _region_.pdf (299 pages, 399959 bytes).
+PDF statistics:
+ 1037 PDF objects out of 1200 (max. 8388607)
+ 710 compressed objects within 8 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+

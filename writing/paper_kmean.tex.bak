@@ -1,0 +1,349 @@
+% Do not copy directly. Make sure all the sentences are on your own words and properly cite.
+\documentclass[12pt]{article}
+%\usepackage[round]{natbib} %reference
+\usepackage{latexsym,epsfig,graphicx,epstopdf,amsmath,amssymb,amscd,multirow,psfrag,paralist,setspace,dsfont,float}
+\usepackage{siunitx} %alignment by decimal
+\usepackage[round]{natbib}
+\usepackage{upgreek}
+\def\baselinestretch{2}
+\raggedbottom
+\setlength{\abovedisplayshortskip}{1pt}
+\setlength{\belowdisplayshortskip}{1pt}
+\begin{document}
+\title{A Change-Point Detection Method in the Recurrent-Event Context}
+\author{Qing Li, Kehui Yao, Xinyu Zhang}
+\date{}
+\maketitle
+\newpage
+\mbox{} \vspace*{2in}
+\begin{center}
+\textbf{Author's Footnote:}
+\end{center}
+Qing Li is an assistant professor in the Department of Industrial \& Manufacturing Systems Engineering, Iowa State University, 3025 Black Engineering Building, Ames, IA 50011.(email: qinglijane@gmail.com), Kehui Yao,Xinyu Zhang.
+
+\newpage
+
+\begin{center}
+\textbf{Abstract}
+
+\end{center}
+This study proposes
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\vspace*{.3in}
+
+\noindent KEY WORDS: {Non-Homogeneous Poisson Process, Recurrent Event, Cluster.}
+
+Note: Supplementary materials for this article are available online.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Introduction}
+
+Recurrent-event data analysis is widely used in various fields such as reliability, medicine, social science and criminology. An interesting problem in recurrent-event data analysis is change-point detection. Examples. Literatures on recurrent-event change-point detection.
+
+Literatures assuming NHPP. Poisson process is described by the cumulative intensity function or its derivative, the intensity rate function. The intensity rate is not always constant across, that is, a NHPP \citep[p.~32]{Ross2006}.
+
+Literatures assuming NHPP with piecewise-constant intensity functions.
+
+Incorporate clustering in recurrent-event change-point analysis. Literatures. These methods are relatively complex and computationally expensive.
+
+The goal of this paper is to provide an alternative machine learning method to incorporate clustering in recurrent-event change-point analysis.
+
+We assume that there are multiple individuals or sampling units. The recurrent events follow non-homogeneous Poisson process with piecewise-constant intensity rates. Clusters exist among the individuals. The individuals in the same cluster share the same change-point and the intensity rates. We propose an algorithm for clustering and estimating the change-points as well as the intensity rates by cluster.
+
+A summary of the model. The algorithm can be divided into four stages. The first stage is measuring the similarities between individuals by a likelihood method. The second is determining the number of clusters. The third is grouping the individuals with the chosen cluster number. The last stage is to estimate the change-point and intensity rates in different clusters.
+
+Even when there exists a wide variety of clustering methods after we define the measurement of similarities between observations, the K-means algorithm remains as one of the most popular and is applicable in this problem. Given a set of $m$ data points $D=\left\lbrace x_1,...,x_m\right\rbrace $ in $R^{d}$ and an integer $K$, the K-means problem is to determine a set of K centroids $C=\left\lbrace c_1,...,c_k\right\rbrace $ in $R^{d}$ so as to minimize the following error function:
+$E(C)=\Sigma_{x_{\upepsilon D}}min_{k=1,...K}\parallel x-c_k \parallel^{2}$. Since the recurrent events observations can be considered to be different dimensions of data, it can not be measured by euclidean distance, so we advance the k-means algorithm ...(use log likelihood measure....)
+
+The idea is motivated by the original k-means algorithm, but different from it in several ways. First, the centroids of
+
+The novelty and strength of our method.
+
+In Section~\ref{sec:models.kmean}, we develop. Simulation study is in Section~\ref{sec:simulation}. A real data analysis is provided in Section~\ref{sec:results}. Section~\ref{sec:discussion} is the conclusion and discussion. %
+
+\section{A Machine Learning Method for Change-Point Detection in the Recurrent-Event Context}\label{sec:models.kmean}
+% parameters
+This section presents a method motivated by k-means clustering algorithm and implemented based on the likelihood-based method by \citet{Frobish2009}. Assume that there are $m$ individuals from $K$ groups with recurrent events, and each individual has an unknown change-point. We first show how to cluster $m$ individuals into $K$ groups, as well as estimate the change-point and intensity rates separately for each group. Then we show how to automatically detect the true number of clusters using an idea motivated by gap statistics \textbf{reference}.
+
+Denote $n_j$ to be the total number of events and $C_j$ be the cumulative driving time for the $jth$ individual, $j=1,2,\cdots,m$. The events occurred at ordered times $t_{j1},...,t_{jn_j}$. The inter-event durations between two consecutive events are $x_{j_1},...,x_{jn_j}$, where $x_{ji}=t_{ji}-t_{j,(i-1)},i=1,...n_j$. We assume $m$ individuals belong to $k$ groups, and the group index is $k$, $k=1,...K$. For each group $k$, we assume that the event counts follow a NHPP with piecewise constant intensity functions and all subjects share the same unknown change-point $\mu_{k}$. Table \ref{tab:setadd1} gives a summary of the notations.
+
+\begin{table} [htp]
+  %\vspace{-30pt}
+   \caption{\label{tab:setadd1} Notations in this paper.}
+     \vspace{1ex}
+  \centering
+  %\hskip-93.5cm
+  \begin{tabular}{ll}\hline
+      Symbol& Meaning \\\hline
+      $m$       & The total number of individuals \\
+      $K$       & The number of groups \\
+      $j$       & The individual index, $j=1,2,\cdots,m$ \\
+      $n_i$     & The total number of events for the $i^{th}$ individual\\
+      $i$       & The event index, \\
+                & where the $0th$ event means the start point\\
+      $t_{ji}$  & {The $i^{th}$ event time for the $jth$ individual}\\
+                & {assuming $t_{ji_1}\not=t_{ji_2}$, for $\forall j_1\not=j_2$ }  \\
+      $x_{ij}$  & The duration time: $x_{ij} = t_{ij} - t_{i,(j-1)}$ \\
+      $c_i$     & The censoring time for the $i^{th}$ individual\\
+      $k$       & The group index, $k=1,2,\cdots,K$\\
+      $N_k$     & The number of individuals in the $k^{th}$ group\\
+      $\mu_k$     & The change-point for the $k^{th}$ group\\
+      $\tau_i$  & The change-point for the $i^{th}$ individual\\
+      $\lambda_{ib}$& The intensity rate for the $ith$ individual before the change-point\\
+      $\lambda_{ia}$& The intensity rate for the $ith$ individual after the change-point\\
+      $\lambda_{bk}$& The intensity rate before the change-point for the $kth$ cluster \\
+      $\lambda_{ak}$& The intensity rate after the change-point for the $kth$ cluster \\
+      $z_j$& The membership of individual $j$, $z_j = 1, 2, \cdots, K$\\
+      \hline
+ \end{tabular}%
+  \end{table}%
+\subsection{The Likelihood Estimation}
+
+This section summaries the likelihood approach for one change-point detection in the recurrent-event context proposed by \cite{Frobish2009}. Assuming that there is only one change-point $\tau \in [0, min(c_i)]$ for $N_k$ individuals in the same group. Let $I_b(t)=I\{0\leq t<\tau\}$, and $I_a(t)=I\{\tau\leq t <\max_{i}(c_i)\}$, where $I(t)$ is the indicator function. The intensity rate function is: $\lambda(t) = \lambda_bI_b(t)+\lambda_aI_a(t)$ and the cumulative intensity function is: $\Lambda(t) = \lambda_btI_b(t)+\left[ \lambda_b\tau+\lambda_a(t-\tau)\right] I_a(t)$. The log-likelihood is written as: \[
+LL(\tau,\lambda_b,\lambda_a) = -\sum_{i=1}^{N_k}(\lambda_{b}\tau+\lambda_{a}(c_i-\tau))+log(\lambda_b)\sum_{i=1}^{N_k}\sum_{j=1}^{n_i}{I_b(t_{ij})}+
+log(\lambda_a)\sum_{i=1}^{k}\sum_{j=1}^{n_j}{I_a(t_{ij})}
+\]
+    The maximum likelihood estimators are:
+\[
+\hat{\lambda_{b}}=\frac{\sum_{i=1}^{k}\sum_{j=1}^{n_j}{I_b(t_{ij})}}{c-\tau}, \  \hat{\lambda_{a}}=\frac{\sum_{i=1}^{k}\sum_{j=1}^{n_j}{I_a(t_{ij})}}{\tau}
+\]
+    By the theorem in \citep{Frobish2009}, $\hat{\tau}$ that maximizes the $LL( \tau, \hat{\lambda_{b}}, \hat{\lambda_{a}})$ occurs in one of the event times, and is a consistent estimator of $\tau$. So we evaluate the value of $LL( \tau, \hat{\lambda_{b}}, \hat{\lambda_{a}})$ at each every event and the event time which maximize $LL( \tau, \hat{\lambda_{b}}, \hat{\lambda_{a}})$ is the MLE for the change-point $\tau$.
+
+\subsection{K-means Clustering}\label{sec:kmean}
+We combine the MLE estimates with K-means clustering in this section given the number of clusters. (Some summary of this method).
+
+We firstly calculate the MLE estimates of $\tau_j$,$\lambda_{bj}$, and $\lambda_{bj}$ for each individual.
+
+To initialize the K-means method, each estimated parameter has been reordered according to their order statistics respectively. Are they ordered like a data frame? Then we use k++ \textbf{reference} to generate k random centroids. each centroid has parameter $\lambda_{kb},\lambda_{ka},\mu_k$.
+
+Each iteration of the algorithm after initialization is as follows:
+\begin{enumerate}[Step 1:]
+\item We calculate the probability that each driver belongs to each centroid. We denote $P_{jk},j=1,...m,k=1,...K$ as the probability that jth driver belongs to the $kth$ group, this can be calculated based on the non-homogeneous poisson distribution \textbf{how}. Then, for each individual, we assign it to the group with the largest probability, so $z_j\in argmax_{k=1,2,...K} P_{jk}$. After $m$ calculations, we assign all the drivers to these $k$ centroids.
+
+\item Update the centroids using the likelihood estimators by cluster.
+
+\item Check whether the clustering is different from last iteration.
+\end{enumerate}
+We repeat the above three steps until the clustering is the same as the  previous iteration. The output contains the K centroids which are the estimates $\left\lbrace \lambda_{ka},\lambda_{kb},\mu_k\right\rbrace , k = 1, \cdots, K$, and the membership of each individual.
+\subsection{Reference distribution to determine the number of clusters}
+\textbf{Possible ways on model selection. Why choose the following. The reference for the chosen method}.
+
+Usually the number of cluster is unknown. We use the following method to automatically detect the number of clusters $K$. This method is more like a process of hypothesis testing. Denote the diversion of a dataset i, containing m observations with $k$ groups, as $D_{ik}$. $D_{ik}=$
+
+Starting from $k=1$, use K-means method  proposed in Section \ref{sec:kmean} to get the estimated centroid.
+\begin{enumerate}[Step 1:]
+\item Generate $B$ datasets with these $k$ centroids of the original dataset, where each dataset contains $m$ individuals.
+\item Calculate the diversion for the simulated datasets and the original dataset, denoting as $D_{ik},i=0,1,\cdots,B$.
+\item Estimate the $(k+1)$ centroids for the $B$ datasets generated in Step (2) and the original dataset. Calculate the diversion of the original data set and for each generated dataset, denoting as $D_{i(k+1)},i=0,1,2...,B$.
+
+\item Define $T_0=D_{0k}-D_{0(k+1)}$ as the test statistics. $\left\lbrace T_i=D_{ik}-D_{i(k+1)},i=1,...B\right\rbrace $ are a random sample from the reference distribution of $T_0$. The null hypothesis $H_0$ is: there are $k$ groups. The alternative hypothesis $H_1$ is: there are more than $k$ groups. Let $T=(T_1,...T_B)$. If $T_0>mean(T)+adj*sd(T)$, we reject $H_0$. If $H_0$ is rejected, set $k=k+1$ and repeat Steps 1 - 4. Otherwise terminate the loop and $k$ is chosen as the number of clusters. The $k$ centroids of the original data set evaluated in Step 3 will be used as the final estimates.
+
+
+\end{enumerate}
+\section{Simulation Studies}\label{sec:simulation}
+We run simulations to check the performance of the methodology proposed in Section \ref{sec:models.kmean} in different scenarios. We generate data from a NHPP with piecewise-constant intensity functions according to the distribution of the inter-event times \citep{Klein1984}. The cumulative density function of the $ith$ inter-event time $X_i = T_i-T_{i-1}$ for an individual given previous event times and the cumulative intensity function $\Lambda(t)$ is:
+$$
+\begin{aligned}
+ F_{i}(x)&=Probability\left[ X_{i}\leq x|T_0=0, T_1=t_1,\cdots, T_{i-1}=t_{i-1}\right] \\
+&=1-exp\left[ \varLambda(t_{i})-\varLambda(t_{i}+x)\right],
+\end{aligned}$$
+Starting from $i = 0,~t_i =0$, the algorithm is below.
+
+While $t_{i+1} < c_j$, repeat the following three steps:
+\begin{enumerate}[Step 1:]
+\item Draw a random number $x_{i+1}$ from $F_{i+1}$;
+\item $t_{i+1} = t_i + x_{i+1}$;
+\item $i = i+1$.
+\end{enumerate}
+The event-times are $t_1, t_2, \cdots, t_{n}$ for one individual, where $n$ is the value of $i$ when the loop terminate.
+\subsection{Simulation settings}
+\begin{table}[htp]
+  \caption{\label{tab:setd}Eleven settings for the simulation.}
+    \vspace{1ex}
+ \centering
+ \begin{tabular}{cl}
+\hline
+Setting&\multicolumn{1}{p{14.5cm}}{Description }\\ \hline
+1 & \multicolumn{1}{p{14.5cm}}{There are two clusters ($K=2$). The total number of subjects is $m=40$. Each individual is equally likely to be from different clusters. The censoring times $C_j$'s are sampled uniformly from 450 to 500: $C_j\sim Unif[450,500]$. The change-point values of the two clusters are: $\mu_1=150,~\mu_2=300$. The intensity rates before the change-point ($\lambda_{bj}$'s ) are sampled from $Gamma(25, 100)$. The mean of the intensity rates before the change-point is $25*0.01 = 0.25$ with the variance to be $25*0.01^2 = 0.0025$. The intensity rates after the change-point ($\lambda_{aj}$'s ) are sampled from $Gamma(10, 100)$. The mean of the intensity rates after the change-point is 0.1 with the variance to be 0.001. For the purpose of presentation, we multiply the intensity rates by 1000 and use $\lambda_b$ and $\lambda_a$ to represent the scaled mean intensity rates before and after the change-point correspondingly. So in this setting, $\lambda_b = 250,\lambda_a = 100.  $ For the analysis, the bound for the change-points is from 10 to 440.}\\
+11& \multicolumn{1}{p{14.5cm}}{Identical as Setting 1 in data generation. For the analysis, the concentration parameter $\alpha_0$ is not fixed but with a prior of $Gamma(0.005,10)$.}\\
+12& \multicolumn{1}{p{14.5cm}}{Identical as Setting 1 in data generation except that the intensity rates of individuals are the same in the same cluster. The intensity rates are different from the two clusters. For the inference, we estimate the intensity rates of the clusters separately. }\\\hline
+
+    \end{tabular}%
+\end{table}%
+\subsection{Simulation Results}
+
+
+\begin{table} [htp]
+  %\vspace{-30pt}
+   \caption{\label{tab:setadd1}Two percentages for all the simulation settings for DPMM and FMM. P1 is the percentage of correctly detected number of clusters (\%). P2 is the average percentage of correctly grouped subjects (\%). }
+     \vspace{1ex}
+  \centering
+  %\hskip-93.5cm
+  \begin{tabular}{llllllll}\hline
+      Setting & 1     & 2     & 3     & 4     & 5     & 6&7 \\\hline
+      DPMM P1 & 90 & 95 & 80 & 90 & 95 & 80&85 \\
+      FMM P1&35&70&35&40&20&35&25\\
+      DPMM P2 & 92.25 & 94.06 & 95.87 &53& 89.75 &91.25&93.5 \\
+      FMM P2&66.25&91.12&79.5&75.12&66.25&89&89.37 \\\hline
+      Setting &8&9&10&11&12&13&14 \\\hline
+      DPMM P1 &80&100&70&&65&95&95 \\
+      FMM P1&&&&&60&$-$&50\\
+      DPMM P2 &70.12&88.62&66.12& &91.12&92.59&97.75  \\
+      FMM P2&&&&&90.25&$-$&100 \\\hline
+ \end{tabular}%
+  \end{table}%
+
+  \begin{table}[htp]
+  %\vspace{-30pt}
+   \caption{\label{tab:set1}Simulation results of DPMM for Settings 1-6. The number of subjects are $m=40$. The censoring time $C_j\sim Unif(450,500)$. The number of clusters $K$ is 2. The change-point values are $\mu_k$, the scaled mean intensity rates before and after the change-points are $(\lambda_{b},\lambda_{a})$. }
+     \vspace{1ex}
+  \centering
+  \begin{tabular}{cccrS[table-format=2.2]S[table-format=2.2]c}
+  \hline\hline
+ Setting
+ &Parameter
+ &\multicolumn{1}{p{1.2cm}}{\centering True value}
+ &\multicolumn{1}{p{1.4cm}}{\centering Average of\\ estimates}
+ &\multicolumn{1}{c}{RMSE}
+ & \multicolumn{1}{c}{$|$Bias (\%)$|$}
+ &\multicolumn{1}{p{2.0cm}}{\centering Coverage probability (\%)} \\ \hline
+ \multirow{4}{*}{1}&$\mu_1$&150   & 163.66 & 14.38 & 9.11  & 90 \\
+&$\mu_2$&    300   & 289.56 & 11.79 & 3.48  & 90 \\
+&$\lambda_b$&    250   & 247.24 & 8.99  & 1.11  & 100 \\
+&$\lambda_a$&    100   & 101.11 & 6.05  & 1.11  & 100 \\\hline
+
+\multirow{4}{*}{2}&$\mu_1$&150   & 163.76 & 14.35 & 9.18  & 100 \\
+&$\mu_2$&300   & 289.6 & 10.88 & 3.47  & 100 \\
+&$\lambda_b$&250   & 250.35 & 3.8   & 0.14  & 100 \\
+&$\lambda_a$&100   & 100.59 & 3.26  & 0.59  & 100 \\\hline
+\multirow{4}{*}{3}&$\mu_1$&150   & 159.09 & 10.39 & 6.06  & 100 \\
+&$\mu_2$&300   & 287.58 & 14.38 & 4.14  & 80 \\
+&$\lambda_b$& 250   & 247.82 & 9.97  & 0.87  & 100 \\
+&$\lambda_a$& 100   & 102.84 & 4.5   & 2.84  & 100 \\\hline
+\multirow{6}{*}{4}&$\mu_1$&80    & 121.25 & 44.84 & 51.57 & 80 \\
+&$\mu_2$&160   & 172.4 & 14.84 & 7.75  & 90 \\
+&$\mu_3$&240   & 232.9 & 9.24  & 2.96  & 90 \\
+&$\mu_4$&320   & 295.58 & 26.65 & 7.63  & 85 \\
+&$\lambda_b$& 250   & 242.28 & 12.27 & 3.09  & 100 \\
+&$\lambda_a$& 100   & 102.52 & 5.32  & 2.52  & 100 \\\hline
+\multirow{4}{*}{5}&$\mu_1$&150   & 164.08 & 16.04 & 9.39  & 90 \\
+&$\mu_2$&300   & 287.71 & 13.31 & 4.1   & 95 \\
+&$\lambda_b$& 250   & 248.47 & 10.08 & 0.61  & 100 \\
+&$\lambda_a$& 100   & 100.61 & 5.95  & 0.61  & 100 \\\hline
+\multirow{4}{*}{6}&$\mu_1$&150   & 164.75 & 15.66 & 9.83  & 90 \\
+&$\mu_2$&300   & 288.66 & 12.96 & 3.78  & 80 \\
+&$\lambda_b$& 250   & 247.13 & 10.17 & 1.15  & 100 \\
+&$\lambda_a$& 100   & 102.66 & 5.66  & 2.66  & 100 \\
+
+\hline
+     \end{tabular}%
+ \end{table}%
+
+
+   \begin{table}[htp]
+  %\vspace{-30pt}
+   \caption{\label{tab:set1}Simulation results of  Settings 1-9. The number of subjects are $m=40$. The censoring time $C_j\sim Unif(450,500)$. The number of clusters $K$ is 2. The change-point values are $\mu_k$, the scaled mean intensity rates before and after the change-points are $(\lambda_{kb},\lambda_{ka})$. }
+     \vspace{1ex}
+  \centering
+  \begin{tabular}{cccrS[table-format=2.2]S[table-format=2.2]c}
+  \hline\hline
+ Setting
+ &Parameter
+ &\multicolumn{1}{p{1.2cm}}{\centering True value}
+ &\multicolumn{1}{p{1.4cm}}{\centering Average of\\ estimates}
+ &\multicolumn{1}{c}{RMSE}
+ & \multicolumn{1}{c}{$|$Bias (\%)$|$}
+ &\multicolumn{1}{p{2.0cm}}{\centering Coverage probability (\%)} \\ \hline
+ \multirow{6}{*}{1}&$\mu_1$         & 150   & 149.01  & 2.23  & 0.66  & 95.0  \\
+&$\lambda_{1b}$  & 300   & 300.08  & 1.31  & 0.03  & 90.0   \\
+&$\lambda_{1a}$  & 250   & 249.9   & 0.01  & 0.04  & 97.5       \\
+&$\mu_2$         & 250   & 252.87  & 0.01  & 1.15  & 95.0       \\
+&$\lambda_{2b}$  & 100   & 100.18  & 0.00  & 0.18  & 92.5       \\
+&$\lambda_{2a}$  & 100   & 99.59   & 0.01  & 0.41  & 97.5      \\\hline
+
+\multirow{6}{*}{2}
+&$\mu_1$         & 150   & 149.78  & 0.81  & 0.14  & 90.0   \\
+&$\lambda_{1b}$  & 300   & 299.98  & 1.00  & 0.01  & 92.5   \\
+&$\lambda_{1a}$  & 250   & 253.01  & 0.01  & 1.20  & 77.5      \\
+&$\mu_2$         & 250   & 249.56  & 0.01  & 0.17  & 90.0       \\
+&$\lambda_{2b}$  & 100   & 99.78   & 0.00  & 0.22  & 92.5     \\
+&$\lambda_{2a}$  & 100   & 99.45   & 0.00  & 0.55  & 92.5     \\\hline
+
+\multirow{6}{*}{3}
+&$\mu_1$         & 150   & 149.10  & 2.39  & 0.60  & 97.5   \\
+&$\lambda_{1b}$  & 200   & 199.45  & 2.81  & 0.28  & 97.5  \\
+&$\lambda_{1a}$  & 250   & 250.92  & 0.01  & 0.37  & 95.0      \\
+&$\mu_2$         & 250   & 253.51  & 0.01  & 1.40  & 95.0       \\
+&$\lambda_{2b}$  & 100   & 97.56   & 0.01  & 2.44  & 97.5     \\
+&$\lambda_{2a}$  & 100   & 100.97  & 0.01  & 0.97  & 100.0     \\\hline
+
+\multirow{6}{*}{4}
+&$\mu_1$         & 150   & 149.18  & 1.56  & 0.55  & 85.0    \\
+&$\lambda_{1b}$  & 300   & 299.84  & 1.41  & 0.05  & 85.0   \\
+&$\lambda_{1a}$  & 250   & 249.87  & 0.01  & 0.05  & 92.5    \\
+&$\mu_2$         & 250   & 249.18  & 0.01  & 0.33  & 90.0      \\
+&$\lambda_{2b}$  & 100   & 99.55   & 0.00  & 0.45  & 90.0     \\
+&$\lambda_{2a}$  & 100   & 100.16  & 0.00  & 0.16  & 85.0       \\\hline
+
+\multirow{6}{*}{5}
+&$\mu_1$         & 150   & 150.17  & 3.73  & 0.11  & 100.0   \\
+&$\lambda_{1b}$  & 300   & 300.51  & 1.25  & 0.17  & 95.0   \\
+&$\lambda_{1a}$  & 250   & 247.16  & 0.01  & 1.13  & 100.0     \\
+&$\mu_2$         & 250   & 250.4   & 0.01  & 0.16  & 100.0      \\
+&$\lambda_{2b}$  & 100   & 99.74   & 0.01  & 0.26  & 97.5    \\
+&$\lambda_{2a}$  & 100   & 100.64  & 0.00  & 0.64  & 87.5      \\\hline
+
+\multirow{6}{*}{6}
+&$\mu_1$         & 150   & 149.90  & 2.88  & 0.06  & 87.5   \\
+&$\lambda_{1b}$  & 300   & 299.55  & 1.05  & 0.15  & 77.5  \\
+&$\lambda_{1a}$  & 250   & 250.46  & 0.01  & 0.18  & 92.5      \\
+&$\mu_2$         & 250   & 251.12  & 0.01  & 0.45  & 97.5     \\
+&$\lambda_{2b}$  & 100   & 98.29   & 0.00  & 1.71  & 100.0     \\
+&$\lambda_{2a}$  & 100   & 101.8   & 0.01  & 1.80  & 95.0      \\\hline
+
+\multirow{6}{*}{7}
+&$\mu_1$         & 150   & 151.05  & 2.07  & 0.70  & 97.5   \\
+&$\lambda_{1b}$  & 300   & 300.64  & 2.72  & 0.21  & 87.5  \\
+&$\lambda_{1a}$  & 250   & 246.90  & 0.01  & 1.24  & 90.0      \\
+&$\mu_2$         & 250   & 247.99  & 0.01  & 0.80  & 90.0     \\
+&$\lambda_{2b}$  & 100   & 100.79  & 0.00  & 0.79  & 87.5     \\
+&$\lambda_{2a}$  & 100   & 102.21  & 0.00  & 2.21  & 97.5\\\hline
+
+\multirow{6}{*}{8}
+&$\mu_1$         & 150   & 148.81  &2.39	&0.79	&100.0\\
+&$\lambda_{1b}$  & 300   & 298.76	&2.32	&0.41	&92.5\\
+&$\lambda_{1a}$  & 250   & 249.61	&0.01	&0.16	&92.5  \\
+&$\mu_2$         & 250   & 248.46	&0.01	&0.62	&95\\
+&$\lambda_{2b}$  & 100   & 93.89	&0.01	&6.11	&97.5    \\
+&$\lambda_{2a}$  & 100   & 101.99   & 0.01  & 1.99 & 95.0      \\\hline
+
+\multirow{6}{*}{9}
+&$\mu_1$         & 150   & 149.90  & 2.88  & 0.06  & 87.5   \\
+&$\lambda_{1b}$  & 300   & 299.55  & 1.05  & 0.15  & 77.5  \\
+&$\lambda_{1a}$  & 250   & 250.46  & 0.01  & 0.18  & 92.5      \\
+&$\mu_2$         & 250   & 251.12  & 0.01  & 0.45  & 97.5     \\
+&$\lambda_{2b}$  & 100   & 98.29   & 0.00  & 1.71  & 100.0     \\
+&$\lambda_{2a}$  & 100   & 101.8   & 0.01  & 1.80  & 95.0      \\
+
+\hline
+     \end{tabular}%
+ \end{table}%
+
+
+ 
+ 
+ 
+ 
+
+\section{An Example}\label{sec:results}
+
+\section{Conclusion and Discussion}\label{sec:discussion}
+
+\section{Appendix}
+
+\subsection{Data Generation}\label{sec:datageneration}
+
+\bibliographystyle{apalike}
+\bibliography{./ref/refall}
+\end{document}

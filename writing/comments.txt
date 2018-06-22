@@ -1,0 +1,13 @@
+When writing papers:
+1. It has to be clear how you do things;
+2. Clear on what are the existing methods, what are you innovations. 
+3. Clear on the advantages of your method. 
+Other things: 
+1. label equations, figs and cite automatically.
+2. Do you have lower bound and upper bound for tau_k?
+3. Put the papers in the sharing folder, name it properly. 
+4. Talk with Denise. There will be fund. School of continuation studies. Maybe can rent a car and drive there. 
+
+
+1.aic
+2.lower bound can be 0, upper bound for tau_k is determined by settings
