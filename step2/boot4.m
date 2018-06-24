@@ -8,7 +8,7 @@ true_centroids=[150 0.25 0.1;300 0.25 0.1];
 u_v=[150 300];% two possible values of change-points
 K_d=2;% two clusters
 l1=0.25;% intensity rate before the change-point
-l2=0.1; % intensity rate after the change-point
+l2=0.2; % intensity rate after the change-point
 
 parfor i=1:m
 [z,Nj,C]=latent_simu_f_balanced(u_v,m,l1,l2,K_d);%
