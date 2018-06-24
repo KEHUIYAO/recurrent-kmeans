@@ -8,4 +8,4 @@
 
 mkdir -p /workspace/$SLURM_JOB_USER/Matlab_DP_2016_varying_lam/matlab_ps/$SLURM_JOB_ID/.matlab
 export HOME=/workspace/$SLURM_JOB_USER/Matlab_DP_2016_varying_lam/matlab_ps/$SLURM_JOB_ID
-/workspace/software/matlab-2017a/bin/matlab -nodesktop -nosplash -r "u12"
+/workspace/software/matlab-2017a/bin/matlab -nodesktop -nosplash -r "u4"
