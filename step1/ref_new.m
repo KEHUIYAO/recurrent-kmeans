@@ -54,14 +54,14 @@ for i=1:B
 [~,~,prob2] = kmeans_r(z,Nj,C,k+1,tau_lower,tau_upper);
 
 u(i)=(sum(prob2)-sum(prob1));
-
+end
 
 
 
 sd=std(u);
 u=mean(u);
-success=(sum(test_stat>=u)-B/2)>0;
-success=(test_stat-prctile(u,(50+adj)))>0;
+%success=(sum(test_stat>=u)-B/2)>0;
+%success=(test_stat-prctile(u,(50+adj)))>0;
 success=(test_stat-(u+adj*sd)>0);
-end
+
 end

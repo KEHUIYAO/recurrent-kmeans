@@ -1,4 +1,4 @@
-function [num,group,centroids]=main(z,Nj,C,adj,tau_lower,tau_upper)
+function [num,group,centroids,CI_lower,CI_upper,std_centroids,based_on_centroids]=main(z,Nj,C,adj,tau_lower,tau_upper)
 
 
 
@@ -31,7 +31,7 @@ case 3
 end
 k=1;
 m=length(Nj);
-while k<=5
+while k
     [group1, centroids1,~]=kmeans_r(z,Nj,C,k,tau_lower,tau_upper);
     %% this line use bootstrap vs parametric
     %[~,bdfts]=bootstrap_test_stat(z,Nj,C,200,k,tau_lower,tau_upper);

@@ -26,7 +26,8 @@ for i=index_list
 end
 
 RMSE=sqrt(SSE/length(index_list));
-
+% RMSE*100
+RMSE(:,2:end)=RMSE(:,2:end)*100;
 
 accuracy=0;
 for i=index_list
