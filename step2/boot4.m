@@ -1,4 +1,4 @@
-parpool(24);
+parpool(18)
 B=200;
 m=40;
 coverage=zeros(2,3,m);
@@ -12,7 +12,7 @@ l2=0.2; % intensity rate after the change-point
 
 parfor i=1:m
 [z,Nj,C]=latent_simu_f_balanced(u_v,m,l1,l2,K_d);%
-[low_b,high_b]=bootstrap_r(z,Nj,C,B);
+[low_b,high_b]=bootstrap_r(z,Nj,C,B,2,0,500);
 logic1=low_b<=true_centroids;
 logic2=high_b>=true_centroids;
 low(:,:,i)=low_b;
