@@ -17,12 +17,12 @@ for i=index_list
     centroids=centroids+autosort(centroids_list{i});
 end
 centroids=centroids./length(index_list);
-bias=abs((centroids-[150 0.25 0.1;300 0.25 0.1])./[150 0.25 0.1;300 0.25 0.1]);
+bias=abs((centroids-[150 0.25 0.2;300 0.25 0.2])./[150 0.25 0.2;300 0.25 0.2]);
 
 
 SSE=[0 0 0;0 0 0];
 for i=index_list
-    SSE=SSE+(autosort(centroids_list{i})-[150 0.25 0.1;300 0.25 0.1]).^2;
+    SSE=SSE+(autosort(centroids_list{i})-[150 0.25 0.2;300 0.25 0.2]).^2;
 end
 
 RMSE=sqrt(SSE/length(index_list));

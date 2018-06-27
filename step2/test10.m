@@ -28,6 +28,8 @@ for i=index_list
 end
 
 RMSE=sqrt(SSE/length(index_list));
+% RMSE*100
+RMSE(:,2:end)=RMSE(:,2:end)*100;
 
 accuracy=ones(1,40)*40
 for k=1:40

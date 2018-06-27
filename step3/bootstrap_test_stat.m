@@ -8,16 +8,16 @@ u=zeros(1,B);
 
 %% if the following sentences were used, then it will be bootstrap vs parametric method.
 
-% for i=1:B
-% 
-% ind=datasample(index,m);
-% dat=z(ind,:);
-% nj=Nj(ind);
-% c=C(ind);
-% 
-% [~,~,prob1] = kmeans_r(dat,nj,c,k,tau_lower,tau_upper);
-% [~,~,prob2] = kmeans_r(dat,nj,c,k+1,tau_lower,tau_upper);
-% 
-% u(i)=(sum(prob2)-sum(prob1));
-% 
-% end
+for i=1:B
+
+ind=datasample(index,m);
+dat=z(ind,:);
+nj=Nj(ind);
+c=C(ind);
+
+[~,~,prob1] = kmeans_r(dat,nj,c,k,tau_lower,tau_upper);
+[~,~,prob2] = kmeans_r(dat,nj,c,k+1,tau_lower,tau_upper);
+
+u(i)=(sum(prob2)-sum(prob1));
+
+end
