@@ -1,10 +1,10 @@
-parpool(18)
+parpool(24)
 B=200;
 m=40;
 coverage=zeros(2,3,m);
 low=zeros(2,3,m);
 high=zeros(2,3,m);
-true_centroids=[150 0.25 0.1;300 0.25 0.1];
+true_centroids=[150 0.25 0.2;300 0.25 0.2];
 u_v=[150 300];% two possible values of change-points
 K_d=2;% two clusters
 l1=0.25;% intensity rate before the change-point

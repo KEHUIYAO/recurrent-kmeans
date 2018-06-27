@@ -7,4 +7,4 @@
 
 mkdir -p /workspace/$SLURM_JOB_USER/Matlab_DP_2016_varying_lam/matlab_ps/$SLURM_JOB_ID/.matlab
 export HOME=/workspace/$SLURM_JOB_USER/Matlab_DP_2016_varying_lam/matlab_ps/$SLURM_JOB_ID
-/workspace/software/matlab-2017a/bin/matlab -nodesktop -nosplash -r "boot4"
+/workspace/software/matlab-2017a/bin/matlab -nodesktop -nosplash -r "boot10"
