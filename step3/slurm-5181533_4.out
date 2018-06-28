@@ -495,3 +495,136 @@ p_value =
 
     0.0429
 
+
+p_value =
+
+    0.1066
+
+
+p_value =
+
+    0.6619
+
+
+p_value =
+
+   7.2266e-06
+
+
+p_value =
+
+   1.4391e-18
+
+
+p_value =
+
+    0.0015
+
+
+p_value =
+
+   6.2511e-15
+
+
+p_value =
+
+   1.0962e-06
+
+
+p_value =
+
+    0.0267
+
+
+p_value =
+
+    0.0041
+
+
+p_value =
+
+   8.4039e-26
+
+
+p_value =
+
+    0.4422
+
+
+p_value =
+
+    0.1652
+
+
+p_value =
+
+   2.7063e-38
+
+
+p_value =
+
+   1.5052e-09
+
+
+p_value =
+
+   1.5132e-04
+
+
+p_value =
+
+    0.1961
+
+
+p_value =
+
+    0.0070
+
+
+p_value =
+
+   5.6138e-05
+
+
+p_value =
+
+    0.2331
+
+
+p_value =
+
+    0.0027
+
+
+p_value =
+
+    0.2987
+
+
+p_value =
+
+    0.5837
+
+
+p_value =
+
+    0.1631
+
+
+p_value =
+
+   2.3820e-07
+
+
+p_value =
+
+   1.0631e-06
+
+
+p_value =
+
+   1.8055e-04
+
+{Error using u4 (line 6)
+Output argument "num" (and maybe others) not assigned during call to "main".
+} 
