@@ -1,0 +1,632 @@
+MATLAB is selecting SOFTWARE OPENGL rendering.
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2017 The MathWorks, Inc.
+                   R2017a (9.2.0.538062) 64-bit (glnxa64)
+                             February 23, 2017
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+Starting parallel pool (parpool) using the 'local' profile ...
+[Warning: The system time zone setting, 'US/Central', does not specify a single
+time zone unambiguously. It will be treated as 'America/Chicago'. See the <a
+href="matlab:doc('datetime.TimeZone')">datetime.TimeZone property</a> for
+details about specifying time zones.] 
+[> In verifyTimeZone (line 23)
+  In datetime (line 515)
+  In parallel.internal.cluster.DefaultProperties.getNewJobPropStruct (line 16)
+  In parallel.internal.cluster.CJSSupport/buildJob (line 158)
+  In parallel.cluster.CJSCluster/buildCommunicatingJob (line 465)
+  In parallel.Cluster/createCommunicatingJob (line 92)
+  In parallel.internal.pool.InteractiveClient>iCreateCommunicatingJob (line 715)
+  In parallel.internal.pool.InteractiveClient/start (line 325)
+  In parallel.Pool>iStartClient (line 593)
+  In parallel.Pool.hBuildPool (line 472)
+  In parallel.internal.pool.doParpool (line 18)
+  In parpool (line 89)
+  In u5 (line 1)] 
+connected to 24 workers.
+
+ans = 
+
+ Pool with properties: 
+
+            Connected: true
+           NumWorkers: 24
+              Cluster: local
+        AttachedFiles: {}
+          IdleTimeout: 30 minutes (30 minutes remaining)
+          SpmdEnabled: true
+
+
+p_value =
+
+   1.9357e-54
+
+
+p_value =
+
+   4.8309e-67
+
+
+p_value =
+
+   4.8309e-67
+
+
+p_value =
+
+   4.8309e-67
+
+
+p_value =
+
+   1.9357e-54
+
+
+p_value =
+
+   2.6644e-64
+
+
+p_value =
+
+   1.9357e-54
+
+
+p_value =
+
+   3.5340e-66
+
+
+p_value =
+
+   4.8309e-67
+
+
+p_value =
+
+   4.8309e-67
+
+
+p_value =
+
+   1.9357e-54
+
+
+p_value =
+
+   1.9357e-54
+
+
+p_value =
+
+   1.9357e-54
+
+
+p_value =
+
+   4.8309e-67
+
+
+p_value =
+
+   9.8203e-61
+
+
+p_value =
+
+   3.5340e-66
+
+
+p_value =
+
+   1.9357e-54
+
+
+p_value =
+
+   2.6644e-64
+
+
+p_value =
+
+   4.8309e-67
+
+
+p_value =
+
+   2.6644e-64
+
+
+p_value =
+
+   1.9357e-54
+
+
+p_value =
+
+   2.6644e-64
+
+
+p_value =
+
+   1.5642e-65
+
+
+p_value =
+
+   3.5340e-66
+
+
+p_value =
+
+   3.5512e-20
+
+
+p_value =
+
+    0.9259
+
+
+p_value =
+
+   4.7049e-20
+
+
+p_value =
+
+   5.8281e-16
+
+
+p_value =
+
+   4.7049e-20
+
+
+p_value =
+
+   9.8788e-05
+
+
+p_value =
+
+   3.7408e-26
+
+
+p_value =
+
+    0.9259
+
+
+p_value =
+
+    0.9259
+
+
+p_value =
+
+    0.9259
+
+
+p_value =
+
+    0.9259
+
+
+p_value =
+
+   4.7049e-20
+
+
+p_value =
+
+   4.7049e-20
+
+
+p_value =
+
+   5.8281e-16
+
+
+p_value =
+
+    0.9259
+
+
+p_value =
+
+   4.7049e-20
+
+
+p_value =
+
+   9.8788e-05
+
+
+p_value =
+
+    0.9259
+
+
+p_value =
+
+    0.9259
+
+
+p_value =
+
+   4.7049e-20
+
+
+p_value =
+
+   5.8281e-16
+
+
+p_value =
+
+   9.8788e-05
+
+
+p_value =
+
+   9.8788e-05
+
+
+p_value =
+
+   3.6568e-08
+
+
+p_value =
+
+   1.0935e-15
+
+
+p_value =
+
+    0.2473
+
+
+p_value =
+
+    0.8264
+
+
+p_value =
+
+    0.9714
+
+
+p_value =
+
+    0.2876
+
+
+p_value =
+
+    0.8264
+
+
+p_value =
+
+    0.2473
+
+
+p_value =
+
+    0.8264
+
+
+p_value =
+
+    0.8264
+
+
+p_value =
+
+    0.8264
+
+
+p_value =
+
+    0.2473
+
+
+p_value =
+
+    0.8264
+
+
+p_value =
+
+    0.2876
+
+
+p_value =
+
+    0.2876
+
+
+p_value =
+
+    0.2876
+
+
+p_value =
+
+   3.4302e-04
+
+
+p_value =
+
+   4.8309e-67
+
+
+p_value =
+
+   7.6666e-66
+
+
+p_value =
+
+   1.0397e-60
+
+
+p_value =
+
+   6.5110e-60
+
+
+p_value =
+
+   1.4159e-63
+
+
+p_value =
+
+   5.1298e-67
+
+
+p_value =
+
+   1.3954e-63
+
+
+p_value =
+
+    0.0076
+
+
+p_value =
+
+   5.6131e-67
+
+
+p_value =
+
+    0.1159
+
+
+p_value =
+
+    0.9390
+
+
+p_value =
+
+    0.6290
+
+
+p_value =
+
+   9.5076e-65
+
+
+p_value =
+
+   5.7841e-67
+
+
+p_value =
+
+   5.4127e-63
+
+
+p_value =
+
+   3.1211e-18
+
+
+p_value =
+
+   2.7706e-63
+
+
+p_value =
+
+   6.4131e-66
+
+
+p_value =
+
+   4.8309e-67
+
+
+p_value =
+
+   2.2108e-28
+
+
+p_value =
+
+   6.7742e-09
+
+
+p_value =
+
+   4.2263e-66
+
+
+p_value =
+
+   7.4910e-44
+
+
+p_value =
+
+   1.3219e-17
+
+
+p_value =
+
+   9.6290e-67
+
+
+p_value =
+
+   3.4341e-15
+
+
+p_value =
+
+   1.7660e-30
+
+
+p_value =
+
+   1.7678e-10
+
+
+p_value =
+
+    0.6180
+
+
+p_value =
+
+   1.7122e-36
+
+
+p_value =
+
+   1.4256e-10
+
+
+p_value =
+
+   9.7041e-05
+
+
+p_value =
+
+   8.7514e-37
+
+
+p_value =
+
+   1.2854e-07
+
+
+p_value =
+
+    0.0946
+
+
+p_value =
+
+    0.5096
+
+
+p_value =
+
+   3.6018e-42
+
+
+p_value =
+
+    0.0223
+
+
+p_value =
+
+    0.2726
+
+
+p_value =
+
+    0.0177
+
+
+p_value =
+
+   1.6261e-07
+
+
+p_value =
+
+   2.2188e-16
+
+
+p_value =
+
+   3.7826e-12
+
+
+p_value =
+
+    0.5129
+
+
+p_value =
+
+    0.0215
+
+
+p_value =
+
+    0.1078
+
+
+p_value =
+
+    0.0075
+
+
+p_value =
+
+    0.6077
+
+
+p_value =
+
+   8.2699e-07
+
+
+p_value =
+
+    0.9390
+
+
+p_value =
+
+    0.0237
+
+
+p_value =
+
+    0.5625
+
+
+p_value =
+
+    0.0766
+
+
+p_value =
+
+    0.2248
+
