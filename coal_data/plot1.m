@@ -221,43 +221,47 @@ hSub = subplot(1,4,4); plot(1, nan, 1, nan, 'r'); set(hSub, 'Visible', 'off');
 
 legend(hSub,[aa bb cc dd],{'1','2','3','4'},'Location','northwest')
 %% plot histogram
-load("coal_data_bootstrap")
+load("coal_data.mat")
 figure()
 subplot(1,3,1)
 
-B=200;
-lam_1=zeros(1,200);
-lam_2=zeros(1,200);
 
-for i=1:B
-    lam_1(i)=centroids(3,2,i);
-    lam_2(i)=centroids(3,3,i);
-end
+lam_1=based_on_centroids(:,2);
+lam_2=based_on_centroids(:,3);
+xlimit=300;
+ylimit=20;
+bin=4;
+
 lam_1=lam_1*1000;
 lam_2=lam_2*1000;
-histfit(lam_1,50,'gamma')
-xlim([0 150])
-ylim([0 140])
-set(gca,'XTick',[0:75:150])
-set(gca,'YTick',[0:70:140])
+histfit(lam_1,bin,'gamma')
+xlim([0 xlimit])
+ylim([0 ylimit])
+set(gca,'XTick',[0:(xlimit/2):xlimit])
+set(gca,'YTick',[0:(ylimit/2):ylimit])
 xlabel('\lambda_b')
 ylabel('Frequency')
 subplot(1,3,2)
-histfit(lam_2,20,'gamma')
-ylim([0 140])
-xlim([0 1000])
-set(gca,'XTick',[0:500:1000])
-set(gca,'YTick',[0:70:140])
+histfit(lam_2,bin,'gamma')
+ylim([0 ylimit])
+xlim([0 xlimit])
+set(gca,'XTick',[0:(xlimit/2):xlimit])
+set(gca,'YTick',[0:(ylimit/2):ylimit])
 xlabel('\lambda_a')
 ylabel('Frequency')
-%%
-subplot(1,3,3)
-plot(lam_2,lam_1,'+k')
-ylim([0 120])
-xlim([0 120])
-set(gca,'YTick',[0:60:120])
-set(gca,'XTick',[0:60:120])
+
 hold on
-plot([0,120],[0, 120],'k','linewidth',1);
+
+xlabel('\lambda_a')
+ylabel('Frequency')
+subplot(1,3,3)
+
+plot(lam_2,lam_1,'+k')
+ylim([0 xlimit])
+xlim([0 xlimit])
+set(gca,'YTick',[0:(xlimit/2):xlimit])
+set(gca,'XTick',[0:(xlimit/2):xlimit])
+hold on
+plot([0,xlimit],[0, xlimit],'k','linewidth',1);
 xlabel('\lambda_a')
 ylabel('\lambda_b')

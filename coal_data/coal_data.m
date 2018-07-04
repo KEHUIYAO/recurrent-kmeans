@@ -35,7 +35,7 @@ C_u=max(C)
 
 
 %%
-[num,group,centroids,CI_lower,CI_upper,std_centroids,based_on_centroids]=main(z,Nj,C,0.01,0,10000);
+[num,group,centroids]=main(z,Nj,C,1.96,0,1000);
 %%
 centroids(1:end,4)=1:num;
 centroids=autosort(centroids,1)
@@ -51,12 +51,8 @@ group_result=tabulate(group);
 
 
 %%
-%save coal_data.mat z Nj C num group centroids CI_lower CI_upper std_centroids based_on_centroids group_result
+save coal_data.mat z Nj C num group centroids CI_lower CI_upper std_centroids based_on_centroids group_result
 
-centroids(:,2:end)=centroids(:,2:end)*1000;
-CI_lower(:,2:end)=CI_lower(:,2:end)*1000;
-CI_upper(:,2:end)=CI_upper(:,2:end)*1000;
-std_centroids(:,2:end)=std_centroids(:,2:end)*sqrt(1000);
-
+[group1, centroids1,~]=kmeans_r(z,Nj,C,k,tau_lower,tau_upper)
 
 
