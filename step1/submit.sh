@@ -4,7 +4,7 @@
 #SBATCH --mem-per-cpu=500M
 
 #SBATCH -p short #can change this to long if it takes between 4 days and 2 weeks
-#SBATCH -n 24
+#SBATCH -n 18
 
 mkdir -p /workspace/$SLURM_JOB_USER/Matlab_DP_2016_varying_lam/matlab_ps/$SLURM_JOB_ID/.matlab
 export HOME=/workspace/$SLURM_JOB_USER/Matlab_DP_2016_varying_lam/matlab_ps/$SLURM_JOB_ID
