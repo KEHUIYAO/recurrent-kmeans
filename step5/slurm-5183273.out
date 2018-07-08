@@ -1,0 +1,652 @@
+MATLAB is selecting SOFTWARE OPENGL rendering.
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2017 The MathWorks, Inc.
+                   R2017a (9.2.0.538062) 64-bit (glnxa64)
+                             February 23, 2017
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+Starting parallel pool (parpool) using the 'local' profile ...
+[Warning: The system time zone setting, 'US/Central', does not specify a single
+time zone unambiguously. It will be treated as 'America/Chicago'. See the <a
+href="matlab:doc('datetime.TimeZone')">datetime.TimeZone property</a> for
+details about specifying time zones.] 
+[> In verifyTimeZone (line 23)
+  In datetime (line 515)
+  In parallel.internal.cluster.DefaultProperties.getNewJobPropStruct (line 16)
+  In parallel.internal.cluster.CJSSupport/buildJob (line 158)
+  In parallel.cluster.CJSCluster/buildCommunicatingJob (line 465)
+  In parallel.Cluster/createCommunicatingJob (line 92)
+  In parallel.internal.pool.InteractiveClient>iCreateCommunicatingJob (line 715)
+  In parallel.internal.pool.InteractiveClient/start (line 325)
+  In parallel.Pool>iStartClient (line 593)
+  In parallel.Pool.hBuildPool (line 472)
+  In parallel.internal.pool.doParpool (line 18)
+  In parpool (line 89)
+  In u10 (line 1)] 
+connected to 18 workers.
+
+ans = 
+
+ Pool with properties: 
+
+            Connected: true
+           NumWorkers: 18
+              Cluster: local
+        AttachedFiles: {}
+          IdleTimeout: 30 minutes (30 minutes remaining)
+          SpmdEnabled: true
+
+
+test_stat =
+
+  170.6993
+
+
+test_stat =
+
+  170.6993
+
+
+test_stat =
+
+  170.6993
+
+
+test_stat =
+
+  178.5316
+
+
+test_stat =
+
+  170.6993
+
+
+test_stat =
+
+  186.5886
+
+
+test_stat =
+
+  170.6993
+
+
+test_stat =
+
+  195.4631
+
+
+test_stat =
+
+  170.6993
+
+
+test_stat =
+
+  193.3721
+
+
+test_stat =
+
+  195.4631
+
+
+test_stat =
+
+  235.3740
+
+
+test_stat =
+
+  186.5886
+
+
+test_stat =
+
+  164.3466
+
+
+test_stat =
+
+  265.8521
+
+
+test_stat =
+
+  158.7030
+
+
+test_stat =
+
+  216.1159
+
+
+test_stat =
+
+  158.7030
+
+
+test_stat =
+
+  141.3184
+
+
+test_stat =
+
+   24.6156
+
+
+test_stat =
+
+  141.3184
+
+
+test_stat =
+
+  150.2235
+
+
+test_stat =
+
+  141.3184
+
+
+test_stat =
+
+  141.3184
+
+
+test_stat =
+
+  141.3184
+
+
+test_stat =
+
+  121.5059
+
+
+test_stat =
+
+  150.2235
+
+
+test_stat =
+
+  105.4646
+
+
+test_stat =
+
+   93.1398
+
+
+test_stat =
+
+  141.3184
+
+
+test_stat =
+
+  147.5683
+
+
+test_stat =
+
+   83.1339
+
+
+test_stat =
+
+    9.8771
+
+
+test_stat =
+
+   83.1339
+
+
+test_stat =
+
+  128.5878
+
+
+test_stat =
+
+  128.5878
+
+
+test_stat =
+
+    7.6958
+
+
+test_stat =
+
+   18.1833
+
+
+test_stat =
+
+   13.8434
+
+
+test_stat =
+
+   16.0745
+
+
+test_stat =
+
+   16.0745
+
+
+test_stat =
+
+   16.0745
+
+
+test_stat =
+
+    9.8669
+
+
+test_stat =
+
+   16.0745
+
+
+test_stat =
+
+   16.0745
+
+
+test_stat =
+
+   13.8434
+
+
+test_stat =
+
+   14.2592
+
+
+test_stat =
+
+   16.0745
+
+
+test_stat =
+
+  108.0343
+
+
+test_stat =
+
+   11.0377
+
+
+test_stat =
+
+  279.7384
+
+
+test_stat =
+
+   11.0377
+
+
+test_stat =
+
+   19.9355
+
+
+test_stat =
+
+   19.9355
+
+
+test_stat =
+
+  169.2334
+
+
+test_stat =
+
+  188.3730
+
+
+test_stat =
+
+  199.9730
+
+
+test_stat =
+
+  182.2255
+
+
+test_stat =
+
+  216.9619
+
+
+test_stat =
+
+  248.9106
+
+
+test_stat =
+
+  163.0301
+
+
+test_stat =
+
+  170.7792
+
+
+test_stat =
+
+  206.3783
+
+
+test_stat =
+
+  204.0630
+
+
+test_stat =
+
+  160.6559
+
+
+test_stat =
+
+  181.9263
+
+
+test_stat =
+
+   14.0332
+
+
+test_stat =
+
+  154.6211
+
+
+test_stat =
+
+  192.4707
+
+
+test_stat =
+
+  217.6796
+
+
+test_stat =
+
+  177.1290
+
+
+test_stat =
+
+  226.9225
+
+
+test_stat =
+
+   86.1904
+
+
+test_stat =
+
+   91.1635
+
+
+test_stat =
+
+  125.0363
+
+
+test_stat =
+
+  155.4183
+
+
+test_stat =
+
+  115.8066
+
+
+test_stat =
+
+  127.4712
+
+
+test_stat =
+
+  118.2754
+
+
+test_stat =
+
+  126.4126
+
+
+test_stat =
+
+  124.6765
+
+
+test_stat =
+
+  134.3759
+
+
+test_stat =
+
+  117.4197
+
+
+test_stat =
+
+  139.8531
+
+
+test_stat =
+
+  101.0862
+
+
+test_stat =
+
+   95.2795
+
+
+test_stat =
+
+  163.6158
+
+
+test_stat =
+
+  119.9847
+
+
+test_stat =
+
+    4.5694
+
+
+test_stat =
+
+  132.1185
+
+
+test_stat =
+
+   87.8947
+
+
+test_stat =
+
+   13.1640
+
+
+test_stat =
+
+   90.7656
+
+
+test_stat =
+
+    8.5178
+
+
+test_stat =
+
+   12.2156
+
+
+test_stat =
+
+   17.7291
+
+
+test_stat =
+
+   12.3168
+
+
+test_stat =
+
+   17.1000
+
+
+test_stat =
+
+   13.3681
+
+
+test_stat =
+
+    9.7261
+
+
+test_stat =
+
+    5.1597
+
+
+test_stat =
+
+   12.9945
+
+
+test_stat =
+
+   21.7615
+
+
+test_stat =
+
+  204.5332
+
+
+test_stat =
+
+   15.3487
+
+
+test_stat =
+
+    9.2666
+
+
+test_stat =
+
+  119.8934
+
+
+test_stat =
+
+   12.6860
+
+
+test_stat =
+
+   14.4708
+
+
+test_stat =
+
+  254.1478
+
+
+test_stat =
+
+  284.8191
+
+
+test_stat =
+
+  250.5634
+
+
+test_stat =
+
+   12.1266
+
+
+test_stat =
+
+   15.3079
+
+
+test_stat =
+
+  134.9385
+
+
+test_stat =
+
+  135.4687
+
+
+test_stat =
+
+   78.7899
+
+
+test_stat =
+
+    6.6848
+
+
+test_stat =
+
+  100.1488
+
+
+test_stat =
+
+    8.7398
+
+
+test_stat =
+
+   13.1400
+
+
+test_stat =
+
+   14.7356
+
